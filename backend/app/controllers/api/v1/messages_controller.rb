@@ -20,23 +20,51 @@ module Api
                          Conversation.create!(title: "New Conversation")
                        end
 
+        # Create the initial user message
         message = conversation.messages.create!(
           content: message_params[:content],
           message_type: message_params[:message_type],
           is_user: true
         )
 
-        # Generate AI response
-        ai_response = LlmService.generate_response(message.content)
-        response = conversation.messages.create!(
-          content: ai_response,
-          is_user: false
-        )
+        # Generate AI response using LlmService with timeout handling
+        begin
+          Timeout.timeout(180) do  # 3 minutes total timeout
+            ai_response = LlmService.generate_response(message.content)
+            response = conversation.messages.create!(
+              content: ai_response,
+              is_user: false
+            )
 
-        render json: {
-          message: message_json(message),
-          response: message_json(response)
-        }, status: :created
+            render json: {
+              message: message_json(message),
+              response: message_json(response)
+            }, status: :created
+          end
+        rescue Timeout::Error
+          response = conversation.messages.create!(
+            content: "I apologize, but I'm taking longer than expected to respond. Please try again.",
+            is_user: false,
+            message_type: 'error'
+          )
+
+          render json: {
+            message: message_json(message),
+            response: message_json(response)
+          }, status: :created
+        rescue StandardError => e
+          Rails.logger.error("LLM Error: #{e.message}")
+          response = conversation.messages.create!(
+            content: "I encountered an error while processing your message. Please try again.",
+            is_user: false,
+            message_type: 'error'
+          )
+
+          render json: {
+            message: message_json(message),
+            response: message_json(response)
+          }, status: :created
+        end
       end
 
       private
