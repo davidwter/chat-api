@@ -85,6 +85,7 @@ export const useChat = () => {
         const messageId = Date.now().toString();
 
         try {
+            // Set loading state BEFORE making the API call
             setIsLoading(true);
             setError(null);
 
@@ -167,6 +168,7 @@ export const useChat = () => {
 
             setMessages(prev => [...prev, errorMessage]);
         } finally {
+            // Make sure to set loading state to false after everything is done
             setIsLoading(false);
         }
     };

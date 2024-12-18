@@ -4,6 +4,9 @@ import ChatInput from './ChatInput';
 import ConversationList from './ConversationList';
 import { useChat } from '../../hooks/useChat';
 import { Message as MessageType, Conversation } from '../types';
+import LoadingMessage from './LoadingDots';
+
+
 
 const ChatInterface: React.FC = () => {
     const {
@@ -98,13 +101,8 @@ const ChatInterface: React.FC = () => {
                             }
                             {isLoading && (
                                 <div className="flex justify-start">
-                                    <div className="bg-white px-4 py-2 rounded-2xl rounded-bl-none
-                                                  shadow-sm border border-gray-100">
-                                        <div className="flex space-x-2">
-                                            <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce"></div>
-                                            <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce delay-150"></div>
-                                            <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce delay-300"></div>
-                                        </div>
+                                    <div className="bg-white rounded-2xl rounded-bl-none shadow-sm border border-gray-100 px-4 py-3">
+                                        <p className="text-gray-600">...</p>
                                     </div>
                                 </div>
                             )}
