@@ -1,10 +1,16 @@
 import { useState } from 'react';
-import { api } from '../services/api.ts'; // Add .ts extension explicitly
 
 interface Message {
     content: string;
     isUser: boolean;
 }
+
+interface ApiResponse {
+    message: string;
+    status: number;
+}
+
+const API_BASE_URL = 'http://localhost:3000'; // Rails backend URL
 
 export const useChat = () => {
     const [messages, setMessages] = useState<Message[]>([
@@ -22,29 +28,41 @@ export const useChat = () => {
             const userMessage: Message = { content, isUser: true };
             setMessages(prev => [...prev, userMessage]);
 
-            // For testing without backend
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            // Send message to Ruby API using the correct backend URL
+            const response = await fetch(`${API_BASE_URL}/api/v1/chat`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: content
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+
+            const data: ApiResponse = await response.json();
+
+            // Add bot response
             const botMessage: Message = {
-                content: `Received your message: ${content}`,
+                content: data.message,
                 isUser: false
             };
             setMessages(prev => [...prev, botMessage]);
 
-            /* Uncomment when backend is ready
-            // Send message to API
-            const response = await api.chat.sendMessage(content);
-
-            // Add bot response
-            const botMessage: Message = {
-              content: response.message || response.content,
-              isUser: false
-            };
-            setMessages(prev => [...prev, botMessage]);
-            */
-
         } catch (err) {
             setError('Failed to send message');
-            console.error(err);
+            console.error('Chat API Error:', err);
+
+            // Add error message to chat
+            const errorMessage: Message = {
+                content: 'Sorry, there was an error processing your message. Please try again.',
+                isUser: false
+            };
+            setMessages(prev => [...prev, errorMessage]);
         } finally {
             setIsLoading(false);
         }
