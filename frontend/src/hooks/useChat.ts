@@ -1,35 +1,31 @@
+// hooks/useChat.ts
 import { useState, useEffect } from 'react';
+import type { Message } from '../types';
 
-interface Message {
-    id: string;
-    content: string;
-    isUser: boolean;
-    timestamp: number;
-    status: 'sending' | 'sent' | 'failed';
-    type: 'text' | 'system' | 'error';
-}
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
 export const useChat = () => {
-    // Load initial messages from localStorage if they exist
-    const [messages, setMessages] = useState<Message[]>(() => {
-        const saved = localStorage.getItem('chatMessages');
-        return saved ? JSON.parse(saved) : [{
-            id: '1',
-            content: 'Hello! How can I help you with integration?',
-            isUser: false,
-            timestamp: Date.now(),
-            status: 'sent',
-            type: 'text'
-        }];
-    });
-
+    const [messages, setMessages] = useState<Message[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    // Save messages to localStorage whenever they change
+    // Fetch initial messages
     useEffect(() => {
-        localStorage.setItem('chatMessages', JSON.stringify(messages));
-    }, [messages]);
+        const fetchMessages = async () => {
+            try {
+                const response = await fetch(`${API_URL}/api/v1/messages`);
+                if (!response.ok) throw new Error('Failed to fetch messages');
+
+                const data = await response.json();
+                setMessages(data.messages);
+            } catch (err) {
+                console.error('Failed to fetch messages:', err);
+                setError('Failed to load message history');
+            }
+        };
+
+        fetchMessages();
+    }, []);
 
     const sendMessage = async (content: string) => {
         const messageId = Date.now().toString();
@@ -51,12 +47,18 @@ export const useChat = () => {
             setMessages(prev => [...prev, userMessage]);
 
             // Send to backend
-            const response = await fetch('http://localhost:3000/api/v1/chat', {
+            const response = await fetch(`${API_URL}/api/v1/messages`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ message: content })
+                body: JSON.stringify({
+                    message: {
+                        content,
+                        message_type: 'text'
+                    }
+                }),
+                credentials: 'include'
             });
 
             if (!response.ok) {
@@ -65,30 +67,16 @@ export const useChat = () => {
 
             const data = await response.json();
 
-            // Update user message status to 'sent'
-            setMessages(prev =>
-                prev.map(msg =>
-                    msg.id === messageId
-                        ? { ...msg, status: 'sent' as const }
-                        : msg
-                )
-            );
-
-            // Add bot response
-            const botMessage: Message = {
-                id: (Date.now() + 1).toString(),
-                content: data.message,
-                isUser: false,
-                timestamp: Date.now(),
-                status: 'sent',
-                type: 'text'
-            };
-
-            setMessages(prev => [...prev, botMessage]);
+            // Update messages with both user message and bot response
+            setMessages(prev => [
+                ...prev.filter(msg => msg.id !== messageId), // Remove temporary message
+                data.message,    // Add confirmed user message
+                data.response   // Add bot response
+            ]);
 
         } catch (err) {
-            setError('Failed to send message');
             console.error('Chat API Error:', err);
+            setError('Failed to send message');
 
             // Update message status to 'failed'
             setMessages(prev =>
@@ -115,15 +103,13 @@ export const useChat = () => {
         }
     };
 
-    const clearHistory = () => {
-        setMessages([{
-            id: Date.now().toString(),
-            content: 'Hello! How can I help you with integration?',
-            isUser: false,
-            timestamp: Date.now(),
-            status: 'sent',
-            type: 'text'
-        }]);
+    const clearHistory = async () => {
+        setMessages([]);
+        try {
+            await fetch(`${API_URL}/api/v1/messages`);
+        } catch (err) {
+            console.error('Failed to clear history:', err);
+        }
     };
 
     return {
