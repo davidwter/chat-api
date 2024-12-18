@@ -36,6 +36,7 @@ services:
       - "5173:5173"
     environment:
       - VITE_API_URL=http://localhost:3000
+      - CHOKIDAR_USEPOLLING=true
 
 volumes:
   postgres_data:
