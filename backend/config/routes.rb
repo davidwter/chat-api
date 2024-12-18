@@ -4,6 +4,9 @@ Rails.application.routes.draw do
       get 'health/check', to: 'health#check'
       post 'chat', to: 'message#chat'
       resources :messages, only: [:index, :create]
+      resources :conversations do
+        resources :messages, only: [:index, :create]
+      end
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

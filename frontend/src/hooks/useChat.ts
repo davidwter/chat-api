@@ -1,33 +1,87 @@
-// hooks/useChat.ts
 import { useState, useEffect } from 'react';
-import type { Message } from '../types';
+import type { Message, Conversation } from '../types';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
 export const useChat = () => {
     const [messages, setMessages] = useState<Message[]>([]);
+    const [conversations, setConversations] = useState<Conversation[]>([]);
+    const [currentConversationId, setCurrentConversationId] = useState<string | null>(null);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    // Fetch initial messages
+    // Fetch conversations
+    useEffect(() => {
+        const fetchConversations = async () => {
+            try {
+                const response = await fetch(`${API_URL}/api/v1/conversations`);
+                if (!response.ok) throw new Error('Failed to fetch conversations');
+
+                const data = await response.json();
+                setConversations(data.conversations);
+
+                // Set the most recent conversation as current if none selected
+                if (!currentConversationId && data.conversations.length > 0) {
+                    setCurrentConversationId(data.conversations[0].id);
+                }
+            } catch (err) {
+                console.error('Failed to fetch conversations:', err);
+                setError('Failed to load conversations');
+            }
+        };
+
+        fetchConversations();
+    }, []);
+
+    // Fetch messages for current conversation
     useEffect(() => {
         const fetchMessages = async () => {
+            if (!currentConversationId) return;
+
             try {
-                const response = await fetch(`${API_URL}/api/v1/messages`);
+                const response = await fetch(
+                    `${API_URL}/api/v1/conversations/${currentConversationId}/messages`
+                );
                 if (!response.ok) throw new Error('Failed to fetch messages');
 
                 const data = await response.json();
                 setMessages(data.messages);
             } catch (err) {
                 console.error('Failed to fetch messages:', err);
-                setError('Failed to load message history');
+                setError('Failed to load messages');
             }
         };
 
         fetchMessages();
-    }, []);
+    }, [currentConversationId]);
+
+    const createConversation = async () => {
+        try {
+            const response = await fetch(`${API_URL}/api/v1/conversations`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+
+            if (!response.ok) throw new Error('Failed to create conversation');
+
+            const data = await response.json();
+            setConversations(prev => [data.conversation, ...prev]);
+            setCurrentConversationId(data.conversation.id);
+        } catch (err) {
+            console.error('Failed to create conversation:', err);
+            setError('Failed to create new conversation');
+        }
+    };
+
+    const selectConversation = (conversationId: string) => {
+        setCurrentConversationId(conversationId);
+    };
 
     const sendMessage = async (content: string) => {
+        if (!currentConversationId) return;
+
         const messageId = Date.now().toString();
 
         try {
@@ -41,25 +95,29 @@ export const useChat = () => {
                 isUser: true,
                 timestamp: Date.now(),
                 status: 'sending',
-                type: 'text'
+                type: 'text',
+                conversationId: currentConversationId
             };
 
             setMessages(prev => [...prev, userMessage]);
 
             // Send to backend
-            const response = await fetch(`${API_URL}/api/v1/messages`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    message: {
-                        content,
-                        message_type: 'text'
-                    }
-                }),
-                credentials: 'include'
-            });
+            const response = await fetch(
+                `${API_URL}/api/v1/conversations/${currentConversationId}/messages`,
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: {
+                            content,
+                            message_type: 'text'
+                        }
+                    }),
+                    credentials: 'include'
+                }
+            );
 
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -69,10 +127,19 @@ export const useChat = () => {
 
             // Update messages with both user message and bot response
             setMessages(prev => [
-                ...prev.filter(msg => msg.id !== messageId), // Remove temporary message
+                ...prev.filter(msg => msg.id !== messageId),
                 data.message,    // Add confirmed user message
                 data.response   // Add bot response
             ]);
+
+            // Update conversation list
+            setConversations(prev =>
+                prev.map(conv =>
+                    conv.id === currentConversationId
+                        ? { ...conv, last_message: content }
+                        : conv
+                )
+            );
 
         } catch (err) {
             console.error('Chat API Error:', err);
@@ -94,7 +161,8 @@ export const useChat = () => {
                 isUser: false,
                 timestamp: Date.now(),
                 status: 'sent',
-                type: 'error'
+                type: 'error',
+                conversationId: currentConversationId
             };
 
             setMessages(prev => [...prev, errorMessage]);
@@ -103,21 +171,15 @@ export const useChat = () => {
         }
     };
 
-    const clearHistory = async () => {
-        setMessages([]);
-        try {
-            await fetch(`${API_URL}/api/v1/messages`);
-        } catch (err) {
-            console.error('Failed to clear history:', err);
-        }
-    };
-
     return {
         messages,
+        conversations,
+        currentConversationId,
         isLoading,
         error,
         sendMessage,
-        clearHistory,
+        createConversation,
+        selectConversation,
     };
 };
 

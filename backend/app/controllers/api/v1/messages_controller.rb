@@ -2,42 +2,40 @@ module Api
   module V1
     class MessagesController < ApplicationController
       def index
-        messages = Message.order(created_at: :desc).limit(50)
+        messages = if params[:conversation_id]
+                     Conversation.find(params[:conversation_id]).messages
+                   else
+                     Message.all
+                   end
 
         render json: {
-          messages: messages,
-          meta: {
-            total_count: Message.count,
-            returned_count: messages.size
-          }
+          messages: messages.order(created_at: :asc).map { |m| message_json(m) }
         }
       end
 
       def create
-        message = Message.new(message_params.merge(
-          is_user: true,
-          status: 'sent'
-        ))
+        conversation = if params[:conversation_id]
+                         Conversation.find(params[:conversation_id])
+                       else
+                         Conversation.create!(title: "New Conversation")
+                       end
 
-        if message.save
-          # Create bot response
-          bot_message = Message.create!(
-            content: generate_response(message.content),
-            is_user: false,
-            message_type: 'text',
-            status: 'sent'
-          )
+        message = conversation.messages.create!(
+          content: message_params[:content],
+          message_type: message_params[:message_type],
+          is_user: true
+        )
 
-          render json: {
-            message: message,
-            response: bot_message
-          }, status: :created
-        else
-          render json: {
-            errors: message.errors.full_messages,
-            status: 'error'
-          }, status: :unprocessable_entity
-        end
+        # Generate AI response
+        response = conversation.messages.create!(
+          content: "AI response to: #{message.content}",
+          is_user: false
+        )
+
+        render json: {
+          message: message_json(message),
+          response: message_json(response)
+        }, status: :created
       end
 
       private
@@ -46,11 +44,17 @@ module Api
         params.require(:message).permit(:content, :message_type)
       end
 
-      def generate_response(content)
-        # Placeholder for actual AI/LLM integration
-        "Received your message: #{content}"
+      def message_json(message)
+        {
+          id: message.id,
+          content: message.content,
+          isUser: message.is_user,
+          timestamp: message.created_at.to_i * 1000,
+          status: message.status,
+          type: message.message_type,
+          conversationId: message.conversation_id
+        }
       end
     end
   end
 end
-

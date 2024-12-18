@@ -1,17 +1,16 @@
 class Message < ApplicationRecord
+  belongs_to :conversation
+
   validates :content, presence: true
   validates :message_type, inclusion: { in: %w[text system error] }
   validates :status, inclusion: { in: %w[sending sent failed] }
 
-  # Scopes for easy querying
-  scope :user_messages, -> { where(is_user: true) }
-  scope :bot_messages, -> { where(is_user: false) }
-  scope :by_type, ->(type) { where(message_type: type) }
+  before_validation :set_defaults
 
-  def as_json(options = {})
-    super(options).merge({
-                           id: id.to_s,
-                           timestamp: created_at.to_i * 1000 # Convert to milliseconds for JavaScript
-                         })
+  private
+
+  def set_defaults
+    self.message_type ||= 'text'
+    self.status ||= 'sent'
   end
 end
