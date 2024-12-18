@@ -27,8 +27,9 @@ module Api
         )
 
         # Generate AI response
+        ai_response = LlmService.generate_response(message.content)
         response = conversation.messages.create!(
-          content: "AI response to: #{message.content}",
+          content: ai_response,
           is_user: false
         )
 

@@ -40,5 +40,19 @@ services:
       - VITE_API_URL=http://localhost:3000
       - CHOKIDAR_USEPOLLING=true
 
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    platform: linux/arm64  # Specific for M2
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_ORIGINS=http://localhost:3000
+
 volumes:
   postgres_data:
+  ollama_data:
+
+
