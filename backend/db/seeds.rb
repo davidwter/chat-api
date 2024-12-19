@@ -11,9 +11,9 @@ Category.destroy_all
 ConnectorTrigger.destroy_all
 ConnectorAction.destroy_all
 
-# Create default categories if they don't exist
-puts "Creating default categories..."
-default_categories = [
+# Create categories
+puts "Creating categories..."
+categories = [
   { name: 'Sales And Marketing', description: 'Sales and marketing automation tools' },
   { name: 'Product/Project Management', description: 'Customer relationship management systems' },
   { name: 'Customer Service', description: 'Project management and collaboration tools' },
@@ -29,10 +29,8 @@ default_categories = [
   { name: 'Other', description: 'Other tools and services' }
 ]
 
-default_categories.each do |category_data|
-  Category.find_or_create_by!(name: category_data[:name]) do |category|
-    category.description = category_data[:description]
-  end
+categories.each do |category_data|
+  Category.create!(category_data)
 end
 
 # Load connectors from JSON file
@@ -56,9 +54,8 @@ end
 connectors_file_path = Rails.root.join('db', 'connectors.json')
 
 # Load connectors from JSON
-connectors_data = load_connectors_from_json(connectors_file_path)
-
 puts "\nCreating connectors from JSON..."
+connectors_data = load_connectors_from_json(connectors_file_path)
 
 connectors_data.each do |connector_data|
   begin
@@ -102,8 +99,127 @@ connectors_data.each do |connector_data|
   end
 end
 
+# Create Fieldwire connector
+puts "\nCreating Fieldwire connector and its capabilities..."
+
+fieldwire = Connector.create!(
+  name: "Fieldwire",
+  description: "Construction project management platform for real-time collaboration"
+)
+
+# Associate relevant categories
+fieldwire.categories << Category.where(name: ['Product/Project Management', 'Collaboration', 'Operations'])
+
+# Create triggers
+puts "\nCreating Fieldwire triggers..."
+fieldwire.connector_triggers.create!([
+                                       {
+                                         name: "New event",
+                                         description: "Triggers when any of the tracked entities is updated in Fieldwire",
+                                         feature_attributes: {
+                                           badge: "Real-time",
+                                           details: "Supports entity filtering and webhook notifications"
+                                         }
+                                       }
+                                     ])
+
+# Create actions
+puts "\nCreating Fieldwire actions..."
+fieldwire.connector_actions.create!([
+                                      {
+                                        name: "Batch actions on files",
+                                        description: "Perform add/update/rename/restore/delete actions in batch on files",
+                                        feature_attributes: {
+                                          supports_pagination: true
+                                        }
+                                      },
+                                      {
+                                        name: "Batch actions on plans",
+                                        description: "Add files to plans with batch processing support",
+                                        feature_attributes: {
+                                          supports_pagination: true
+                                        }
+                                      },
+                                      {
+                                        name: "Batch actions on folders",
+                                        description: "Perform add/rename/restore/delete actions in batch on folders",
+                                        feature_attributes: {
+                                          supports_pagination: true,
+                                          requires_hierarchical_order: true
+                                        }
+                                      },
+                                      {
+                                        name: "Batch check files existence",
+                                        description: "Check the existence of files in batch",
+                                        feature_attributes: {
+                                          supports_pagination: true
+                                        }
+                                      },
+                                      {
+                                        name: "Batch check folders existence",
+                                        description: "Check the existence of folders in batch",
+                                        feature_attributes: {
+                                          supports_pagination: true
+                                        }
+                                      },
+                                      {
+                                        name: "Batch check plans existence",
+                                        description: "Check the existence of plans in batch",
+                                        feature_attributes: {
+                                          supports_pagination: true
+                                        }
+                                      },
+                                      {
+                                        name: "Batch delete files & folders",
+                                        description: "Delete files and folders in batch",
+                                        feature_attributes: {
+                                          supports_pagination: true
+                                        }
+                                      },
+                                      {
+                                        name: "Upload file",
+                                        description: "Upload a file to S3",
+                                        feature_attributes: {
+                                          supports_binary: true
+                                        }
+                                      },
+                                      {
+                                        name: "Supervise automation",
+                                        description: "Control automation workflows with multiple sub-actions",
+                                        feature_attributes: {
+                                          supported_actions: [
+                                            "start_recipe",
+                                            "init_sync_recipe",
+                                            "mark_recipe_on_error",
+                                            "mark_connection_on_error"
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        name: "Expand item",
+                                        description: "Expand a Fieldwire entity to fetch pre-defined nested attributes",
+                                        feature_attributes: {}
+                                      },
+                                      {
+                                        name: "Verify emails",
+                                        description: "Check if emails are invitable to the account or already attached",
+                                        feature_attributes: {}
+                                      },
+                                      {
+                                        name: "Invite user to account",
+                                        description: "Invite users to the Fieldwire account",
+                                        feature_attributes: {}
+                                      },
+                                      {
+                                        name: "Remove users from account",
+                                        description: "Remove users from the account and all associated projects",
+                                        feature_attributes: {}
+                                      }
+                                    ])
+
 puts "\nSeeding completed!"
 puts "Created #{Category.count} categories"
 puts "Created #{Connector.count} connectors"
 puts "Created #{ConnectorTrigger.count} triggers"
 puts "Created #{ConnectorAction.count} actions"
+puts "Created #{CategoriesConnector.count} category-connector associations"
