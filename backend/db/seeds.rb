@@ -1,15 +1,19 @@
 # db/seeds.rb
 
+require 'json'
+
 puts "Starting seed process..."
 
-# Clear existing data - Removed ConnectorMention since it's not created yet
+# Clear existing data
 puts "Clearing existing data..."
 Connector.destroy_all
 Category.destroy_all
+ConnectorTrigger.destroy_all
+ConnectorAction.destroy_all
 
-# Create categories
-puts "Creating categories..."
-categories = [
+# Create default categories if they don't exist
+puts "Creating default categories..."
+default_categories = [
   { name: 'Sales And Marketing', description: 'Sales and marketing automation tools' },
   { name: 'Product/Project Management', description: 'Customer relationship management systems' },
   { name: 'Customer Service', description: 'Project management and collaboration tools' },
@@ -25,106 +29,81 @@ categories = [
   { name: 'Other', description: 'Other tools and services' }
 ]
 
-categories.each do |category_data|
-  begin
-    Category.create!(category_data)
-    print "."
-  rescue => e
-    puts "\nError creating category #{category_data[:name]}: #{e.message}"
+default_categories.each do |category_data|
+  Category.find_or_create_by!(name: category_data[:name]) do |category|
+    category.description = category_data[:description]
   end
 end
 
-puts "\nCreated #{Category.count} categories"
+# Load connectors from JSON file
+def load_connectors_from_json(file_path)
+  # Ensure the file exists
+  unless File.exist?(file_path)
+    puts "ERROR: Connectors JSON file not found at #{file_path}"
+    return []
+  end
 
-# Create connectors with appropriate categories
-puts "\nCreating connectors..."
-connectors_data = [
-  {
-    name: "Salesforce",
-    description: "CRM and sales platform",
-    categories: ["Sales And Marketing", "Customer Service"]
-  },
-  {
-    name: "Jira",
-    description: "Project and issue tracking",
-    categories: ["Product/Project Management", "Developer"]
-  },
-  {
-    name: "Zendesk",
-    description: "Customer service and support",
-    categories: ["Customer Service", "Collaboration"]
-  },
-  {
-    name: "Workday",
-    description: "HR management platform",
-    categories: ["HR", "Operations"]
-  },
-  {
-    name: "QuickBooks",
-    description: "Accounting software",
-    categories: ["Finance And Accounting"]
-  }
-]
+  # Read and parse the JSON file
+  begin
+    JSON.parse(File.read(file_path))
+  rescue JSON::ParserError => e
+    puts "ERROR: Failed to parse JSON file - #{e.message}"
+    []
+  end
+end
 
-# Create connectors and associate with categories
+# Path to the connectors JSON file
+connectors_file_path = Rails.root.join('db', 'connectors.json')
+
+# Load connectors from JSON
+connectors_data = load_connectors_from_json(connectors_file_path)
+
+puts "\nCreating connectors from JSON..."
+
 connectors_data.each do |connector_data|
   begin
-    puts "\nCreating connector: #{connector_data[:name]}"
-    connector = Connector.new(
-      name: connector_data[:name],
-      description: connector_data[:description]
+    # Create the connector
+    connector = Connector.create!(
+      name: connector_data['name'],
+      description: "Connector for #{connector_data['name']}"
     )
 
-    # Find categories before saving
-    categories = Category.where(name: connector_data[:categories])
-    if categories.empty?
-      puts "Warning: No categories found for #{connector_data[:name]}: #{connector_data[:categories].join(', ')}"
-    else
-      puts "Found categories: #{categories.pluck(:name).join(', ')}"
+    # Add some default categories based on name (you might want to refine this logic)
+    default_category_names = ['Collaboration', 'Productivity']
+    categories = Category.where(name: default_category_names)
+    connector.categories << categories if categories.any?
+
+    # Create triggers
+    if connector_data['triggers']
+      connector_data['triggers'].each do |trigger_data|
+        connector.connector_triggers.create!(
+          name: trigger_data['name'],
+          description: trigger_data['description'],
+          feature_attributes: trigger_data['attributes'] || {}
+        )
+      end
     end
 
-    # Save connector
-    if connector.save
-      connector.categories << categories
-      puts "Successfully created connector #{connector_data[:name]}"
-    else
-      puts "Failed to save connector #{connector_data[:name]}: #{connector.errors.full_messages.join(', ')}"
+    # Create actions
+    if connector_data['actions']
+      connector_data['actions'].each do |action_data|
+        connector.connector_actions.create!(
+          name: action_data['name'],
+          description: action_data['description'],
+          feature_attributes: action_data['attributes'] || {}
+        )
+      end
     end
+
+    puts "Successfully created connector: #{connector.name}"
   rescue => e
-    puts "Error creating connector #{connector_data[:name]}: #{e.message}"
+    puts "Error creating connector #{connector_data['name']}: #{e.message}"
     puts e.backtrace.join("\n")
   end
 end
 
-slack = Connector.find_or_create_by!(name: 'Slack')
-
-slack.connector_triggers.create!([
-                                   {
-                                     name: "Button click",
-                                     description: "New button click in Slack",
-                                     feature_attributes: { badge: "Real-time" }
-                                   },
-                                   {
-                                     name: "New event",
-                                     description: "New event in Slack",
-                                     feature_attributes: { badge: "Real-time" }
-                                   }
-                                 ])
-
-slack.connector_actions.create!([
-                                  {
-                                    name: "Post message",
-                                    description: "Post message in Slack",
-                                    feature_attributes: {}
-                                  },
-                                  {
-                                    name: "Create conversation",
-                                    description: "Create conversation in Slack",
-                                    feature_attributes: {}
-                                  }
-                                ])
-
 puts "\nSeeding completed!"
 puts "Created #{Category.count} categories"
 puts "Created #{Connector.count} connectors"
-puts "Created #{CategoriesConnector.count} category-connector associations"
+puts "Created #{ConnectorTrigger.count} triggers"
+puts "Created #{ConnectorAction.count} actions"

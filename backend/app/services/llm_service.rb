@@ -8,50 +8,34 @@ class LlmService
   RETRY_DELAY = 1  # seconds
 
   class << self
-    def generate_response(prompt, retries: RETRY_COUNT)
+    def generate_response(prompt, detected_mentions, retries: RETRY_COUNT)
       with_timing do
-        # First pass: identify relevant connectors
-        Rails.logger.info("Starting connector identification...")
-        connector_names = identify_relevant_connectors(prompt)
-        Rails.logger.info("Identified connectors: #{connector_names.join(', ')}")
+        # Extract connector names from detected mentions
+        Rails.logger.info("Processing detected mentions...")
+        connector_names = detected_mentions.map { |mention| mention[:connector].name }
+        Rails.logger.info("Using connectors from mentions: #{connector_names.join(', ')}")
 
         # Extract integration requirements
         Rails.logger.info("Analyzing integration requirements...")
         requirements = extract_integration_requirements(prompt, connector_names)
 
-        # If we have exactly two connectors, analyze feasibility
-        if connector_names.size == 2
-          Rails.logger.info("Analyzing integration feasibility...")
-          feasibility = ConnectorCapabilityService.verify_integration_feasibility(
-            connector_names[0],
-            connector_names[1],
-            requirements
-          )
-        end
-
-        # Get capabilities context
-        Rails.logger.info("Fetching capabilities...")
-        capabilities = ConnectorCapabilityService.get_capabilities(connector_names)
-        capabilities_context = ConnectorCapabilityService.format_capabilities_for_llm(capabilities)
-
-        # Final response with enhanced context
+        # Create response with basic context
         Rails.logger.info("Generating detailed response...")
-        generate_detailed_response(prompt, {
-          capabilities_context: capabilities_context,
-          feasibility: feasibility,
+        return generate_detailed_response(prompt, {
+          capabilities_context: simple_capabilities_context(connector_names),
+          feasibility: nil,
           requirements: requirements
         })
       end
     rescue Net::OpenTimeout, Net::ReadTimeout, Timeout::Error => e
-      handle_timeout_error(e, prompt, retries)
+      handle_timeout_error(e, prompt, detected_mentions, retries)
     rescue => e
       Rails.logger.error("Unexpected error in generate_response:")
       Rails.logger.error("Error class: #{e.class}")
       Rails.logger.error("Error message: #{e.message}")
       Rails.logger.error("Backtrace: #{e.backtrace.join("\n")}")
-
-      handle_general_error(e, prompt, retries)
-  end
+      handle_general_error(e, prompt, detected_mentions, retries)
+    end
 
 
     def extract_integration_requirements(prompt, connector_names)
@@ -63,7 +47,7 @@ class LlmService
         return { source: { triggers: [], actions: [] }, target: { triggers: [], actions: [] } }
       end
 
-      # Fetch predefined capabilities first
+      # Fetch predefined capabilities
       begin
         connector_capabilities = ConnectorCapabilityService.get_capabilities(connector_names)
       rescue => e
@@ -71,80 +55,18 @@ class LlmService
         connector_capabilities = []
       end
 
-      # Prepare a more structured system context with existing capabilities
-      system_context = <<~PROMPT
-    You are an advanced integration assistant for Workato. 
+      # Prepare system context
+      system_context = create_requirements_context(connector_capabilities)
 
-    Available Connectors and Their Capabilities:
-    #{connector_capabilities.map { |c|
-        "#{c[:name]}:\n" +
-          "Triggers: #{c[:triggers]&.map { |t| t[:name] }&.join(', ') || 'None'}\n" +
-          "Actions: #{c[:actions]&.map { |a| a[:name] }&.join(', ') || 'None'}"
-      }.join("\n\n")}
-
-    Given the user's request, ONLY return a JSON with:
-    1. Most relevant trigger from source
-    2. Most relevant action for target
-    3. Brief rationale
-
-    Requirements:
-    - Use ONLY triggers/actions listed above
-    - Keep response extremely concise
-    - Return valid JSON
-  PROMPT
-
-      # Multiple fallback responses
-      fallback_responses = [
-        "{\"source\":{\"triggers\":[],\"actions\":[]},\"target\":{\"triggers\":[],\"actions\":[]}}",
-        "{\"source\":{\"triggers\":[\"default_trigger\"],\"actions\":[\"default_action\"]},\"target\":{\"triggers\":[\"default_trigger\"],\"actions\":[\"default_action\"]}}",
-        "{}"
-      ]
-
-      # Retry mechanism with exponential backoff
+      # Try to get response with exponential backoff
       [30, 60, 120].each do |timeout|
         begin
           Timeout.timeout(timeout) do
-            # Defensive call to LLM
-            response = begin
-                         call_llm(system_context, prompt,
-                                  short_response: true,
-                                  timeout: timeout)
-                       rescue => e
-                         Rails.logger.error("LLM call failed: #{e.message}")
-                         nil
-                       end
-
-            # Ensure response is not nil
-            if response.nil?
-              Rails.logger.warn("Received nil response from LLM")
-              next  # Try next timeout
-            end
-
-            # Multiple parsing strategies
-            parsed_response = begin
-                                # Try direct JSON parsing
-                                JSON.parse(response)
-                              rescue JSON::ParserError
-                                # Try extracting JSON-like content
-                                json_match = response.match(/\{.*\}/m)
-                                json_match ? JSON.parse(json_match[0]) : nil
-                              rescue => e
-                                Rails.logger.warn("JSON parsing failed: #{e.message}")
-                                Rails.logger.debug("Problematic response: #{response}")
-                                nil
-                              end
-
-            # Return parsed response if valid
-            return parsed_response if parsed_response.is_a?(Hash)
+            response = call_llm(system_context, prompt, short_response: true, timeout: timeout)
+            return parse_requirements_response(response) if response
           end
-        rescue Timeout::Error => e
-          Rails.logger.warn("Timeout at #{timeout} seconds: #{e.message}")
-
-          # Return a fallback response
-          return JSON.parse(fallback_responses.sample) if fallback_responses.any?
         rescue => e
-          Rails.logger.error("Unexpected error in extract_integration_requirements: #{e.message}")
-          Rails.logger.error("Error details: #{e.backtrace.join("\n")}")
+          Rails.logger.warn("Attempt failed with timeout #{timeout}s: #{e.message}")
         end
       end
 
@@ -154,6 +76,7 @@ class LlmService
         target: { triggers: [], actions: [] }
       }
     end
+
 
     private
 
@@ -165,36 +88,11 @@ class LlmService
       result
     end
 
-    def identify_relevant_connectors(prompt)
-      available_connectors = Connector.pluck(:name).join(", ")
-
-      system_context = <<~PROMPT
-        You are an integration assistant. Given a user's request, identify which connectors 
-        are relevant. Return ONLY a JSON array of connector names, no other text.
-        
-        Available connectors:
-        #{available_connectors}
-      PROMPT
-
-      response = call_llm(system_context, prompt,
-                          short_response: true,
-                          timeout: 30)
-
-      begin
-        JSON.parse(response)
-      rescue JSON::ParserError
-        response.scan(/\"(.*?)\"/).flatten.uniq
-      end
-    end
-
-
-
     def generate_detailed_response(prompt, context)
       capabilities_context = context[:capabilities_context]
       feasibility = context[:feasibility]
-      requirements = context[:requirements]
 
-      # Create different system contexts based on feasibility analysis
+      # Create context based on feasibility analysis
       system_context = if feasibility
                          create_feasibility_context(feasibility, capabilities_context)
                        else
@@ -205,78 +103,157 @@ class LlmService
       format_response(response)
     end
 
+    def create_requirements_context(connector_capabilities)
+      capabilities_text = connector_capabilities.map do |c|
+        [
+          "#{c[:name]}:",
+          "Available Triggers: #{c[:triggers]&.map { |t| t[:name] }&.join(', ') || 'None'}",
+          "Available Actions: #{c[:actions]&.map { |a| a[:name] }&.join(', ') || 'None'}"
+        ].join("\n")
+      end.join("\n\n")
+
+      <<~PROMPT
+        You are a Workato recipe design assistant. Focus on creating native Workato integrations using the following connectors:
+        
+        #{capabilities_text}
+
+        Instructions:
+        - Return a JSON with source trigger and target action components
+        - Only use triggers and actions from the available lists
+        - Each response should focus on a single Workato recipe design
+
+        Remember:
+        - Always use native Workato connectors and terminology
+        - Recipes consist of triggers and actions
+        - Authentication is handled through Workato's connection manager
+      PROMPT
+    end
+
+
     def create_feasibility_context(feasibility, capabilities_context)
       feasibility_score = feasibility[:feasibility][:score]
       constraints = feasibility[:feasibility][:constraints]
       missing_capabilities = feasibility[:missing_capabilities]
 
       <<~PROMPT
-        You are an integration assistant specifically for the Workato iPaaS platform.
-        
-        Current integration analysis:
-        - Feasibility Score: #{feasibility_score}/100
-        - Technical Constraints: #{constraints.map { |c| c[:details] }.flatten.join(', ')}
-        - Missing Capabilities: #{format_missing_capabilities(missing_capabilities)}
-        
-        Available connector details:
+        You are a Workato recipe design assistant. Analyze this integration request based on:
+
+        Technical Feasibility Score: #{feasibility_score}/100
+        #{constraints.any? ? "Implementation Constraints: #{constraints.map { |c| c[:details] }.flatten.join(', ')}" : ""}
+        #{missing_capabilities ? "Missing Capabilities: #{format_missing_capabilities(missing_capabilities)}" : ""}
+
+        Available Connectors and Capabilities:
         #{capabilities_context}
-        
-        Format your response with these exact sections:
-        1. Technical Feasibility Assessment:
-           - State if the integration is feasible (score > 60 means feasible)
-           - List key technical constraints
-           - Explain missing capabilities impact
 
-        2. Required Connectors:
-           - List involved connectors (use ** for names)
-           - Include their main purpose in this integration
+        Provide a Workato-specific response with:
+        1. Recipe Design Assessment
+           - Technical feasibility (feasible if score > 60)
+           - Required connector authentication
+           - Data mapping considerations
 
-        3. Integration Blueprint:
-           - List required triggers and actions
-           - Note any missing capabilities
-           - Suggest workarounds for limitations
+        2. Recipe Structure
+           - Specific triggers and actions to use
+           - Data transformation requirements
+           - Error handling recommendations
 
-        4. Enhancement Recommendations:
-           - List suggested connector improvements
-           - Prioritize critical missing features
-           - Suggest alternative approaches if needed
+        3. Implementation Notes
+           - Connection setup requirements
+           - Recipe testing guidelines
+           - Performance considerations
 
-        Use these formatting rules:
-        - Use double asterisks for connector names (e.g., **Slack**)
-        - Use bullet points (•) for lists
-        - Reference exact trigger and action names
-        - Mention only Workato-specific features
+        Format Guidelines:
+        • Use **name** for connector names
+        • Use bullet points (•)
+        • Reference exact Workato trigger/action names
+        • Focus on native Workato functionality
       PROMPT
     end
 
+    def simple_capabilities_context(connector_names)
+      "Available Workato Connectors: #{connector_names.join(", ")}"
+    end
+
+
     def create_basic_context(capabilities_context)
       <<~PROMPT
-        You are an integration assistant specifically for the Workato iPaaS platform.
+        You are a Workato recipe design assistant. Focus on the following:
         
-        Available connector details:
         #{capabilities_context}
-        
-        Format your response with these exact sections:
-        1. Required Connectors:
-           - List connectors needed (use ** for names)
-           - Explain their role in the integration
 
-        2. Integration Design:
-           - Describe the suggested approach
-           - List potential triggers and actions
-           - Note any potential limitations
+        Provide a Workato-specific response with:
+        1. Recipe Blueprint
+           - Required trigger and action steps
+           - Data mapping approach
+           - Authentication requirements
 
-        3. Recommendations:
-           - Suggest best practices
-           - Note any considerations
-           - Provide alternative approaches if relevant
+        2. Implementation Steps
+           - Connector setup process
+           - Recipe configuration details
+           - Testing recommendations
 
-        Use these formatting rules:
-        - Use double asterisks for connector names (e.g., **Slack**)
-        - Use bullet points (•) for lists
-        - Use exact trigger and action names when available
-        - Focus on Workato-specific features
+        Format Guidelines:
+        • Use **name** for connector names
+        • Use bullet points (•)
+        • Reference specific Workato features
+        • Focus on native Workato functionality
+        • Avoid mentioning third-party platforms
+
+        Remember:
+        - All integrations should use native Workato recipes
+        - Authentication uses Workato's connection manager
+        - Data mapping occurs within the recipe builder
+        - Testing uses Workato's recipe debugger
       PROMPT
+    end
+
+    def parse_requirements_response(response)
+      return {
+        source: { triggers: [], actions: [] },
+        target: { triggers: [], actions: [] }
+      } unless response
+
+      begin
+        parsed = JSON.parse(response)
+        # Ensure the response has the expected structure
+        {
+          source: {
+            triggers: parsed.dig('source', 'triggers') || [],
+            actions: parsed.dig('source', 'actions') || []
+          },
+          target: {
+            triggers: parsed.dig('target', 'triggers') || [],
+            actions: parsed.dig('target', 'actions') || []
+          }
+        }
+      rescue JSON::ParserError
+        begin
+          json_match = response.match(/\{.*\}/m)
+          if json_match
+            parsed = JSON.parse(json_match[0])
+            # Apply same structure validation
+            {
+              source: {
+                triggers: parsed.dig('source', 'triggers') || [],
+                actions: parsed.dig('source', 'actions') || []
+              },
+              target: {
+                triggers: parsed.dig('target', 'triggers') || [],
+                actions: parsed.dig('target', 'actions') || []
+              }
+            }
+          else
+            {
+              source: { triggers: [], actions: [] },
+              target: { triggers: [], actions: [] }
+            }
+          end
+        rescue
+          {
+            source: { triggers: [], actions: [] },
+            target: { triggers: [], actions: [] }
+          }
+        end
+      end
     end
 
     def format_missing_capabilities(missing_capabilities)
@@ -294,23 +271,22 @@ class LlmService
 
     def format_missing_items(items)
       return "None" unless items&.any?
-
       "#{items[:triggers]&.join(', ')} #{items[:actions]&.join(', ')}".strip
     end
 
     def format_response(response)
-      # Clean up the raw text
-      formatted = response.gsub(/\n{2,}/, '\n') # Reduce multiple newlines
-      formatted = formatted.gsub(/\s{2,}/, ' ')  # Clean up excessive spaces
-      formatted = formatted.gsub(/\*\s+\*/, '**') # Fix separated asterisks
+      return "" unless response
 
-      # Add newlines for sections
+      # Clean up the raw text
+      formatted = response.gsub(/\n{2,}/, '\n')
+                          .gsub(/\s{2,}/, ' ')
+                          .gsub(/\*\s+\*/, '**')
+
+      # Format sections and points
       formatted = formatted.gsub(
         /(\d+\.\s*)(Technical Feasibility Assessment:|Required Connectors:|Integration Blueprint:|Enhancement Recommendations:|Integration Design:|Recommendations:)/,
         '\n\1\2'
       )
-
-      # Format sub-points
       formatted = formatted.gsub(/([.!?])\s+(\d+\.\s)/, '\1\n\2')
       formatted = formatted.gsub(/([.!?])\s+(\•\s)/, '\1\n\2')
 
@@ -362,32 +338,29 @@ class LlmService
       end
     end
 
-    def handle_timeout_error(error, prompt, retries)
+    def handle_timeout_error(error, prompt, detected_mentions, retries)
       if retries > 0
         Rails.logger.warn("Timeout occurred. Retrying... (#{retries} attempts left)")
         sleep(RETRY_DELAY)
-        generate_response(prompt, retries: retries - 1)
+        generate_response(prompt, detected_mentions, retries: retries - 1)
       else
         Rails.logger.error("Final timeout error: #{error.message}")
         raise "Request timed out after multiple attempts. Please try again."
       end
     end
 
-    def handle_general_error(error, prompt, retries)
+    def handle_general_error(error, prompt, detected_mentions, retries)
       if retries > 0
         Rails.logger.warn("Error occurred. Retrying... (#{retries} attempts left)")
         sleep(RETRY_DELAY)
-        generate_response(prompt, retries: retries - 1)
+        generate_response(prompt, detected_mentions, retries: retries - 1)
       else
         error_message = error.respond_to?(:message) ? error.message : "Unknown error"
         Rails.logger.error("Final error: #{error.message}")
         full_error_message = "Failed to generate response after multiple attempts. " \
           "Original error: #{error_message || 'No details available'}"
-
         raise full_error_message
-
       end
     end
-
   end
 end

@@ -129,10 +129,10 @@ module Api
       def generate_ai_response(content, detected_mentions)
         if detected_mentions.length == 2
           # Use enhanced LLM response with capability analysis
-          LlmService.generate_response(content)
+          LlmService.generate_response(content,detected_mentions)
         else
           # Use standard response for non-integration queries
-          LlmService.generate_response(content)
+          LlmService.generate_response(content,detected_mentions)
         end
       end
 

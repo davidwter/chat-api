@@ -50,6 +50,8 @@ services:
     environment:
       - OLLAMA_HOST=0.0.0.0
       - OLLAMA_ORIGINS=http://localhost:3000
+      - OLLAMA_CONTEXT_SIZE=4096
+      - OLLAMA_NUM_CTX=4096
 
 volumes:
   postgres_data:

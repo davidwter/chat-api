@@ -96,15 +96,37 @@ class ConnectorCapabilityService
     end
 
     def categorize_capability(capability)
-      return 'standard' unless capability.feature_attributes.present?
+      categories = {
+        trigger: {
+          indicators: ['when', 'if', 'started', 'detected', 'received', 'created'],
+          default_type: 'event_detection'
+        },
+        action: {
+          indicators: ['create', 'update', 'send', 'generate', 'modify', 'transform'],
+          default_type: 'system_modification'
+        }
+      }
 
+      # Determine base category type
+      category_type = capability.is_a?(ConnectorTrigger) ? :trigger : :action
+
+      # Check feature attributes
       if capability.feature_attributes['badge'] == 'Real-time'
-        'real-time'
-      elsif capability.feature_attributes['custom']
-        'custom'
-      else
-        'standard'
+        return "real_time_#{category_type}"
       end
+
+      # Use natural language parsing for more nuanced categorization
+      name_lower = capability.name.downcase
+      description_lower = capability.description.downcase
+
+      category_indicators = categories[category_type][:indicators]
+      if category_indicators.any? { |indicator| name_lower.include?(indicator) ||
+        description_lower.include?(indicator) }
+        return "#{category_type}_with_context"
+      end
+
+      # Fallback to default
+      categories[category_type][:default_type]
     end
 
     def generate_capability_summary(connector)
