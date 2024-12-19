@@ -170,55 +170,28 @@ class WorkatoScraper:
             await page.goto(url)
             await page.wait_for_load_state('networkidle')
 
-            # Find trigger and action sections
+            # Find all sections
             triggers = []
             actions = []
             
-            # Get triggers (first column with triggers title)
-            try:
-                trigger_section = await page.query_selector('section.apps-page__builder-column .apps-page__builder-triggers:has(.apps-page__builder-title_triggers)')
-                if trigger_section:
-                    trigger_items = await trigger_section.query_selector_all(".apps-page__builder-item:not(.apps-page__builder-item_show-more)")
-                    if trigger_items:
-                        console.print(f"  Found [green]{len(trigger_items)}[/green] triggers")
-                        for elem in trigger_items:
-                            try:
-                                # Get the main text (title) from the legend
-                                legend = await elem.query_selector(".apps-page__builder-legend")
-                                if legend:
-                                    name = (await legend.evaluate('el => el.childNodes[0].textContent.trim()')).strip()
-                                    
-                                    # Get the info text
-                                    info = await elem.query_selector(".apps-page__builder-info")
-                                    description = await info.text_content() if info else ""
-                                    
-                                    # Check for badges
-                                    badges = await elem.query_selector(".operation-badge")
-                                    badge_text = await badges.text_content() if badges else ""
-                                    
-                                    triggers.append({
-                                        'name': name,
-                                        'description': description,
-                                        'attributes': {
-                                            'badge': badge_text
-                                        } if badge_text else {}
-                                    })
-                                    self.stats["triggers_found"] += 1
-                            except Exception as e:
-                                console.print(f"[yellow]Warning: Could not process trigger: {str(e)}[/yellow]")
-                else:
-                    console.print("[yellow]No trigger section found[/yellow]")
-            except Exception as e:
-                console.print(f"[red]Error processing triggers section: {str(e)}[/red]")
+            # Get all sections
+            sections = await page.query_selector_all('section.apps-page__builder-column')
             
-            # Get actions (second column)
-            try:
-                action_section = await page.query_selector('section.apps-page__builder-column:nth-child(2) .apps-page__builder-triggers')
-                if action_section:
-                    action_items = await action_section.query_selector_all(".apps-page__builder-item:not(.apps-page__builder-item_show-more)")
-                    if action_items:
-                        console.print(f"  Found [green]{len(action_items)}[/green] actions")
-                        for elem in action_items:
+            for section in sections:
+                try:
+                    # Check section type by title
+                    title_elem = await section.query_selector('.apps-page__builder-title')
+                    if not title_elem:
+                        continue
+                        
+                    section_type = (await title_elem.text_content()).strip().lower()
+                    
+                    # Process items based on section type
+                    items = await section.query_selector_all(".apps-page__builder-item:not(.apps-page__builder-item_show-more)")
+                    if items:
+                        console.print(f"  Found [green]{len(items)}[/green] {section_type}")
+                        
+                        for elem in items:
                             try:
                                 # Get the main text (title) from the legend
                                 legend = await elem.query_selector(".apps-page__builder-legend")
@@ -233,20 +206,29 @@ class WorkatoScraper:
                                     badges = await elem.query_selector(".operation-badge")
                                     badge_text = await badges.text_content() if badges else ""
                                     
-                                    actions.append({
+                                    item_data = {
                                         'name': name,
                                         'description': description,
                                         'attributes': {
                                             'badge': badge_text
                                         } if badge_text else {}
-                                    })
-                                    self.stats["actions_found"] += 1
+                                    }
+                                    
+                                    if "trigger" in section_type:
+                                        triggers.append(item_data)
+                                        self.stats["triggers_found"] += 1
+                                    elif "action" in section_type:
+                                        actions.append(item_data)
+                                        self.stats["actions_found"] += 1
+                                        
                             except Exception as e:
-                                console.print(f"[yellow]Warning: Could not process action: {str(e)}[/yellow]")
-                else:
-                    console.print("[yellow]No action section found[/yellow]")
-            except Exception as e:
-                console.print(f"[red]Error processing actions section: {str(e)}[/red]")
+                                console.print(f"[yellow]Warning: Could not process {section_type} item: {str(e)}[/yellow]")
+                                
+                except Exception as e:
+                    console.print(f"[red]Error processing section: {str(e)}[/red]")
+                    
+            if not triggers and not actions:
+                console.print("[yellow]Warning: No triggers or actions found[/yellow]")
 
             return {
                 'triggers': triggers,

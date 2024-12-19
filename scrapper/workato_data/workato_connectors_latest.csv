@@ -144,6 +144,13 @@ Workday,https://www.workato.com/integrations/workday,action,Get report,Get repor
 Workday,https://www.workato.com/integrations/workday,action,Get report using WQL,Get report from Workday using WQL,"{""badge"": ""Batch""}"
 Workday,https://www.workato.com/integrations/workday,action,List custom object definitions,List custom object definitions in Workday,"{""badge"": ""Batch""}"
 Workday,https://www.workato.com/integrations/workday,action,Create/update custom object,Create/update custom object in Workday,{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Custom action,Custom action in ServiceNow (Custom) (Custom),{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Add relation to configuration item,Add relation to configuration item in ServiceNow,{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Create configuration item,Create configuration item in ServiceNow,{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Delete configuration item relation,Delete configuration item relation in ServiceNow,{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Get configuration item,Get configuration item in ServiceNow,{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Search configuration items,Search configuration items in ServiceNow,{}
+ServiceNow,https://www.workato.com/integrations/servicenow,action,Update configuration item,Update configuration item in ServiceNow,{}
 Snowflake,https://www.workato.com/integrations/snowflake,trigger,New row,New row in a table in Snowflake,{}
 Snowflake,https://www.workato.com/integrations/snowflake,trigger,New rows,New batch of rows in a table in Snowflake,"{""badge"": ""Batch""}"
 Snowflake,https://www.workato.com/integrations/snowflake,trigger,Scheduled query,Scheduled query using custom SQL in Snowflake,"{""badge"": ""Batch""}"
@@ -193,3 +200,348 @@ HubSpot,https://www.workato.com/integrations/hubspot,action,Search pipeline stag
 HubSpot,https://www.workato.com/integrations/hubspot,action,Search record,Search record in HubSpot,"{""badge"": ""Batch""}"
 HubSpot,https://www.workato.com/integrations/hubspot,action,Update record,Update a record in HubSpot,{}
 HubSpot,https://www.workato.com/integrations/hubspot,action,Update records,Update records in HubSpot,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New organization,New organization in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New ticket,New ticket in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New ticket,New ticket in Zendesk,"{""badge"": ""Real-time""}"
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New/updated records,Trigger processes batches of new or updated records,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New user,New user in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New/updated organization,New/updated organization in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New/updated ticket,New/updated ticket in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New/updated ticket,New/updated ticket in Zendesk,"{""badge"": ""Real-time""}"
+Zendesk,https://www.workato.com/integrations/zendesk,trigger,New/updated user,New/updated user in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Custom action,Custom action in Zendesk (Custom),{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create organization membership,Create organization membership in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Bulk update tickets,Bulk update tickets in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create/update records,"        Upsert records in Zendesk
+","{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Solve ticket,Solve ticket in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create custom object record,Create custom object record in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create organization,Create organization in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create relationship record,Create relationship record in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create ticket,Create ticket in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Upload attachment,Upload attachment to Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Create user,Create user in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Delete custom object record by ID,Delete custom object record in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Delete relationship record by ID,Delete relationship record in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Delete ticket,Delete ticket in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get custom object record by ID,Get custom object record in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get organization details by ID,Get organization details in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get organizations by external IDs,Get organizations in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get relationship record(s),Get relationship record(s) in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get ticket details by ID,Get ticket details in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get comments for ticket,Get comments for a ticket in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get list of tickets by external IDs,Get list of tickets by external IDs in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get user details by ID,Get user details in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get list of custom object records by external IDs,Get custom object records in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,List user identities,Get user identity details in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Get group by name,Get group by name group in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Search organization member,Search for a organization member in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Search organizations,Search for organizations in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Search tickets,Search for tickets in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Search users,Search for users in Zendesk,"{""badge"": ""Batch""}"
+Zendesk,https://www.workato.com/integrations/zendesk,action,Update custom object record,Update custom object record in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Update organization,Update organization in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Update ticket,Update ticket in Zendesk,{}
+Zendesk,https://www.workato.com/integrations/zendesk,action,Update user,Update user in Zendesk,{}
+Jira,https://www.workato.com/integrations/jira,trigger,Deleted object,Deleted object in Jira,"{""badge"": ""Real-time""}"
+Jira,https://www.workato.com/integrations/jira,trigger,Export new issues in Jira,"        Export new  issues  in Jira
+",{}
+Jira,https://www.workato.com/integrations/jira,trigger,Export new/updated issues in Jira,"        Export new/updated  issues  in Jira
+",{}
+Jira,https://www.workato.com/integrations/jira,trigger,New event,New  event in Jira,"{""badge"": ""Real-time""}"
+Jira,https://www.workato.com/integrations/jira,trigger,New issue,New issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,trigger,New issue,New issue in Jira,"{""badge"": ""Batch""}"
+Jira,https://www.workato.com/integrations/jira,trigger,New/updated comment,New/updated comment in Jira,"{""badge"": ""Real-time""}"
+Jira,https://www.workato.com/integrations/jira,trigger,Updated issue,Updated issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,trigger,Updated issue,Updated issue in Jira,"{""badge"": ""Batch""}"
+Jira,https://www.workato.com/integrations/jira,trigger,New/updated issue,New/updated issue in Jira,"{""badge"": ""Real-time""}"
+Jira,https://www.workato.com/integrations/jira,trigger,New/updated worklog,New/updated worklog in Jira,"{""badge"": ""Real-time""}"
+Jira,https://www.workato.com/integrations/jira,action,Custom action,Custom action in Jira (Custom),{}
+Jira,https://www.workato.com/integrations/jira,action,Assign user to issue,Assign user to issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Create comment,Create comment for issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Create issue,Create issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Create user,Create user in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Get user details,Get user in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Download attachment,Download attachment from issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Get changelog of an issue,Get changelog of an issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Get issue,Get issue details from Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Get issue comments,Get list of issue comments for issue in Jira,"{""badge"": ""Batch""}"
+Jira,https://www.workato.com/integrations/jira,action,Get issue schema,Get issue schema for Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Search assignable users,Search assignable users for issue in Jira,"{""badge"": ""Batch""}"
+Jira,https://www.workato.com/integrations/jira,action,Search issues,Search issues in Jira,"{""badge"": ""Batch""}"
+Jira,https://www.workato.com/integrations/jira,action,Search issues by JQL,Search issues by JQL in Jira,"{""badge"": ""Batch""}"
+Jira,https://www.workato.com/integrations/jira,action,Update comment,Update comment for issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Update issue,Update issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Update issue status,Update status of issue in Jira,{}
+Jira,https://www.workato.com/integrations/jira,action,Upload attachment,Upload attachment to issue in Jira,{}
+Zoom,https://www.workato.com/integrations/zoom,trigger,New event,Webinar/Meeting/Cloud recording event in Zoom,"{""badge"": ""Real-time""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Custom action,Custom action in Zoom (Custom),{}
+Zoom,https://www.workato.com/integrations/zoom,action,Add group members,Add group member in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Add registrant,Add registrants to meeting/webinar/cloud recording in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Create group,Create group in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Create user,Create user in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Delete object,Delete webinar/meeting/cloud recording/group in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Delete users,Delete user in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Download cloud recording,Download cloud recording in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Get object by ID,Get webinar/meeting/cloud recording/group in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Get registrants,Get registrants for meeting/webinar/cloud recording in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Get user,Get user in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Get webinar attendees,Get attendees from webinar in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Retrieve webinar results,Get results of Q&A/poll from webinar in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,List object,List objects in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Schedule meeting or webinar,Schedule meeting/webinar in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Search object,Search webinars/meetings/cloud recordings in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Search users,Search users in Zoom,"{""badge"": ""Batch""}"
+Zoom,https://www.workato.com/integrations/zoom,action,Update object,Update webinars/meetings/cloud recordings/groups in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Update registrant status,Approve/Cancel/Deny registrants for webinars/meetings/cloud recordings in Zoom,{}
+Zoom,https://www.workato.com/integrations/zoom,action,Update user,Update user in Zoom,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Custom action,Custom action in  (Custom),{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Entity Detection,Detects Entities,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Language Detection,Detects Language,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Mood Detection,Detects Mood,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Picture Object Recognition,Recognizes Object in Picture,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Picture Text Recognition,Recognizes Text in Picture,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Translate Text,Translates Text,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Calculate BMI,Calculates BMI,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Calculate Geo Distance,Get Distance Between two adresses,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Run Javascript Code,Run Javascript Code,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Run Python Code,Run Python Code,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert CSV to JSON,Converts CSV to JSON,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert Currency,Converts Currency,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert IP to Geo,Converts IP to Geo,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert ISO to Nation,Converts ISO to Nation,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert Nation to ISO,Converts Nation to ISO,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Crypto Decrypt,Crypto Decrypt,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Crypto Encrypt,Crypto Encrypt,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Crypto Hash,Crypto Hash,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Current Month,Current Month,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Current Week,Current Week,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Current Week from Date,Current Week from Date,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Current Week from Unix Timestamp,Current Week from Unix Timestamp,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Current Week only with Week Number,Current Week only with Week Number,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Current Week with Week Number and Year,Current Week with Week Number and Year,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Holidays in Specific Country and Year,Holidays in Specific Country and Year,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,"Is Given Date is Weekend, with Format","Is Given Date is Weekend, with Format",{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Is Given Date is Weekend,Is Given Date is Weekend,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Specific Month and Year,Specific Month and Year,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert Between Timezones with Date,Convert Between Timezones with Date,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Convert Between Timezones with Unix Timestamp,Convert Between Timezones with Unix Timestamp,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get a Random City,Get a Random City,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get Random Name,Get Random Name,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get Random Name with Gender,Get Random Name with Gender,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get a Number,Get Random Name,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Decode a QRCode,Decode a QRCode,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Generate a QRCode,Generate a QRCode,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Create Shortened Url,Create Shortened Url,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Create Custom Shortened Url,Create Custom Shortened Url,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Delete Shortened Url,Delete Shortened Url,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get a Shortened Url,Get a Shortened Url,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,List Shortened Urls,List Shortened Urls,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Update Shortened Url,Update Shortened Url,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Image Exif,Image Exif,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Lookup VAT Rates,Looksup VAT Rates,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Advanced Switch with URL,Advanced Switch with URL,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Detect Gender,Detect Gender,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Create a Scheduler,Create a Scheduler,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Delete a Scheduler,Delete a Scheduler,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,List Schedulers,List Schedulers,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Split Name,Split Name,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,URL Expander,URL Expander,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,UTM Build,UTM Build,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,UTM Parse,UTM Parse,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Gets PDF page count,Get the page count from a PDF file either via url or buffer,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Creates a PDF from HTML,Creates a PDF file from HTML,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Merges multiple PDFs,Merge multiple PDF files into a single PDF,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Splits a PDF,Split a PDF file into custom defined sections,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Creates a PDF file from URL,Creates a PDF file from URL,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Add a Global Variable,Add a Global Variable,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Delete a Global Variable,Delete a Global Variable,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get a Global Variable,Get a Global Variable,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,List Global Variables,List Global Variables,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Add a Perm File,Add a Perm File,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Delete a Perm File,Delete a Perm File,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Get a Perm File,Get a Perm File,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,List Perm Files,List Perm Files,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Add a Temporary File and Recieve a URL,Add a Temporary File and Recieve a URL,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Text Contains,Text Contains,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Validate a bic,Checks if bic is valid,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Validates an email and correct it,Validates an email address matching it with standards and eventually corrects it,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Validate an IBAN,Checks if IBAN is valid,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Validate vat with Countrycode and plain ID,Validates vat with Countrycode and plain ID,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Checks validity of a VAT ID,Checks if VAT number and ID is valid,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Verify a Domain,Checks if domain is valid,{}
+0codekit,https://www.workato.com/integrations/0codekit,action,Word Merge,Word Merge,{}
+"10,000ft","https://www.workato.com/integrations/10,000ft",trigger,New event,Triggers when record is created or updated in 10000 ft,"{""badge"": ""Real-time""}"
+"10,000ft","https://www.workato.com/integrations/10,000ft",action,Create record,Create record in 10000 ft,{}
+"10,000ft","https://www.workato.com/integrations/10,000ft",action,Custom action,Custom action in 10000 ft,{}
+"10,000ft","https://www.workato.com/integrations/10,000ft",action,Get record details,Get details of specific record in 10000 ft,{}
+"10,000ft","https://www.workato.com/integrations/10,000ft",action,Search records,Search records in 10000 ft,{}
+"10,000ft","https://www.workato.com/integrations/10,000ft",action,Update record,Update record by ID in 10000 ft,{}
+3 D Repo,https://www.workato.com/integrations/3-d-repo,action,Create model container,Create model container,{}
+3 D Repo,https://www.workato.com/integrations/3-d-repo,action,List models in a project,Get list of models,{}
+3 D Repo,https://www.workato.com/integrations/3-d-repo,action,Upload model revision,Upload model revision,{}
+Abbyy Flexicapture,https://www.workato.com/integrations/abbyy-flexicapture,action,Custom action,Custom action in Abbyy Flexicapture (Custom),{}
+Abbyy Flexicapture,https://www.workato.com/integrations/abbyy-flexicapture,action,Download a file,Download a file from Abbyy Flexicapture,{}
+Abbyy Flexicapture,https://www.workato.com/integrations/abbyy-flexicapture,action,Process a file,Process a file in Abbyy Flexicapture,{}
+Abbyy Flexicapture,https://www.workato.com/integrations/abbyy-flexicapture,action,Reprocess a file,Reprocess a file in Abbyy Flexicapture,{}
+Abbyy Vantage,https://www.workato.com/integrations/abbyy-vantage,action,Get results,Get the results in ABBYY Vantage,{}
+Abbyy Vantage,https://www.workato.com/integrations/abbyy-vantage,action,Get skills,Get skills in ABBYY Vantage,{}
+Abbyy Vantage,https://www.workato.com/integrations/abbyy-vantage,action,Get transaction status,Get transaction status in ABBYY Vantage,{}
+Abbyy Vantage,https://www.workato.com/integrations/abbyy-vantage,action,Upload document,Upload document in ABBYY Vantage,{}
+AbuseIPDB,https://www.workato.com/integrations/abuseipdb,action,Custom action,Custom action in AbuseIPDB,{}
+AbuseIPDB,https://www.workato.com/integrations/abuseipdb,action,Get IP address details,Get IP address details in AbuseIPDB,{}
+AbuseIPDB,https://www.workato.com/integrations/abuseipdb,action,Get network details,Get network details in AbuseIPDB,{}
+AbuseIPDB,https://www.workato.com/integrations/abuseipdb,action,Report IP address,Report an IP address in AbuseIPDB,{}
+AbuseIPDB,https://www.workato.com/integrations/abuseipdb,action,Search blacklisted IP addresses,Search blacklisted IP addresses in AbuseIPDB,{}
+AbuseIPDB,https://www.workato.com/integrations/abuseipdb,action,Upload CSV file of IP addresses,Upload CSV file of IP addresses to report in AbuseIPDB,{}
+Action Network,https://www.workato.com/integrations/action-network,trigger,New/updated form,New or updated form in Action Network,{}
+Action Network,https://www.workato.com/integrations/action-network,trigger,New/updated petition,New or updated petition in Action Network,{}
+Action Network,https://www.workato.com/integrations/action-network,trigger,New/updated signature,New or updated signature in Action Network,{}
+Action Network,https://www.workato.com/integrations/action-network,trigger,New/updated submission,New or updated submission in Action Network,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,trigger,New event,New event in Acumatica ERP,"{""badge"": ""Real-time""}"
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,trigger,New/updated record,New/updated record in Acumatica ERP,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Create record,Create record in Acumatica ERP,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Create records in batches,Create record in Acumatica ERP,"{""badge"": ""Batch""}"
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Custom action,Custom action in Acumatica ERP,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Delete record,Delete record in Acumatica ERP ,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Get record details,Get record by ID in Acumatica ERP ,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Search records,Search for records in Acumatica ERP,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Update record,Update record in Acumatica ERP,{}
+Acumatica ERP,https://www.workato.com/integrations/acumatica-erp,action,Update records in batches,Update record in Acumatica ERP,"{""badge"": ""Batch""}"
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Custom action,Custom action in Adaptive Insights (Custom),{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Custom report,Custom report values in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Erase actuals,Erase actuals in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Erase data,Erase data in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Export configurable model data,Export configurable model data in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Export data,Export data in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Export modeled sheet,Export modeled sheet in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Export object,Export object in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Import object,Import object in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Recalculate sheet,Recalculate sheet in Adaptive Insights,{}
+Adaptive Insights,https://www.workato.com/integrations/adaptive-insights,action,Upsert object,Upsert object in Adaptive Insights,{}
+Adaptive Shield,https://www.workato.com/integrations/adaptive-shield,trigger,New event,New event in Adaptive Shield,"{""badge"": ""Real-time""}"
+Adaptive Shield,https://www.workato.com/integrations/adaptive-shield,trigger,New record,New record in Adaptive Shield,{}
+Adaptive Shield,https://www.workato.com/integrations/adaptive-shield,action,Custom action,Custom action in  (Custom),{}
+Adaptive Shield,https://www.workato.com/integrations/adaptive-shield,action,List records,List records in Adaptive Shield,{}
+Adaptive Shield,https://www.workato.com/integrations/adaptive-shield,action,Search records,Search for records in Adaptive Shield,{}
+Address Validator,https://www.workato.com/integrations/address-validator,action,Custom action,Custom action in Address Validator (Custom),{}
+Address Validator,https://www.workato.com/integrations/address-validator,action,Auto complete address,Auto-Complete address in Address Validator,{}
+Address Validator,https://www.workato.com/integrations/address-validator,action,Validate address in bulk,Validate address in bulk in Address Validtor,"{""badge"": ""Bulk""}"
+Address Validator,https://www.workato.com/integrations/address-validator,action,Get address by ID,Get address details by ID in Address Validator,{}
+Address Validator,https://www.workato.com/integrations/address-validator,action,Validate address,Validate the address in Address Validator,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,trigger,New deleted product,New deleted product in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,trigger,New record,New record in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,trigger,New record,New record in Adeona PIM,"{""badge"": ""Batch""}"
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,trigger,New/updated record,New/updated record in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,trigger,New/updated record,New/updated record in Adeona PIM,"{""badge"": ""Batch""}"
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Custom action,Custom action in Adeona PIM (Custom),{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Search records using Scroll API,Search  records using Scroll API in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Create records in batch,Create  record  (batch) in Adeona PIM,"{""badge"": ""Batch""}"
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Delete records in batch,Delete  record  (batch) in Adeona PIM,"{""badge"": ""Batch""}"
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Update records in batch,Update  record  (batch) in Adeona PIM,"{""badge"": ""Batch""}"
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Create record,Create  record  in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Download file by ID,Download file by ID in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Finish a job,Finish a job in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Get record,Get  record  in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Search records,Search  records  in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Start a job,Start a job in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Update record,Update  record  in Adeona PIM,{}
+Adeona PIM,https://www.workato.com/integrations/adeona-pim,action,Upload file contents,Upload file contents in Adeona PIM,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,trigger,New group or product profile,New group or product profile in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,trigger,New user,New user in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Custom action,Custom action in Adobe Admin (Custom),{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Add product profiles to a group,Add product profiles to a group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Assign groups to a user,Assign groups to a user in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Assign users to a group,Assign users to a group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Assign users to a product,Assign users to a product in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Create enterprise user,Create enterprise user in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Create federated user,Create federated user in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Create group,Create group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Delete group,Delete group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Get product info,Get product info in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Get user,Get user in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Invite user,Invite user to organization in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,List groups and product profiles,List groups and product profiles in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,List users,List users in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,List users within group,List users within group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Remove product profiles from a Group,Remove product profiles from a group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Remove user from organization,Remove user from organization in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Unassign groups from a user,Unassign groups from a user in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Unassign users from a group,Unassign users from a group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Unassign users from a product,Unassign users from a product in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Update group,Update group in Adobe Admin,{}
+Adobe Admin,https://www.workato.com/integrations/adobe-admin,action,Update user,Update user in Adobe Admin,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,trigger,New/updated document,New/updated document  in Adobe Sign,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,action,Create record,Create record in Adobe Sign,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,action,Custom action,Custom action in Adobe Sign,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,action,Get record,Get record in Adobe Sign,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,action,Search records,Search records in Adobe Sign,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,action,Update record,Update record in Adobe Sign,{}
+Adobe Sign,https://www.workato.com/integrations/adobe-sign,action,Upload document,Upload document in Adobe Sign,{}
+Adp Wisely,https://www.workato.com/integrations/adp-wisely,action,Custom action,Custom action in ADP Wisely,{}
+Adp Wisely,https://www.workato.com/integrations/adp-wisely,action,List organization locations,List Organization locations in ADP Wisely,{}
+Adp Wisely,https://www.workato.com/integrations/adp-wisely,action,Search funding accounts,Search Funding accounts in ADP Wisely,{}
+Adp Wisely,https://www.workato.com/integrations/adp-wisely,action,Submit Wisely Pay by ADP card enrollment.,Submit Wisely Pay by ADP card enrollment in ADP Wisely,{}
+Adp Wisely,https://www.workato.com/integrations/adp-wisely,action,Validate paycard account,Validate Pay card account in ADP Wisely,{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,trigger,New event notification,New event notification in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Custom action,Custom action in ADP Workforce Now (Custom) (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Change status of job applicant external screening,"Modify Status of a Job Applicant in ADP Workforce Now
+      (Custom)",{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Create record,Create record in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Delete record,Delete record in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Get record details,Get details of specific record in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Initiate job applicant external screening,"Initiate External screening of a Job Applicant in ADP Workforce Now
+      (Custom)",{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,List records,List records in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Modify entries in a Pay Data batch,"Modify Entries in a Pay Data batch in ADP Workforce Now
+      (Custom)",{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Onboard employee,"Onboard Employee in
+                  ADP Workforce Now (Custom)",{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Search records,Search for records in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Stop deduction instruction,Stop Deduction instruction in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Terminate employee,Terminate Employee in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Update record,Update record in ADP Workforce Now (Custom),{}
+Adp Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Upsert record,Upsert record in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,trigger,New event notification,New event notification in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Custom action,Custom action in ADP Workforce Now (Custom) (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Change status of job applicant external screening,"Modify Status of a Job Applicant in ADP Workforce Now
+      (Custom)",{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Create record,Create record in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Delete record,Delete record in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Get record details,Get details of specific record in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Initiate job applicant external screening,"Initiate External screening of a Job Applicant in ADP Workforce Now
+      (Custom)",{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,List records,List records in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Modify entries in a Pay Data batch,"Modify Entries in a Pay Data batch in ADP Workforce Now
+      (Custom)",{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Onboard employee,"Onboard Employee in
+                  ADP Workforce Now (Custom)",{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Search records,Search for records in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Stop deduction instruction,Stop Deduction instruction in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Terminate employee,Terminate Employee in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Update record,Update record in ADP Workforce Now (Custom),{}
+ADP Workforce Now,https://www.workato.com/integrations/adp-workforce-now,action,Upsert record,Upsert record in ADP Workforce Now (Custom),{}
+Adyen,https://www.workato.com/integrations/adyen,action,Custom action,Custom action in  (Custom),{}
+Adyen,https://www.workato.com/integrations/adyen,action,Change user status,Change user status         in Adyen,{}
+Adyen,https://www.workato.com/integrations/adyen,action,Create user,Create user in Adyen,{}
+Adyen,https://www.workato.com/integrations/adyen,action,Get user details,Get user details in Adyen,{}
+Adyen,https://www.workato.com/integrations/adyen,action,Search users,Search users in Adyen,{}
+Adyen,https://www.workato.com/integrations/adyen,action,Update user,Update user in Adyen,{}
+AfterShip,https://www.workato.com/integrations/aftership,action,Create tracking,Create a tracking in Aftership,{}
+AfterShip,https://www.workato.com/integrations/aftership,action,Custom action,Custom action in Aftership,{}
+AfterShip,https://www.workato.com/integrations/aftership,action,Search tracking,Search tracking in Aftership,{}
+Agiloft,https://www.workato.com/integrations/agiloft,trigger,New/updated table event (Webhook),New/updated record in Agiloft,"{""badge"": ""Real-time""}"
+Agiloft,https://www.workato.com/integrations/agiloft,trigger,Delete table event (Webhook),Deleted record in Agiloft,"{""badge"": ""Real-time""}"
+Agiloft,https://www.workato.com/integrations/agiloft,trigger,New/updated records,New/updated record in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Create record,Create record in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Custom action,Custom action in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Delete record,Delete record in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Get attachment,Get attachment from record in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Get metadata,Get metadata in Agiloft  connector,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Remove attachment,Remove attachment from record in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Search records,Search records in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Update record,Update record in Agiloft,{}
+Agiloft,https://www.workato.com/integrations/agiloft,action,Upload attachment,Upload attachment into record in Agiloft,{}
+Aimtec ClouEDI,https://www.workato.com/integrations/aimtec-clouedi,trigger,New document,New document in Aimtec ClouEDI,"{""badge"": ""Real-time""}"
+Aimtec ClouEDI,https://www.workato.com/integrations/aimtec-clouedi,action,Send document,Send document to Aimtec ClouEDI,{}
+Airbrake,https://www.workato.com/integrations/airbrake,action,Get project,Get project details in Airbrake,{}
