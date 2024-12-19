@@ -1,106 +1,144 @@
+# app/services/llm_service.rb
 class LlmService
   include HTTParty
-  base_uri ENV.fetch('OLLAMA_HOST', 'ollama') + ':' + ENV.fetch('OLLAMA_PORT', '11434')
-  default_timeout 120  # Increase timeout to 120 seconds
+  base_uri ENV.fetch('OLLAMA_HOST', 'http://ollama:11434')
 
-  def self.generate_response(prompt, retries = 3)
-    ensure_model_loaded
+  def self.generate_response(prompt)
+    # First pass: identify relevant connectors
+    connector_names = identify_relevant_connectors(prompt)
 
-    # Get all connectors with their categories
-    connectors_context = Connector.includes(:categories).map do |connector|
-      categories = connector.categories.map(&:name).join(", ")
-      "#{connector.name} (#{categories})"
-    end.join("\n")
+    # Get and format capabilities for identified connectors
+    capabilities = ConnectorCapabilityService.get_capabilities(connector_names)
+    capabilities_context = ConnectorCapabilityService.format_capabilities(capabilities)
 
-    system_context = <<~PROMPT
-      You are an integration assistant. Here are the available connectors:
-      #{connectors_context}
-
-      Guidelines:
-      1. When users describe integration needs, identify and mention relevant connectors
-      2. DO NOT discuss specific connector capabilities
-      3. Only mention connectors from the list provided
-      4. If you mention a connector, always use its exact name as provided above
-      5. Format connector names in bold using markdown: **ConnectorName**
-
-      Example response: "This integration would involve **QuickBooks** and **Fieldwire**."
-    PROMPT
-
-    begin
-      response = post("/api/generate",
-                      body: {
-                        model: "mistral",
-                        prompt: "#{system_context}\n\nUser: #{prompt}",
-                        stream: false,
-                        options: {
-                          num_ctx: 2048,           # Reduce context size for faster responses
-                          num_thread: 6,           # Adjust based on available CPU
-                          temperature: 0.7,        # Add some randomness to responses
-                          top_k: 40,              # Limit vocabulary selections
-                          top_p: 0.9,             # Nucleus sampling
-                          repeat_penalty: 1.1      # Prevent repetitive responses
-                        }
-                      }.to_json,
-                      headers: { 'Content-Type' => 'application/json' },
-                      timeout: 120  # Explicit timeout for this request
-      )
-
-      if response.success?
-        response.parsed_response["response"]
-      else
-        Rails.logger.error("LLM Error: #{response.code} - #{response.body}")
-        if retries > 0 && response.code == 404
-          Rails.logger.info("Retrying after model not found error...")
-          sleep 2  # Add small delay between retries
-          ensure_model_loaded
-          generate_response(prompt, retries - 1)
-        else
-          raise "Failed to generate response"
-        end
-      end
-    rescue Net::ReadTimeout => e
-      Rails.logger.error("LLM Timeout Error: #{e.message}")
-      if retries > 0
-        Rails.logger.info("Retrying after timeout...")
-        sleep 2
-        generate_response(prompt, retries - 1)
-      else
-        raise "Model response timeout after several retries"
-      end
-    rescue => e
-      Rails.logger.error("LLM Service Error: #{e.message}")
-      raise e
-    end
+    # Final response with capabilities context
+    generate_detailed_response(prompt, capabilities_context)
   end
 
   private
 
-  def self.ensure_model_loaded
+  def self.identify_relevant_connectors(prompt)
+    available_connectors = Connector.pluck(:name).join(", ")
+
+    system_context = <<~PROMPT
+      You are an integration assistant. Given a user's request, identify which connectors 
+      are relevant. Return ONLY a JSON array of connector names, no other text.
+      
+      Available connectors:
+      #{available_connectors}
+    PROMPT
+
+    response = call_llm(system_context, prompt)
+
+    # Extract connector names from response, handle potential JSON parsing errors
     begin
-      Rails.logger.info("Checking if model is loaded...")
-      response = get("/api/show",
-                     query: { name: "mistral" },
-                     timeout: 30
-      )
-
-      return true if response.success?
-
-      Rails.logger.info("Model not found, pulling mistral...")
-      pull_response = post("/api/pull",
-                           body: {
-                             name: "mistral",
-                             insecure: true
-                           }.to_json,
-                           headers: { 'Content-Type' => 'application/json' },
-                           timeout: 300  # 5 minutes timeout for model pulling
-      )
-
-      unless pull_response.success?
-        Rails.logger.error("Failed to pull model: #{pull_response.code} - #{pull_response.body}")
-      end
-    rescue => e
-      Rails.logger.error("Error ensuring model is loaded: #{e.message}")
-      raise e
+      JSON.parse(response)
+    rescue JSON::ParserError
+      # Fallback: extract names using basic pattern matching if JSON parsing fails
+      response.scan(/\"(.*?)\"/).flatten.uniq
     end
+  end
+
+  def self.generate_detailed_response(prompt, capabilities_context)
+    system_context = <<~PROMPT
+      You are an integration assistant with knowledge of connector capabilities.
+      
+      #{capabilities_context}
+      
+      Guidelines:
+      1. Use exact trigger and action names in your response
+      2. Highlight real-time capabilities when present
+      3. Format connector names in bold using markdown: **ConnectorName**
+      4. Be specific about what each connector can and cannot do
+      5. If you're not sure about a capability, say so
+      
+      Always structure your complete response to include:
+      1. Which connectors would be involved
+      2. What specific triggers and actions would be used (list all required ones)
+      3. Step by step explanation of how the integration would work
+      4. Any notable limitations or requirements
+      
+      Important: Always provide complete responses without truncation. Ensure you fully explain each component.
+    PROMPT
+
+    call_llm(system_context, prompt)
+  end
+
+  def self.call_llm(system_context, prompt)
+    full_prompt = "#{system_context}\n\nUser: #{prompt}"
+
+    response = post("/api/generate",
+                    body: {
+                      model: "mistral",
+                      prompt: full_prompt,
+                      stream: false,
+                      options: {
+                        temperature: 0.7,
+                        top_k: 40,
+                        top_p: 0.9,
+                        num_predict: 1000,  # Increased to allow for longer responses
+                        stop: ["User:", "\n\n\n"]  # Stop generation at next user input or multiple newlines
+                      }
+                    }.to_json,
+                    headers: { 'Content-Type' => 'application/json' }
+    )
+
+    if response.success?
+      response.parsed_response["response"]
+    else
+      Rails.logger.error("LLM Error: #{response.code} - #{response.body}")
+      raise "Failed to generate response: #{response.code}"
+    end
+  end
+end
+
+# app/services/connector_capability_service.rb
+class ConnectorCapabilityService
+  def self.get_capabilities(connector_names)
+    return [] if connector_names.empty?
+
+    Connector.includes(:connector_triggers, :connector_actions)
+             .where(name: connector_names)
+             .map do |connector|
+      {
+        name: connector.name,
+        triggers: connector.connector_triggers.map { |t|
+          {
+            name: t.name,
+            description: t.description,
+            feature_attributes: t.feature_attributes
+          }
+        },
+        actions: connector.connector_actions.map { |a|
+          {
+            name: a.name,
+            description: a.description,
+            feature_attributes: a.feature_attributes
+          }
+        }
+      }
+    end
+  end
+
+  def self.format_capabilities(capabilities)
+    capabilities.map do |connector|
+      triggers = connector[:triggers].map { |t|
+        badge = t[:feature_attributes]["badge"] ? " (#{t[:feature_attributes]["badge"]})" : ""
+        "  - #{t[:name]}#{badge}: #{t[:description]}"
+      }.join("\n")
+
+      actions = connector[:actions].map { |a|
+        "  - #{a[:name]}: #{a[:description]}"
+      }.join("\n")
+
+      <<~CONN
+        #{connector[:name]}:
+        Triggers:
+        #{triggers}
+        
+        Actions:
+        #{actions}
+      CONN
+    end.join("\n\n")
   end
 end

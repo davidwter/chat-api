@@ -96,6 +96,34 @@ connectors_data.each do |connector_data|
   end
 end
 
+slack = Connector.find_or_create_by!(name: 'Slack')
+
+slack.connector_triggers.create!([
+                                   {
+                                     name: "Button click",
+                                     description: "New button click in Slack",
+                                     feature_attributes: { badge: "Real-time" }
+                                   },
+                                   {
+                                     name: "New event",
+                                     description: "New event in Slack",
+                                     feature_attributes: { badge: "Real-time" }
+                                   }
+                                 ])
+
+slack.connector_actions.create!([
+                                  {
+                                    name: "Post message",
+                                    description: "Post message in Slack",
+                                    feature_attributes: {}
+                                  },
+                                  {
+                                    name: "Create conversation",
+                                    description: "Create conversation in Slack",
+                                    feature_attributes: {}
+                                  }
+                                ])
+
 puts "\nSeeding completed!"
 puts "Created #{Category.count} categories"
 puts "Created #{Connector.count} connectors"

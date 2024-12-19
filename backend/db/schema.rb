@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_12_19_100629) do
+ActiveRecord::Schema[7.0].define(version: 2024_12_19_134609) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -32,6 +32,17 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_19_100629) do
     t.index ["connector_id"], name: "index_categories_connectors_on_connector_id"
   end
 
+  create_table "connector_actions", force: :cascade do |t|
+    t.bigint "connector_id", null: false
+    t.string "name", null: false
+    t.text "description"
+    t.json "feature_attributes", default: {}
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["connector_id", "name"], name: "index_connector_actions_on_connector_id_and_name", unique: true
+    t.index ["connector_id"], name: "index_connector_actions_on_connector_id"
+  end
+
   create_table "connector_mentions", force: :cascade do |t|
     t.bigint "message_id", null: false
     t.bigint "connector_id", null: false
@@ -42,6 +53,17 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_19_100629) do
     t.index ["connector_id"], name: "index_connector_mentions_on_connector_id"
     t.index ["message_id", "connector_id"], name: "index_connector_mentions_on_message_id_and_connector_id", unique: true
     t.index ["message_id"], name: "index_connector_mentions_on_message_id"
+  end
+
+  create_table "connector_triggers", force: :cascade do |t|
+    t.bigint "connector_id", null: false
+    t.string "name", null: false
+    t.text "description"
+    t.json "feature_attributes", default: {}
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["connector_id", "name"], name: "index_connector_triggers_on_connector_id_and_name", unique: true
+    t.index ["connector_id"], name: "index_connector_triggers_on_connector_id"
   end
 
   create_table "connectors", force: :cascade do |t|
@@ -76,7 +98,9 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_19_100629) do
 
   add_foreign_key "categories_connectors", "categories"
   add_foreign_key "categories_connectors", "connectors"
+  add_foreign_key "connector_actions", "connectors"
   add_foreign_key "connector_mentions", "connectors"
   add_foreign_key "connector_mentions", "messages"
+  add_foreign_key "connector_triggers", "connectors"
   add_foreign_key "messages", "conversations"
 end

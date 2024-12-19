@@ -545,3 +545,1232 @@ Agiloft,https://www.workato.com/integrations/agiloft,action,Upload attachment,Up
 Aimtec ClouEDI,https://www.workato.com/integrations/aimtec-clouedi,trigger,New document,New document in Aimtec ClouEDI,"{""badge"": ""Real-time""}"
 Aimtec ClouEDI,https://www.workato.com/integrations/aimtec-clouedi,action,Send document,Send document to Aimtec ClouEDI,{}
 Airbrake,https://www.workato.com/integrations/airbrake,action,Get project,Get project details in Airbrake,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Custom action,Custom action in Aircall (Custom),{}
+Aircall,https://www.workato.com/integrations/aircall,action,Add a User in a Team,Add a User in a Team in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Create a Tag,Create a Tag in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Create a Team,Create a Team in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Create a User,Create a User in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Delete a Tag,Delete a Tag in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Delete a Team,Delete a Team in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Delete a User,Delete a User in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Remove a User from a Team,Remove a User from a Team in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Retrieve Company information,Retrieve Company information in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Find User,Find User in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,List all Tags,List all Tags in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,List all Teams,List all Teams in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,List all Users,List all Users in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Retrieve a Tag.,Retrieve a Tag. in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Retrieve details of a specific Team.,Retrieve details of a specific Team. in Aircall,{}
+Aircall,https://www.workato.com/integrations/aircall,action,Retrieve a User Detail with ID,Retrieve a User Detail with ID in Aircall,{}
+Airtable,https://www.workato.com/integrations/airtable,trigger,New/updated record,New or updated record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,trigger,New record,New record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,action,Custom action,Custom action in Airtable (Custom),{}
+Airtable,https://www.workato.com/integrations/airtable,action,Create record,Create record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,action,Delete record,Delete record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,action,Delete records,Delete multiple records in Airtable,"{""badge"": ""Batch""}"
+Airtable,https://www.workato.com/integrations/airtable,action,Get record,Get record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,action,List records,List records in Airtable,"{""badge"": ""Batch""}"
+Airtable,https://www.workato.com/integrations/airtable,action,Search records,Search records in Airtable,"{""badge"": ""Batch""}"
+Airtable,https://www.workato.com/integrations/airtable,action,Update record,Update record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,action,Upsert record,Upsert record in Airtable,{}
+Airtable,https://www.workato.com/integrations/airtable,action,Upsert records,Upsert multiple records in Airtable,"{""badge"": ""Batch""}"
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Custom action,Custom action in Akamai EAA (Custom),{}
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Block users from accessing an IDP,Block users from accessing an IDP in Akamai EAA,{}
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Create records,Create record in Akamai EAA,"{""badge"": ""Bulk""}"
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Delete records,Delete record in Akamai EAA,"{""badge"": ""Bulk""}"
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Get record details by ID,Get details of specific record in Akamai EAA,{}
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Get user upload status,Get user upload status in Akamai EAA,{}
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,List records,List records in Akamai EAA,{}
+Akamai EAA,https://www.workato.com/integrations/akamai-eaa,action,Unblock users from accessing an IDP,Unblock users from accessing an IDP in Akamai EAA,{}
+Akeneo,https://www.workato.com/integrations/akeneo,trigger,New/updated Product,New/updated products in Akeneo,{}
+Akeneo,https://www.workato.com/integrations/akeneo,trigger,New/updated Product,New/updated products in Akeneo,"{""badge"": ""Batch""}"
+Akeneo,https://www.workato.com/integrations/akeneo,action,Custom action,Custom action in Akeneo (Custom),{}
+Akeneo,https://www.workato.com/integrations/akeneo,action,List records,Get records in Akeneo,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Copy file / folder,Copy file / folder in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Create folder,Create folder in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Create file / folder comment,Create file / folder comment in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Create file / folder shared links,Create file / folder shared links in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Create file / folder tags,Create file / folder tags in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Create zip file,Create zip file in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Delete file / folder,Delete file / folder in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Delete file / folder comment,Delete file / folder comment in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Delete file / folder shared links,Delete file / folder shared links in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Delete file / folder tag,Delete file / folder tag in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Download file,Download file in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file rendition,Get file rendition in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file renditions,Get file renditions in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file version,Get file version in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file versions,Get file versions in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get group,Get group in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get group members,Get group members in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get groups,Get groups in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder,Get file / folder in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get site / folder children,Get site / folder children in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder comments,Get file / folder comments in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder properties,Get file / folder properties in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder rating,Get file / folder rating in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder Alfresco Share URI,Get file / folder Alfresco Share URI in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder shared link,Get file / folder shared link in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder shared links,Get file / folder shared links in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get file / folder tags,Get file / folder tags in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get repository tag,Get repository tag in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get repository tags,Get repository tags in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get site,Get site in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get site groups,Get site groups in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get site members,Get site members in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get sites,Get sites in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get user,Get user in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get user groups,Get user groups in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get users,Get users in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Get zip file,Get zip file in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Move file / folder,Move file / folder in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Rename file / folder,Rename file / folder in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Search,Search in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Update file,Update file in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Update file / folder comment,Update file / folder comment in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Update file / folder properties,Update file / folder properties in Alfresco  connector,{}
+Alfresco Content Services,https://www.workato.com/integrations/alfresco-content-services,action,Upload file,Upload file in Alfresco  connector,{}
+Amazon CloudWatch,https://www.workato.com/integrations/amazon-cloudwatch,action,Put metric,Put metric in Amazon  cloud watch,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Add item,Add item in Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Create table,Create table in Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Delete item,Delete item in Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Delete table,Delete table in Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Describe table,Describe table in Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Get item,Get item from Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Scan table,Scan table in Amazon DynamoDB,{}
+Amazon Dynamo DB,https://www.workato.com/integrations/amazon-dynamo-db,action,Update item,Update item in Amazon DynamoDB,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,trigger,New/updated record,New/updated record in batch in Amazon Kinesis,"{""badge"": ""Batch""}"
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,Custom action,Custom action in Amazon Kinesis,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,Get record,Get records from Amazon Kinesis,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,Get shard iterator,Get shard iterator from Amazon Kinesis,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,List shards,List shards from Amazon Kinesis,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,List streams,List streams from Amazon Kinesis,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,Put record,Put record in Amazon Kinesis,{}
+Amazon Kinesis,https://www.workato.com/integrations/amazon-kinesis,action,Put records,Put records in Amazon Kinesis,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Get Bot,Retrieve Bot   information from Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Get Bot Aliases,Retrieve Bot Aliases  information from Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Get Intent,Retrieve Intent   information from Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Get Slot type,Retrieve Slot type   information from Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Get Version,Retrieve object versions in Amazon lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Post text,Send User input to Amazon Lex at runtime,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Upsert Bot,Creates a Bot   or replaces an existing one in Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Upsert Bot Alias,Creates a Bot Alias  or replaces an existing one in Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Upsert Intent,Creates an Intent   or replaces an existing one in Amazon Lex,{}
+Amazon Lex,https://www.workato.com/integrations/amazon-lex,action,Upsert Slot type,Creates a custom Slot type   or replaces an existing one in Amazon Lex,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,trigger,New AutoML job completed,New AutoML Job in Amazon SageMaker,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,Create AutoML job,Create AutoML Job in Amazon SageMaker,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,Describe AutoML job,Describe AutoML Job in Amazon SageMaker,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,Get prediction,Get Prediction in Amazon SageMaker,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,Search AutoML jobs,Search AutoML jobs in Amazon SageMaker,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,trigger,New/updated orders,New/updated orders  in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Custom action,Custom action in Amazon Seller Central (Custom),{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Cancel feed,Cancel feed in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Create feed,Create feed in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Download feed document,Download feed document in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get feed details,Get feed details in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get feed document,Get feed document in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get order details,Get order details in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get order address,Get order address in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get order buyer information,Get order buyer information in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get order items,Get order items in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Get order items buyer information,Get order items buyer information in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Search feeds,Search feeds in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Search feeds by next token,Search feeds by next token in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Search orders,Search orders in Amazon Seller Central,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Search orders by next token,Search orders by next token in Amazon Seller Central,{}
+Amazon SES,https://www.workato.com/integrations/amazon-ses,action,Send email,Send email in Amazon SES,{}
+Amazon SES,https://www.workato.com/integrations/amazon-ses,action,Send email with attachment,Send email with attachment in Amazon SES,{}
+AMcards,https://www.workato.com/integrations/amcards,action,Create card,Create card in AMcards,{}
+Anaplan,https://www.workato.com/integrations/anaplan,action,Custom action,Custom action in Anaplan (Custom),{}
+Anaplan,https://www.workato.com/integrations/anaplan,action,Download dump file,Download dump file from Anaplan,{}
+Anaplan,https://www.workato.com/integrations/anaplan,action,Download file,Download file from Anaplan,{}
+Anaplan,https://www.workato.com/integrations/anaplan,action,Run deletion,Run deletion in Anaplan,"{""badge"": ""Batch""}"
+Anaplan,https://www.workato.com/integrations/anaplan,action,Run data export,Run data export in Anaplan,"{""badge"": ""Batch""}"
+Anaplan,https://www.workato.com/integrations/anaplan,action,Run data import,Run data import in Anaplan,"{""badge"": ""Batch""}"
+Anaplan,https://www.workato.com/integrations/anaplan,action,Run process,Run process in Anaplan,"{""badge"": ""Batch""}"
+Anaplan,https://www.workato.com/integrations/anaplan,action,Upload file,Upload file to Anaplan,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,action,Protect your data packet,Anonymize your  sensitive data packet in AnonyFlow,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,action,Protect your values,Anonymize your  sensitive data in AnonyFlow,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,action,Unprotect your data packet,Deanonymize your  protected data packet in AnonyFlow,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,action,Unprotect your values,Deanonymize your  sensitive protected data in AnonyFlow,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Announcement,Delete Announcement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Calendar Item,Delete Calendar Item in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Category,Delete Category in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Membership,Delete Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Course,Delete Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Question,Delete Question in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Remove Child Course,Remove Child Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Content,Delete Content in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Rule,Delete Rule in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Adaptive Release Rule Criterion,Delete Adaptive Release Rule Criterion in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Group Predicate,Delete Group Predicate in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete ACL User Predicate,Delete ACL User Predicate in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete File Attachment,Delete File Attachment in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Content Group,Delete Content Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Message,Delete Message in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Attachment,Delete Attachment in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Grade Column,Delete Grade Column in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Grade Notation,Delete Grade Notation in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Grading Period,Delete Grading Period in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Grade Schema,Delete Grade Schema in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Group,Delete Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Group Membership,Delete Group Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete All Meetings In Course,Delete All Meetings In Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Course Meeting,Delete Course Meeting in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete All Records In Meeting,Delete All Records In Meeting in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Attendance Record,Delete Attendance Record in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete All Attendance Records By Course And User Id,Delete All Attendance Records By Course And User Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete All Attendance By User Id,Delete All Attendance By User Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Data Source,Delete Data Source in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Node,Delete Node in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Node Admin,Delete Node Admin in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Node Course Association,Delete Node Course Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Node User Association,Delete Node User Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Domain Config,Delete Domain Config in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Placement,Delete Placement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Pronoun,Delete Pronoun in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Term,Delete Term in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete User,Delete User in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Observer,Delete Observer in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Delete Group Set,Delete Group Set in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Announcements,Get Announcements in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Announcement,Get Announcement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Attempt Receipt,Get Attempt Receipt in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Calendars,Get Calendars in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Calendar Items,Get Calendar Items in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Calendar Item,Get Calendar Item in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Categories,Get Categories in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Category,Get Category in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Memberships,Get Memberships in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Child Categories,Get Child Categories in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Resources,Get Resources in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Content Collection Resource,Get Content Collection Resource in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Resource Children,Get Resource Children in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Roles,Get Course Roles in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Role,Get Course Role in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Courses,Get Courses in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course,Get Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Goal Alignments,Get Course Goal Alignments in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Questions,Get Questions in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Question By Id,Get Question By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Children,Get Course Children in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Child,Get Child in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Contents,Get Contents in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Content,Get Content in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rules,Get Rules in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rule,Get Rule in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Criteria,Get Criteria in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Adaptive Release Rule Criterion,Get Adaptive Release Rule Criterion in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Adaptive Release ACL Group Predicates,Get Adaptive Release ACL Group Predicates in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Adaptive Release ACL User Predicates,Get Adaptive Release ACL User Predicates in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get File Attachments,Get File Attachments in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get File Attachment,Get File Attachment in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Download,Download in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Content Children,Get Content Children in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Content Groups,Get Content Groups in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Content Group,Get Content Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Review Status,Get Review Status in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Cross List Set,Get Cross List Set in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Discussions,Get Discussions in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Discussion,Get Discussion in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Discussion Groups,Get Discussion Groups in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Discussion Messages,Get Discussion Messages in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Message Replies,Get Message Replies in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Attempt File Meta Data List,Get Attempt File Meta Data List in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Attempt File Meta Data,Get Attempt File Meta Data in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Gradebook Categories,Get Gradebook Categories in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Gradebook Category,Get Gradebook Category in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grade Columns,Get Grade Columns in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grade Column,Get Grade Column in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Column Attempts,Get Column Attempts in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Column Attempt,Get Column Attempt in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubric Evaluations,Get Rubric Evaluations in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Gradebook Logs By Gradebook Column Id,Get Course Gradebook Logs By Gradebook Column Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubric Associations By Column Id,Get Rubric Associations By Column Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Column Grades,Get Column Grades in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Column Grade,Get Column Grade in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grade Notations,Get Grade Notations in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grade Notation,Get Grade Notation in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Gradebook Logs,Get Course Gradebook Logs in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grading Periods,Get Grading Periods in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grading Period,Get Grading Period in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grade Schemas,Get Grade Schemas in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Grade Schema,Get Grade Schema in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get User Grades,Get User Grades in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Groups,Get Groups in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Group,Get Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Group Memberships,Get Group Memberships in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Group Membership,Get Group Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Meetings,Get Course Meetings in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Meeting,Get Course Meeting in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Attendance Records By Meeting Id,Get Attendance Records By Meeting Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Attendance Record,Get Attendance Record in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Generate Attendance Data Download Url,Generate Attendance Data Download Url in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Attendance Records By User Id,Get Attendance Records By User Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Messages,Get Messages in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Message Participants,Get Message Participants in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Folders,Get Folders in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Nodes For Course,Get Nodes For Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Review Status By Course Id,Get Review Status By Course Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Top Level Course Resources,Get Top Level Course Resources in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Resource,Get Course Resource in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Resource Children,Get Course Resource Children in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubrics,Get Rubrics in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubric By Id,Get Rubric By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubric Associations,Get Rubric Associations in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubric Association By Id,Get Rubric Association By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Rubric Evaluation By Id,Get Rubric Evaluation By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Task,Get Task in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Toc Items,Get Toc Items in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Course Memberships,Get Course Memberships in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Membership,Get Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Data Sources,Get Data Sources in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Data Source,Get Data Source in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goals,Get Goals in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goal By Id,Get Goal By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goal Alignments,Get Goal Alignments in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Children Goals,Get Children Goals in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goal Sets,Get Goal Sets in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goal Set By Id,Get Goal Set By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goal Set Category By Id,Get Goal Set Category By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Goals From Set And Category,Get Goals From Set And Category in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Types,Get Types in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Institution Roles,Get Institution Roles in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Institution Role,Get Institution Role in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Nodes,Get Nodes in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Node,Get Node in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Node Admins,Get Node Admins in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Node Admin,Get Node Admin in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Node Children,Get Node Children in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Node Course Associations,Get Node Course Associations in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Tools,Get Tools in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Node User Associations,Get Node User Associations in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Login As Sessions,Get Login As Sessions in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get SIS Logs By Data Set Uid,Get SIS Logs By Data Set Uid in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Domain Configs,Get Domain Configs in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Domain Config,Get Domain Config in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Placements,Get Placements in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Placement,Get Placement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Authorization Code,Authorization Code in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Token Info,Get Token Info in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Proctoring Services,Get Proctoring Services in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Proctoring Service,Get Proctoring Service in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Pronouns,Get Pronouns in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Active Sessions,Get Active Sessions in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get System Roles,Get System Roles in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get System Role,Get System Role in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Info,Get Info in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Policies,Get Policies in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get System Task,Get System Task in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Version,Get Version in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Terms,Get Terms in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Term,Get Term in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Settings,Get Settings in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Users,Get Users in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get User,Get User in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get User Avatar,Get User Avatar in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get User Memberships,Get User Memberships in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Nodes For User,Get Nodes For User in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Observees,Get Observees in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Observers,Get Observers in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get User Pronunciation Audio,Get User Pronunciation Audio in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Current Active User By Id,Get Current Active User By Id in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Column Grade Last Changed,Get Column Grade Last Changed in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Group Sets,Get Group Sets in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Group Set,Get Group Set in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Get Group Set Children,Get Group Set Children in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Announcement,Update Announcement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Calendar Item,Update Calendar Item in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Category,Update Category in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Course,Update Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Question,Update Question in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Content,Update Content in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Rule,Update Rule in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Adaptive Release Rule Criterion,Update Adaptive Release Rule Criterion in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Review Status,Update Review Status in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Discussion,Update Discussion in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Message,Update Message in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Grade Column,Update Grade Column in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Column Grade,Update Column Grade in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Grade Notation,Update Grade Notation in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Grading Period,Update Grading Period in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Grade Schema,Update Grade Schema in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Group,Update Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Course Meeting,Update Course Meeting in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Attendance Record,Update Attendance Record in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Toc Item,Update Toc Item in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Membership,Update Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Data Source,Update Data Source in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Node,Update Node in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Node Course Association,Update Node Course Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Patch Tool,Patch Tool in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Domain Config,Update Domain Config in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Placement,Update Placement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Pronoun,Update Pronoun in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Term,Update Term in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update User,Update User in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Column Attempt,Update Column Attempt in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Group Set,Update Group Set in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Announcement,Create Announcement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Calendar Item,Create Calendar Item in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Category,Create Category in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Course,Create Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Question,Create Question in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Content,Create Content in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Rule,Create Rule in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Adaptive Release Rule Criteria,Create Adaptive Release Rule Criteria in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create File Attachment,Create File Attachment in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Child,Create Child in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Assignment,Create Assignment in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Copy Course,Copy Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Discussion,Create Discussion in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Message,Create Message in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Message Reply,Create Message Reply in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Attach File,Attach File in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Grade Column,Create Grade Column in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Grade Notation,Create Grade Notation in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Grading Period,Create Grading Period in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Grade Schema,Create Grade Schema in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Group,Create Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Course Meeting,Create Course Meeting in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Attendance Record,Create Attendance Record in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Update Attendance Records,Update Attendance Records in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Data Source,Create Data Source in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Node,Create Node in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Child Node,Create Child Node in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Domain Config,Create Domain Config in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Placement,Create Placement in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Pronoun,Create Pronoun in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Term,Create Term in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Upload,Upload in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create User,Create User in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Column Attempt,Create Column Attempt in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Group Set,Create Group Set in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Group Set Child,Create Group Set Child in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Membership,Create Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Add Child Course,Add Child Course in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Set Group Predicate List,Set Group Predicate List in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Group Predicate,Create Group Predicate in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Set Adaptive Release ACL Users Predicates List,Set Adaptive Release ACL Users Predicates List in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Adaptive Release ACL User Predicate,Create Adaptive Release ACL User Predicate in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Content Group,Create Content Group in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Discussion Group Association,Create Discussion Group Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Group Membership,Create Group Membership in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Set Node Admin Association,Set Node Admin Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Node Course Association,Create Node Course Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Node User Association,Create Node User Association in Anthology  blackboard,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,action,Create Observer,Create Observer in Anthology  blackboard,{}
+Anvyl,https://www.workato.com/integrations/anvyl,trigger,New or updated records,New or updated records in Anvyl,"{""badge"": ""Real-time""}"
+Anvyl,https://www.workato.com/integrations/anvyl,action,Bulk Import Records,Bulk Import Records in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Complete a Task,Complete a Task in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Confirm Milestone,Confirm Milestone in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Get (Split) Order Collections,Get (Split) Order Collections in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Get Order Milestones,Get Order Milestones in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Get Order Schedule,Get Order Schedule in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Get Record By ID,Get Record By ID in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Import Parts and Suppliers,Import Parts and Suppliers in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Import Record,Import Record in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Issue Purchase Order,Issue Purchase Order in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Query Records,Query Records in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Reopen a Task,Reopen a Task in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Update Order Milestone Timeline,Update Order Milestone Timeline in Anvyl,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Update record,Update record in Anvyl,{}
+Api Void,https://www.workato.com/integrations/api-void,action,Custom action,Custom action in APIVoid,{}
+Api Void,https://www.workato.com/integrations/api-void,action,Check domain reputation,Check Domain reputation in APIVoid,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Custom action,Custom action in Apollo.io (Custom),{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Add contacts to sequence,Add contacts to sequence in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Create record,Create record in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Enrich records in bulk,Enrich records in bulk in Apollo.io,"{""badge"": ""Bulk""}"
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Get record,Get record in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,List records,List records in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Enrich organization,Enrich 0rganization in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Enrich people,Enrich people in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Remove contacts from sequence,Remove contacts from sequence in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Search records,Search records in Apollo.io,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,action,Update record,Update record in Apollo.io,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,action,Custom action,Custom action in  (Custom),{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,action,Create record,Create record in App Store Connect,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,action,Delete record,Delete record in App Store Connect,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,action,Get record details by ID,Get record details by ID in App Store Connect,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,action,Search records,Search records in App Store Connect,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,action,Update record,Update record in App Store Connect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,trigger,New event,New event in AppDirect,"{""badge"": ""Real-time""}"
+AppDirect,https://www.workato.com/integrations/appdirect,trigger,New/updated record,New/updated record in AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,trigger,New/updated record (Batch),New/updated record in OpenAPI (Batch),{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Create record,Create record in AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Custom action,Custom action via AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Delete record,Delete record in AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Execute operation,Execute operation in AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Get record details by ID,Get record details by ID in AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Search records,Search records in AppDirect,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,Update record,Update record in AppDirect,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,Deleted instance,Deleted object in Applaud,"{""badge"": ""Real-time""}"
+Applaud,https://www.workato.com/integrations/applaud,trigger,New instance,New object in Applaud,"{""badge"": ""Real-time""}"
+Applaud,https://www.workato.com/integrations/applaud,trigger,New instances in batch,New object in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,New/Updated instance,New/Updated object in Applaud,"{""badge"": ""Real-time""}"
+Applaud,https://www.workato.com/integrations/applaud,trigger,New/updated instances in batch,New/updated object in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,Validation rule,New object in Applaud,"{""badge"": ""Real-time""}"
+Applaud,https://www.workato.com/integrations/applaud,trigger,Updated instance,Updated object in Applaud,"{""badge"": ""Real-time""}"
+Applaud,https://www.workato.com/integrations/applaud,action,Create an instance,Create  instance in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Create instances in batches,Create  in batches in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Delete an instance,Delete  instance in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Delete instances in batches,Delete  instances in batches in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,File download,Download a File in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Search a model,Search object in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Send a chat message,Send a chat message to applaud chatbot,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Set validation result,Set validation result,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Start a conversation,Start a new conversation,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Update an instance,Update  instance in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Update instances in batches,Update  in batches in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,File upload,Upload a File in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Upsert an instance,Upsert  instance in Applaud,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Upsert instances in batches,Upsert  in batches in Applaud,{}
+AppViewX,https://www.workato.com/integrations/appviewx,action,Custom action,Custom action in AppViewX,{}
+AppViewX,https://www.workato.com/integrations/appviewx,action,Authentication,Authentication For AppViewX,{}
+Apromore,https://www.workato.com/integrations/apromore,action,Custom action,Custom action in Apromore,{}
+Apromore,https://www.workato.com/integrations/apromore,action,Download event log file,Download event log file in Apromore,{}
+Apromore,https://www.workato.com/integrations/apromore,action,Upload event log file,Upload event log file in Apromore,{}
+Apttus,https://www.workato.com/integrations/apttus,trigger,Object created,Object created in Apttus,{}
+Apttus,https://www.workato.com/integrations/apttus,trigger,Daily object review,Daily Object review in Apttus,{}
+Apttus,https://www.workato.com/integrations/apttus,trigger,Object created/updated,Object created/updated in Apttus,{}
+Apttus,https://www.workato.com/integrations/apttus,action,Custom action,Custom action in Apttus (Custom),{}
+Apttus,https://www.workato.com/integrations/apttus,action,Create object,Create object in Apttus,{}
+Apttus,https://www.workato.com/integrations/apttus,action,Get related objects,"          Get related object
+          list in Apttus
+","{""badge"": ""Batch""}"
+Apttus,https://www.workato.com/integrations/apttus,action,Search objects,Search for objects in Apttus,"{""badge"": ""Batch""}"
+Apttus,https://www.workato.com/integrations/apttus,action,Update object,Update object in Apttus,{}
+Arcanum,https://www.workato.com/integrations/arcanum,action,Upload invoice file,Arcanum AI Extract data from invoice,{}
+Asana,https://www.workato.com/integrations/asana,trigger,New  event,New  event in Asana,"{""badge"": ""Real-time""}"
+Asana,https://www.workato.com/integrations/asana,trigger,New or updated tasks trigger,New or updated task in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Custom action,Custom action in Asana (Custom),{}
+Asana,https://www.workato.com/integrations/asana,action,Add task to section,Add task to section in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Create subtask,Create subtask in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Create tag,Create tag in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Create task,Create task in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Get people details by ID,Get people details by ID in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Get project detail by ID,Get project details by ID in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,Get project sections,Get sections in project in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,Get task details by ID,Get task details by ID in Asana,{}
+Asana,https://www.workato.com/integrations/asana,action,List all tasks with tag,List tasks with tag in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,List people,List people in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,List project tasks,List tasks in project in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,List workspaces,List workspaces in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,Search projects,Search projects in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,Search tags,Search tags in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,Search tasks,Search tasks in workspace in Asana,"{""badge"": ""Batch""}"
+Asana,https://www.workato.com/integrations/asana,action,Update task,Update task in Asana,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,Application changed stage,Application state changed in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,Application submitted,Application submitted in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,Candidate hired,Candidate hired in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,New/Updated interview schedule,New/Updated interview schedule in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,New/Updated offer,An offer in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,Offer deleted,Deleted offer in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,Published/Unpublished job posting,A job posting in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,trigger,Survey submitted,Survey submitted in Ashby,"{""badge"": ""Real-time""}"
+Ashby,https://www.workato.com/integrations/ashby,action,Custom action,Custom action in Ahsby (Custom),{}
+Ashby,https://www.workato.com/integrations/ashby,action,Change application stage,Change application stage in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Create application,Consider candidate for a job in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,New candidate,Create new candidate in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,New candidate note,Create new candidate note in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Search candidates,Search candidates in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Search job,Search job in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Search user,Search user in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Transfer application,Transfer application in Ahsby,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Update candidate,Update candidate in Ahsby,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,action,Custom action,Custom action in  (Custom),{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,action,Create record,Create record in Aspera,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,action,Get record details by ID,Get record  in Aspera,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,action,Search records,Search records  in Aspera,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,action,Send a Package,Send a Package in Aspera,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,action,Update record,Update record in Aspera,{}
+Astra,https://www.workato.com/integrations/astra,action,Custom action,Custom action in Astra (Custom),{}
+Astra,https://www.workato.com/integrations/astra,action,Create documents in batch,Create documents in Astra,"{""badge"": ""Batch""}"
+Astra,https://www.workato.com/integrations/astra,action,Create document,Create document in Astra,{}
+Astra,https://www.workato.com/integrations/astra,action,Delete document,Delete  document   in Astra,{}
+Astra,https://www.workato.com/integrations/astra,action,Get document by ID,Get  document   in Astra,{}
+Astra,https://www.workato.com/integrations/astra,action,Search documents,Search documents  in Astra,{}
+Astra,https://www.workato.com/integrations/astra,action,Update document,Update document in Astra,{}
+Astra,https://www.workato.com/integrations/astra,action,Update a path in a document,Update path in a documentsin Astra,{}
+Astrix,https://www.workato.com/integrations/astrix,trigger,New record,New record in Astrix,{}
+Astrix,https://www.workato.com/integrations/astrix,trigger,New/updated record,New/updated record in Astrix,{}
+Astrix,https://www.workato.com/integrations/astrix,action,Search records,Search for records in Astrix,{}
+Auth0,https://www.workato.com/integrations/auth0,action,Create a User,Create a User in Auth 0,{}
+Auth0,https://www.workato.com/integrations/auth0,action,List Users,List Users in Auth 0,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),trigger,New event in a project,New event in a project in Autodesk Construction Cloud,"{""badge"": ""Real-time""}"
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),trigger,New or updated object in a project,New or updated object in a project in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Create object in a project,Create object in a project in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Custom action,Custom action in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Download object in a project,Download object in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Get object in a project,Get object in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Search for objects in a project,Search for object in a project in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Update object in a project,Update object in a project in Autodesk Construction Cloud,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,Upload object to a project,Upload object to a project in Autodesk Construction Cloud,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,List Users,List Users in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Custom action,Custom action in Automation Anywhere A360 (Custom),{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Workitem – Add,Insert Workitem in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Workitem – Delete,Delete Workitem in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Bot – Deploy with Input and callback,Deploy Bot in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,In progress / Historical Activity.,Get Activity List in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Queue – Get,Search Queues in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Workitem – Get,Search Workitems in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Audit Logs,Get Audit Logs in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Bot – List,List Bots in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Credential – Search by ID,Search Credential By Id in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Get Device,Search Devices in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Bot – Schedule,Schedule Bot in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Credentials – Search by Name,Search Credentials in Automation Anywhere A360,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,action,Workitem – Update,Update Workitem in Automation Anywhere A360,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Custom action,Custom action in Awardco (Custom),{}
+Awardco,https://www.workato.com/integrations/awardco,action,Activate user,Activate User in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Archive user,Archive User in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Recognize multiple users via queued recognitions,Recognize Multiple Users via Queued Recognitions in Awardco,"{""badge"": ""Bulk""}"
+Awardco,https://www.workato.com/integrations/awardco,action,Recognize multiple users,Recognize Multiple Users in Awardco,"{""badge"": ""Bulk""}"
+Awardco,https://www.workato.com/integrations/awardco,action,Create user,Create User in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Get report,Get  Report  in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Get report as CSV,Get  Report as CSV  in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Get user file,Get User File in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Import users,Import User File to Awardco,"{""badge"": ""Bulk""}"
+Awardco,https://www.workato.com/integrations/awardco,action,Recognize user,Recognize User in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Reset password,Reset User's Password in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Get social feed,Get Social Feed in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Get user balance,Get User's Point Balance in Awardco,{}
+Awardco,https://www.workato.com/integrations/awardco,action,Check user exists,Check User Exists in Awardco,{}
+AWS API Gateway,https://www.workato.com/integrations/aws-api-gateway,action,Custom action,Custom action in AWS API Gateway,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,action,Custom action,Custom action in AWS Athena,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,action,Execute SQL query,Executes the provided SQL Query in Athena,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,action,Get query execution status,Returns the status of the SQL Query run in Athena,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,action,Get query results (batch),Returns the result of the SQL Query run in Athena,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Analyse text,Analyse text to answer user-provided questions using  model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Categorise text,Classify text based on user-defined categories using  model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Converse with models,Converse with a model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Draft email,Generate draft email using  model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Generate or modify images,Generate an image using  model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Generate text embedding,Generates text embedding using model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Parse text,Parse text to find specific information using  model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Send message to models,Sends a message to model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Summarize text,Summarize text using  model in AWS Bedrock,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,action,Translate text,Translate text into a different language using  model in AWS Bedrock,{}
+AWS GuardDuty,https://www.workato.com/integrations/aws-guardduty,action,Custom action,Custom action in AWS GuardDuty,{}
+AWS GuardDuty,https://www.workato.com/integrations/aws-guardduty,action,Get record details by ID,Get record by ID in AWS GuardDuty,{}
+AWS GuardDuty,https://www.workato.com/integrations/aws-guardduty,action,Search records,Search records in AWS GuardDuty,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,Create a key,Creates a new key in the AWS account and Region,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,Decrypt ciphertext,Decrypts ciphertext using KMS key,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,Describe key,Describe key information,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,Encrypt text,Encrypts a text using KMS key,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,List keys,Gets a list of all KMS keys in the caller's AWS account and Region.,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,ReEncrypt ciphertext,ReEncrypt ciphertext using KMS key,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,Sign a message,Sign a message using KMS key,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,action,Verify message signature,Verify a message's digital signature,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,action,Create secret,Creates a new secret in secrets manager,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,action,Get a random password,Fetches a randomly generated password,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,action,Get secret value,Fetches the value of a secret,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,action,List secret versions,Lists the versions of a secret,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,action,List secrets,List secrets stored within Secrets Manager,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,trigger,New finding,New finding in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,trigger,New/updated finding,New or updated finding in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Create insight,Create insight in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Custom action,Custom action in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Get findings,Get findings in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Get insight results,Get insight results in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Get members,Get members in AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Batch import findings,Imports a list of findings into AWS Security Hub,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,Batch update findings,Update findings in batch in AWS Security Hub,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,New deleted user,New deleted User in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,New group,New group in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,New/updated group,New or updated group in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,New/updated user,New or updated User in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,New user,New User in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Custom action,Custom action in Microsoft Entra ID (Azure Active Directory) (Custom),{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Add member to group,Add member to group in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Add or remove user license,Add or remove User license(s) in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Create group,Create group in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Create user,Create user in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Delete group,Delete group in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Delete user,Delete user in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Get group details by ID,Get group by ID in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Search group members,Search group members in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Search transitive group members,Search transitive group members in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Get user details by ID,Get user by ID in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Get user license,Get User license by ID Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Search users,Search users in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Remove member from group,Remove member from group in Microsoft Entra ID (Azure Active Directory),{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Revoke sign-in session,Revoke user sign-in session in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Update group,Update group in Microsoft Entra ID,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Update user,Update user in Microsoft Entra ID,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,trigger,New event,New event in Azure DevOps,"{""badge"": ""Real-time""}"
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,Create record,Create record in Azure DevOps,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,Custom action,Custom action in Azure DevOps,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,Get record,Get record in Azure DevOps,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,Search records,Search records in Azure DevOps,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,Update record,Update record in Azure DevOps,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,Upload work item attachment,Upload work item attachment in Azure DevOps,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Analyze document,Analyze document in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Create record,Create record in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Custom action,Custom action in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Delete record,Delete record in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Execute operation,Execute operation in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Get record details by ID,Get record details by ID in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Search records,Search records in Azure Form Recognizer,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,action,Update record,Update record in Azure Form Recognizer,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,trigger,New record,New record in Azure Sentinel,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,trigger,New/updated record,New/updated record in Azure Sentinel,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,action,Custom action,Custom action in  (Custom),{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,action,Search records,Search for records in Azure Sentinel,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,trigger,New message,New Message in Azure Service Bus,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,trigger,New messages,New messages in Azure Service Bus,"{""badge"": ""Batch""}"
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,Custom action,Custom action in Azure Service Bus (Custom),{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,Delete message,Delete message in Azure Service Bus,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,Peek-lock message,Peek-lock message from Azure Service Bus queue or subscription,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,Receive and delete message,Receive and delete message from queue or subscription in Azure Service Bus,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,Send message,Send message to Azure Service Bus queue or topic,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,Send multiple messages,Send message in batch to Azure Service Bus queue or topic,{}
+Backlog,https://www.workato.com/integrations/backlog,trigger,New event,New event in Backlog,"{""badge"": ""Real-time""}"
+Backlog,https://www.workato.com/integrations/backlog,action,Custom action,Custom action in Backlog (Custom),{}
+Backlog,https://www.workato.com/integrations/backlog,action,Get issue count,Get issue count in Backlog,{}
+Backlog,https://www.workato.com/integrations/backlog,action,Create record,Create record in Backlog,{}
+Backlog,https://www.workato.com/integrations/backlog,action,Delete record,Delete record in Backlog,{}
+Backlog,https://www.workato.com/integrations/backlog,action,Get record,Get record in Backlog,{}
+Backlog,https://www.workato.com/integrations/backlog,action,Search records,Search records in Backlog,{}
+Backlog,https://www.workato.com/integrations/backlog,action,Update record,Update record in Backlog,{}
+Bakuraku (バクラク),https://www.workato.com/integrations/bakuraku-(バクラク),action,Custom action,Custom action in Bakuraku (バクラク) (Custom),{}
+Bakuraku (バクラク),https://www.workato.com/integrations/bakuraku-(バクラク),action,申請詳細の取得,バクラク申請・経費精算で申請された申請の詳細情報を取得できます。,{}
+Bakuraku (バクラク),https://www.workato.com/integrations/bakuraku-(バクラク),action,申請一覧の取得,バクラク申請・経費精算で申請された一覧情報を取得できます。,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,New employee,New employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,New employee,New employee in BambooHR,"{""badge"": ""Real-time""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,Schedule custom employee report,Scheduled report in BambooHR,"{""badge"": ""Batch""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,New/updated employee,New/updated employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,New/updated employee,New/updated employee in BambooHR,"{""badge"": ""Real-time""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Custom action,Custom action in BambooHR (Custom),{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Create employee,Create employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Create/update time off request,Create/update a time off request on BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Create table record of employee,Create table record of employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Delete table record,Delete table record of employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Get company employee report by ID,Get company report by ID in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Get employee details by ID,Get employee details in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Get table records of employee,Get table records of employee in BambooHR,"{""badge"": ""Batch""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,action,List employees in directory,List employees in BambooHR,"{""badge"": ""Batch""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,action,List time off requests,List time off request on BambooHR,"{""badge"": ""Batch""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Create custom employee report,Create a custom report on employees in BambooHR,"{""badge"": ""Batch""}"
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Update employee,Update employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Update table record of employee,Update table record of employee in BambooHR,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Update time off request status,Update time off request on BambooHR,{}
+Barista,https://www.workato.com/integrations/barista,action,Onboard Employee,Create Employee in        'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Post KB,Create KB in        'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Delete Employee,Delete Employee in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Generate Integration Token,Generate Integration Token in '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get All Employees,GET All Employees from Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get All KBs,GET All KBs from Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get Conversation from Channel,GET Conversation from Channel,{}
+Barista,https://www.workato.com/integrations/barista,action,Get Employee by Email,Search Employee in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get Employee by ID,Search Employee in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get Report9 by ESP Filters,GET Report9 Data in '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get Task,Get Task from '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Get Task by Channel ID,Get Task from '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Parse CSV Data,Parse CSV Data in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Parse CSV Status Check,Parse CSV Status Check in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Patch KB,Patch KB in        'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Post Data To Channel,Post Data to Barista channel,{}
+Barista,https://www.workato.com/integrations/barista,action,Post Sync IDs,Post Sync IDs in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Search Employees,Search Employees in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Terminate Employee,Terminate Employee in Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Channel Live Agent Session Mode,Performs a PATCH to a Channel Object to set sys_custom_fields.start_live_agent_suppor=True/False,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Employee,Update Employee in '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Reference Number on Task,Update Reference Number in '       'Barista Task,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Report9 Data,Update Report9 Data in '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Task,Update Task in '       'Barista,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Task Owner,Change Owner on Tasks,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Task Status,Change Status on Tasks,{}
+Barista,https://www.workato.com/integrations/barista,action,Update Task Live Agent Session Mode,Performs a PATCH to a Task Object to set sys_custom_fields.start_live_agent_suppor=True/False,{}
+Barista,https://www.workato.com/integrations/barista,action,Upload CSV file to barista,Upload CSV File to Barista,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,trigger,New form response,Triggers an event whenever form gets submitted.,"{""badge"": ""Real-time""}"
+Beaconstac,https://www.workato.com/integrations/beaconstac,trigger,QR code created,Triggers an event whenever QR gets created in you beaconstac account.,"{""badge"": ""Real-time""}"
+Beaconstac,https://www.workato.com/integrations/beaconstac,trigger,QR code scanned,Triggers an event whenever QR code scanned in your beaconstac account,"{""badge"": ""Real-time""}"
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,Downlaod QR,Downlaod QR code from beaconstac,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,Upload file,Upload File to Beaconstac,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,Create Dynamic QR Code,Create Dynamic QR Code in Beaconstac,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,Create Static QR code,Create Static QR code in Beaconstac,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,Update Dynamic QR Code,Update Dynamic QR Code in Beaconstac,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Create record,Create record in Benchling,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Custom action,Custom action in Benchling,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Delete record,Delete record in Benchling,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Execute operation,Execute operation in Benchling,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Get record details by ID,Get record details by ID in Benchling,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Search records,Search records in Benchling,{}
+Benchling,https://www.workato.com/integrations/benchling,action,Update record,Update record in Benchling,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,trigger,New record,New record in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,trigger,New or updated record,New or updated record in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,trigger,New or updated record,New or updated record in BigCommerce,"{""badge"": ""Real-time""}"
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Custom action,Custom action in  (Custom),{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Create record,Create record in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Ensure get record,Ensure (creates with basic parameters if not found) get record in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Get record,Get record by  ID in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Get records,Get record by  ID in batches in BigCommerce,"{""badge"": ""Batch""}"
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Search records,Search records in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Update record,Update record in BigCommerce,{}
+Big Commerce,https://www.workato.com/integrations/big-commerce,action,Upsert records,Upsert record in batches inBigCommerce,"{""badge"": ""Batch""}"
+Bigtincan,https://www.workato.com/integrations/bigtincan,trigger,New form submission,New form submission in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,trigger,New story,New story in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Custom action,Custom action in Bigtincan (Custom),{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Create story,Create story in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Delete story,Delete story in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Get form by ID,Get form by ID in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Get form data by ID,Get form data by ID in Bigtincan,"{""badge"": ""Batch""}"
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Get story by ID,Get story by ID in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,List channels,List channels in Bigtincan,"{""badge"": ""Batch""}"
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,List form categories,List form categories in Bigtincan,"{""badge"": ""Batch""}"
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,List form fields,List form fields in Bigtincan,{}
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,List forms,List forms in Bigtincan,"{""badge"": ""Batch""}"
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,List stories,List stories in Bigtincan,"{""badge"": ""Batch""}"
+Bigtincan,https://www.workato.com/integrations/bigtincan,action,Update story,Update story in Bigtincan,{}
+BILL,https://www.workato.com/integrations/bill,trigger,New record,New object in BILL ,{}
+BILL,https://www.workato.com/integrations/bill,trigger,New/updated record,New/updated object in BILL ,{}
+BILL,https://www.workato.com/integrations/bill,action,Custom action,Custom action in BILL (Custom),{}
+BILL,https://www.workato.com/integrations/bill,action,Add line to invoice,Add line item to invoice in BILL,{}
+BILL,https://www.workato.com/integrations/bill,action,Create record,Create object in BILL ,{}
+BILL,https://www.workato.com/integrations/bill,action,Delete record,Delete object in BILL ,{}
+BILL,https://www.workato.com/integrations/bill,action,Get disbursement data,Get disbursement data in BILL,{}
+BILL,https://www.workato.com/integrations/bill,action,Get record details by ID,Get object by ID in BILL ,{}
+BILL,https://www.workato.com/integrations/bill,action,Search record,Search object in BILL ,"{""badge"": ""Batch""}"
+BILL,https://www.workato.com/integrations/bill,action,Update record,Update object in BILL ,{}
+biotime,https://www.workato.com/integrations/biotime,action,Custom action,Custom action in biotime v1 (Custom),{}
+biotime,https://www.workato.com/integrations/biotime,action,Create or Update Employee,Create or Update Employee in Biotime v 1,{}
+biotime,https://www.workato.com/integrations/biotime,action,Get Employee,Get Employee in Biotime v 1,{}
+biotime,https://www.workato.com/integrations/biotime,action,Update an Accrual Balance for an Employee,Update an Accrual Balance for an Employee in Biotime v 1,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,trigger,New or updated project,New or updated project  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Create activity,Create activity  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Create project,Create project  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Create timelog,Create time log  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Create user,Create a user  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Custom action,Custom action in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Delete user,Deletes a user  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Get activities by project ID,Get all project activities  by Project ID  in Birdview PSA ,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Get activities by task ID,Get project activities  by ID in Birdview PSA ,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Get members by project ID,Get members  by Project ID  in Birdview PSA ,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Get project by ID,Get project  by project ID in Birdview PSA ,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Get timelogs by ID,Get time logs  by ID  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Get user by ID,Get a user  by ID in Birdview PSA ,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,List activities,List all activities  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,List projects,List all projects  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,List timelogs,List all time logs  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,List users,List all users  in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Update project,Update project in Birdview PSA,{}
+Birdview PSA,https://www.workato.com/integrations/birdview-psa,action,Update user,Update user  in Birdview PSA,{}
+Bitbucket,https://www.workato.com/integrations/bitbucket,trigger,Closed issue,Closed or updated issue in Bitbucket,{}
+Bitbucket,https://www.workato.com/integrations/bitbucket,trigger,New issue,New issue (real time) in Bitbucket,"{""badge"": ""Real-time""}"
+Bitbucket,https://www.workato.com/integrations/bitbucket,trigger,New or updated issue,New or updated issue (real time) in Bitbucket,"{""badge"": ""Real-time""}"
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Custom action,Custom action in Bitbucket (Custom),{}
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Create comment in an issue,Create comment in an issue in Bitbucket,{}
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Create issue,Create issue in Bitbucket,{}
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Get events,Get events in Bitbucket,"{""badge"": ""Batch""}"
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Get issue by ID,Get issue by id in Bitbucket,{}
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,List comments in an issue,List comments in an issue in Bitbucket,"{""badge"": ""Batch""}"
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Search issues,Search issues in Bitbucket,"{""badge"": ""Batch""}"
+Bitbucket,https://www.workato.com/integrations/bitbucket,action,Update issue by ID,Update issue in Bitbucket,{}
+Bitlocker,https://www.workato.com/integrations/bitlocker,action,Custom action,Custom action in Bitlocker (Custom),{}
+Bitlocker,https://www.workato.com/integrations/bitlocker,action,Get recovery key by recovery key ID in Bitlocker,Get Recovery key in Bitlocker,{}
+Bitlocker,https://www.workato.com/integrations/bitlocker,action,Get recovery key by user ID in Bitlocker,Get Recovery keys in Bitlocker,{}
+Bitlocker,https://www.workato.com/integrations/bitlocker,action,List user owned devices,List user owned devices in Bitlocker,{}
+Biz Gate,https://www.workato.com/integrations/biz-gate,action,BizGate 企業情報を取得,Get BizGate 企業 in Biz-Gate,{}
+Biz Gate,https://www.workato.com/integrations/biz-gate,action,BizGate 部署情報を取得,Get BizGate 部署 in Biz-Gate,{}
+Biz Gate,https://www.workato.com/integrations/biz-gate,action,BizGate キーマン情報を取得,Get BizGate キーマン in Biz-Gate,{}
+Biz Gate,https://www.workato.com/integrations/biz-gate,action,BizGate キーマン人名情報を取得,Get BizGate キーマン人名 in Biz-Gate,{}
+Biz Gate,https://www.workato.com/integrations/biz-gate,action,BizGate マーケ情報を取得,Get BizGate マーケ in Biz-Gate,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import account assignments,Import account assignments in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import account balances,Import account balances in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import account group mappings,Import account group mappings in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import account group settings,Import account group settings in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import account settings,Import account settings in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import bank balances,Import bank balances in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import budgets,Import budgets in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import CIM mappings,Import CIM mappings in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import currency rates,Import currency rates in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import entities,Import entities in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import entity types,Import entity types in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import item detail,Import item detail in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import multi-currency balances,Import multi-currency balances in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import subledger balances,Import subledger balances in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import task dependencies,Import task dependencies in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import task description,Import task description in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import tasks,Import tasks in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import tasks auto-certify completion,Import tasks auto-certify completion in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import team types,Import team types in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import teams,Import teams in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import user entities,Import user entities in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import user roles,Import user roles in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import user team assignments,Import user team assignments in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import users,Import users in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import variance group mapping,Import variance group mapping in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import variance group settings,Import variance group settings in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import variance rules,Import variance rules in BlackLine,{}
+BlackLine,https://www.workato.com/integrations/blackline,action,Import variance settings,Import variance settings in BlackLine,{}
+BlackLine Reports,https://www.workato.com/integrations/blackline-reports,action,Get report content in CSV,Get report content (CSV) in BlackLine Reports,{}
+BlackLine Reports,https://www.workato.com/integrations/blackline-reports,action,List reports,List reports in BlackLine Reports,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,trigger,New Published Contribution,New Contribution in Bloomfire,"{""badge"": ""Real-time""}"
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Create a New Question,Create Question in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Custom action,Custom action in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Post By ID,Get Post By ID created in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Question By ID,Get Question By ID created in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Related Questions,Get Possible Questions posted in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Search Filters,Get all the Filters you can apply to a Search in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Tags,List All Tags in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Taxonomies,Get Taxonomies created in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Get Question By User,Get Questionsposted by a user in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Search for Users,Search for Users in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,List All Users,List All Users By ID created in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Save Answer,Save Answer related to a Question in Bloomfire,{}
+Bloomfire,https://www.workato.com/integrations/bloomfire,action,Search for Content,List All Content in Bloomfire,{}
+Bluepoint,https://www.workato.com/integrations/bluepoint,action,Custom action,Custom action in Bluepoint (Custom),{}
+Bluepoint,https://www.workato.com/integrations/bluepoint,action,Search records,Search records in Bluepoint,{}
+BMC Helix ITSM,https://www.workato.com/integrations/bmc-helix-itsm,trigger,New/updated record,New/updated  record in BMC Helix ITSM,{}
+BMC Helix ITSM,https://www.workato.com/integrations/bmc-helix-itsm,action,Custom action,Custom action in  (Custom),{}
+BMC Helix ITSM,https://www.workato.com/integrations/bmc-helix-itsm,action,Create record,Create record in BMC Helix ITSM,{}
+BMC Helix ITSM,https://www.workato.com/integrations/bmc-helix-itsm,action,Get record details by ID,Get record  in BMC Helix ITSM,{}
+BMC Helix ITSM,https://www.workato.com/integrations/bmc-helix-itsm,action,Search records,Search records  in BMC Helix ITSM,{}
+BMC Helix ITSM,https://www.workato.com/integrations/bmc-helix-itsm,action,Update record,Update record in BMC Helix ITSM,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,trigger,New or updated case,New or updated case in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Get all ticket statuses,Get all ticket statuses in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Get case by ID,Get case by ID in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Get person by ID,Get person by ID in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Get questions by case ID,Get questions by case ID in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Get reasons by ticket status ID,Get reasons by ticket status ID in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Search case,Search case in BMC Innovation Suite,{}
+BMC Innovation Suite,https://www.workato.com/integrations/bmc-innovation-suite,action,Update case,Update case in BMC Innovation Suite,{}
+Breeze,https://www.workato.com/integrations/breeze,action,Custom action,Custom action in  (Custom),{}
+Breeze,https://www.workato.com/integrations/breeze,action,Create object,Create   object  in Breeze,{}
+Breeze,https://www.workato.com/integrations/breeze,action,Get object details by ID,Get details of specific  record  by  ID  in Breeze,{}
+Breeze,https://www.workato.com/integrations/breeze,action,List objects,List  objects  in Breeze,{}
+Breeze,https://www.workato.com/integrations/breeze,action,Move task (card),Move   task (card)  in Breeze,{}
+Breeze,https://www.workato.com/integrations/breeze,action,Update object,Update   object  in Breeze,{}
+Brex,https://www.workato.com/integrations/brex,action,List users in Brex,This endpoint lists all users.,{}
+Brex,https://www.workato.com/integrations/brex,action,Invite user to Brex,This endpoint invites a new user as an employee.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get current user in Brex,This endpoint returns the user associated with the OAuth2 access token. ,{}
+Brex,https://www.workato.com/integrations/brex,action,Get user in Brex,This endpoint returns a user by ID. ,{}
+Brex,https://www.workato.com/integrations/brex,action,Update user in Brex,This endpoint updates a user. Any parameters not provided will be left unchanged.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get limit for the user in Brex,This endpoint gets the monthly limit for the user including the monthly available limit. ,{}
+Brex,https://www.workato.com/integrations/brex,action,Set limit for the user in Brex,This endpoint sets the monthly limit for a user. The limit amount must be non-negative.,{}
+Brex,https://www.workato.com/integrations/brex,action,List locations in Brex,This endpoint lists all locations.,{}
+Brex,https://www.workato.com/integrations/brex,action,Create location in Brex,This endpoint creates a new location.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get location in Brex,This endpoint gets a location by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,List departments in Brex,This endpoint lists all departments.,{}
+Brex,https://www.workato.com/integrations/brex,action,Create department in Brex,This endpoint creates a new department.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get department in Brex,This endpoint gets a department by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,Lists all cards by a user_id in Brex,"Lists all cards by a user_id.
+        Only cards with limit_type = CARD have spend_controls.",{}
+Brex,https://www.workato.com/integrations/brex,action,Create card in Brex,This endpoint creates a new card.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get card in Brex,This endpoint retrieves a card by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,Update card in Brex,This endpoint updates an existing vendor card.,{}
+Brex,https://www.workato.com/integrations/brex,action,Lock card in Brex,This endpoint locks an existing card.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get card number in Brex,"This endpoint retrieves card number, CVV, and expiration date of a card by ID.",{}
+Brex,https://www.workato.com/integrations/brex,action,Terminate card in Brex,This endpoint terminates an existing card.,{}
+Brex,https://www.workato.com/integrations/brex,action,Unlock card in Brex,This endpoint unlocks an existing card.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get company in Brex,This endpoint returns the company associated with the OAuth2 access token.,{}
+Brex,https://www.workato.com/integrations/brex,action,Lists vendors in Brex,"This endpoint lists all existing vendors for an account.
+        Takes an optional parameter to match by vendor name.",{}
+Brex,https://www.workato.com/integrations/brex,action,Create vendor in Brex,This endpoint creates a new vendor.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get vendor in Brex,This endpoint retrieves a vendor by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,Update vendor in Brex,This endpoint updates an existing vendor.,{}
+Brex,https://www.workato.com/integrations/brex,action,Delete vendor in Brex,This endpoint deletes an existing vendor.,{}
+Brex,https://www.workato.com/integrations/brex,action,Lists transfers in Brex,"This endpoint lists existing transfers for an account
+        Currently, the API can only return transfers for the following payment rails: ACH, DOMESTIC_WIRE, CHEQUE, INTERNATIONAL_WIRE",{}
+Brex,https://www.workato.com/integrations/brex,action,Create transfer in Brex,This endpoint creates a new transfer.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get transfer in Brex,This endpoint retrieves a transfer by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,List transactions for the primary card account in Brex,This endpoint lists all settled transactions for the primary card account.,{}
+Brex,https://www.workato.com/integrations/brex,action,List transactions for the selected cash account in Brex,This endpoint lists all transactions for the cash account with the selected ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,List card accounts in Brex,This endpoint lists all accounts of card type,{}
+Brex,https://www.workato.com/integrations/brex,action,List primary card account statements in Brex,This endpoint lists all finalized statements for the primary card account.,{}
+Brex,https://www.workato.com/integrations/brex,action,List cash accounts in Brex,This endpoint lists all the existing cash accounts with their status.,{}
+Brex,https://www.workato.com/integrations/brex,action,List cash account statements in Brex,This endpoint lists all finalized statements for the cash account by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,List referrals in Brex,This endpoint lists unexpired referrals.,{}
+Brex,https://www.workato.com/integrations/brex,action,Create a referral in Brex,This endpoint creates a referral.,{}
+Brex,https://www.workato.com/integrations/brex,action,Get referral by ID in Brex,This endpoint gets a referral by ID.,{}
+Brex,https://www.workato.com/integrations/brex,action,Create a new document upload in Brex,This endpoint creates a referral.,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,trigger,New or updated contact,New or updated contact  in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,trigger,Updated opportunity status in BidBoard Pro,Updated opportunity status  in BidBoard Pro,"{""badge"": ""Real-time""}"
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Custom action,Custom action in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get bidder by ID,Get bidder by ID ,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get bidders for a bid package,Get bidders for a bid package in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get contact by ID,Get contact by ID in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get contacts,Get contacts in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get project by ID,Get project by ID in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get projects,Get projects in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get qualification submission,Get qualification submission in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get qualification form,Get qualification form in BuildingConnected,{}
+BuildingConnected,https://www.workato.com/integrations/buildingconnected,action,Get completed TradeTapp qualifications,Get completed TradeTapp qualifications in BuildingConnected,{}
+Bynder,https://www.workato.com/integrations/bynder,trigger,New asset,New asset in ​Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,trigger,New/updated asset,New/updated asset in ​Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Custom action,Custom action in Bynder (Custom),{}
+Bynder,https://www.workato.com/integrations/bynder,action,Add assets to collection,Add assets to a collection in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Add tag to assets,Add a tag to assets in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Create asset usage,Create asset usage in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Delete assets from collection,Delete assets from collection in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Download asset,Download asset in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Get record details by ID,Get records details by ID in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,List brands,List brands in Bynder,"{""badge"": ""Batch""}"
+Bynder,https://www.workato.com/integrations/bynder,action,Retrieve assets in collection,Retrieve asset in collection  in Bynder,"{""badge"": ""Batch""}"
+Bynder,https://www.workato.com/integrations/bynder,action,Search records,Search records in Bynder,"{""badge"": ""Batch""}"
+Bynder,https://www.workato.com/integrations/bynder,action,Share collection,Share collection  in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Update record,Update record in Bynder,{}
+Bynder,https://www.workato.com/integrations/bynder,action,Upload asset,Upload asset in Bynder,{}
+Calendly,https://www.workato.com/integrations/calendly,trigger,New event,New event in Calendly,"{""badge"": ""Real-time""}"
+Calendly,https://www.workato.com/integrations/calendly,action,Custom action,Custom action in  (Custom),{}
+Calendly,https://www.workato.com/integrations/calendly,action,List event types,List Event types  in Calendly,{}
+Campaign Cleaner,https://www.workato.com/integrations/campaign-cleaner,action,Get Campaign List,Get Campaign List in Campaign  cleaner,{}
+Campaign Cleaner,https://www.workato.com/integrations/campaign-cleaner,action,Get Credits,Get Credits in Campaign  cleaner,{}
+Campaign Cleaner,https://www.workato.com/integrations/campaign-cleaner,action,Delete Campaign,Delete Campaign in Campaign  cleaner,{}
+Campaign Cleaner,https://www.workato.com/integrations/campaign-cleaner,action,Get Campaign,Get Campaign in Campaign  cleaner,{}
+Campaign Cleaner,https://www.workato.com/integrations/campaign-cleaner,action,Get Campaign Status,Get Campaign Status in Campaign  cleaner,{}
+Campaign Cleaner,https://www.workato.com/integrations/campaign-cleaner,action,Send Campaign,Send Campaign in Campaign  cleaner,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,trigger,New subscriber,New subscriber in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Add subscriber,Add subscriber in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Custom action,Custom action in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Delete subscriber,Delete subscriber in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Get campaign recipients,Get campaign recipients in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Get campaign summary,Get campaign summary in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Get client details,Get client details in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Get email client usage,Get email client usage in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Get sent campaigns,Get sent campaigns in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Get subscriber details,Get subscriber details in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Unsubscribe subscriber,Unsubscribe subscriber in Campaign Monitor,{}
+Campaign Monitor,https://www.workato.com/integrations/campaign-monitor,action,Update subscriber,Update subscriber in Campaign Monitor,{}
+Camplife,https://www.workato.com/integrations/camplife,action,Custom action,Custom action in Camplife (Custom),{}
+Camplife,https://www.workato.com/integrations/camplife,action,Create record,Create  record  in Camplife,{}
+Camplife,https://www.workato.com/integrations/camplife,action,Get record,Get  record  in Camplife,{}
+Camplife,https://www.workato.com/integrations/camplife,action,Search records,Search  records  in Camplife,{}
+Camplife,https://www.workato.com/integrations/camplife,action,Update record,Update  record  in Camplife,{}
+Canva,https://www.workato.com/integrations/canva,trigger,New event,New  event in Canva Connect,"{""badge"": ""Real-time""}"
+Canva,https://www.workato.com/integrations/canva,action,Custom action,Custom action in Canva Connect (Custom),{}
+Canva,https://www.workato.com/integrations/canva,action,Create design autofill,Create design autofill in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Create record,Create record in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Delete record,Delete record  in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Export a design,Export a design in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Get record details by ID,Get record  in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Import a design,Import a design in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Search records,Search records in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Update record,Update record in Canva Connect,{}
+Canva,https://www.workato.com/integrations/canva,action,Upload asset,Upload asset in Canva Connect,{}
+Canvas LMS,https://www.workato.com/integrations/canvas-lms,action,Get Assignments,Get  Course Assignments in Canvas LMS,{}
+Canvas LMS,https://www.workato.com/integrations/canvas-lms,action,Get Courses,Get  Course information in Canvas LMS,{}
+Canvas LMS,https://www.workato.com/integrations/canvas-lms,action,Get Students,Get  Students List in Canvas LMS,{}
+Canvas LMS,https://www.workato.com/integrations/canvas-lms,action,Get Students (Old),Get  Students List in Canvas LMS,{}
+Canvas LMS,https://www.workato.com/integrations/canvas-lms,action,Get Sections,Get  Sections in Canvas LMS,{}
+Canvas LMS,https://www.workato.com/integrations/canvas-lms,action,Get Submissions,Get  Submissions in Canvas LMS,{}
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,trigger,New event,New  event in Capsule CRM,"{""badge"": ""Real-time""}"
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,trigger,New record,New record in Capsule CRM.,{}
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,action,Custom action,Custom action in Capsule CRM (Custom),{}
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,action,Create record,Create record in Capsule CRM,{}
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,action,Get record details by ID,Get record by ID in Capsule CRM,{}
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,action,Search records,Search records in Capsule CRM,{}
+Capsule CRM,https://www.workato.com/integrations/capsule-crm,action,Update record,Update record in Capsule CRM,{}
+Casavi,https://www.workato.com/integrations/casavi,trigger,New events,New events in Casavi,"{""badge"": ""Real-time""}"
+Casavi,https://www.workato.com/integrations/casavi,trigger,New or updated trigger,New or updated trigger in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,trigger,New or updated trigger (Batch),New or updated trigger in Casavi (Batch),{}
+Casavi,https://www.workato.com/integrations/casavi,trigger,New trigger,New trigger in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,trigger,New trigger (Batch),New trigger in Casavi (Batch),{}
+Casavi,https://www.workato.com/integrations/casavi,action,Create record,Create record in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,action,Custom action,Custom action in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,action,Delete record,Delete record in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,action,Execute operation,Execute operation in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,action,Get record details by ID,Get record details by ID in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,action,Search records,Search records in Casavi,{}
+Casavi,https://www.workato.com/integrations/casavi,action,Update record,Update record in Casavi,{}
+Caspio,https://www.workato.com/integrations/caspio,trigger,New record,New record in a Caspio table,{}
+Caspio,https://www.workato.com/integrations/caspio,trigger,New/updated record,New/updated record in a Caspio table,{}
+Caspio,https://www.workato.com/integrations/caspio,action,Custom action,Custom action in  (Custom),{}
+Caspio,https://www.workato.com/integrations/caspio,action,Create record,Create record in a Caspio table,{}
+Caspio,https://www.workato.com/integrations/caspio,action,Get field definition,Get Field definition in a Caspio table,{}
+Caspio,https://www.workato.com/integrations/caspio,action,Search records,Search records in a Caspio table,{}
+Caspio,https://www.workato.com/integrations/caspio,action,Update record,Update record in a Caspio table,{}
+Celonis,https://www.workato.com/integrations/celonis,trigger,New Event in Celonis,New Event in Celonis,"{""badge"": ""Real-time""}"
+Ceridian Dayforce,https://www.workato.com/integrations/ceridian-dayforce,trigger,New/updated employee,New/updated employee in Dayforce,{}
+Ceridian Dayforce,https://www.workato.com/integrations/ceridian-dayforce,action,Custom action,Custom action in Ceridian Dayforce (Custom),{}
+Ceridian Dayforce,https://www.workato.com/integrations/ceridian-dayforce,action,Get employee,Get Employee details by XRefCode in Dayforce,{}
+Ceridian Dayforce,https://www.workato.com/integrations/ceridian-dayforce,action,Search employees,Search Employees in Dayforce,{}
+Cerner,https://www.workato.com/integrations/cerner,action,Get patient's medication history,Get patient's medication history in Cerner,{}
+Cerner,https://www.workato.com/integrations/cerner,action,Search for patient,Search for patient with Date of birth and last name,{}
+Cerner,https://www.workato.com/integrations/cerner,action,Observation,Observation in Cerner,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Create Cancellation.,Create Cancellation. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Channels.,Get Channels. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get the BuyBox winner prices,Get the BuyBox winner prices in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Listed Products,Get Listed Products in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Notifications.,Get Notifications. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get stock for products.,Get stock for products. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Update stock and/or price.,Update stock and/or price. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Update only stock.,Update only stock. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Acknowledge Order.,Acknowledge Order. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Orders By Filter.,Get Orders By Filter. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get New Orders.,Get New Orders. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Download Invoice.,Download Invoice. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Download Packing Slip.,Download Packing Slip. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Update Comment.,Update Comment. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Delete multiple Products.,Delete multiple Products. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Bulk Patch Products,Bulk Patch Products in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get product bundles.,Get product bundles. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Upsert Products.,Upsert Products. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Delete Product.,Delete Product. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Products.,Get Products. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Product.,Get Product. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Acknowledge Return.,Acknowledge Return. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Create Return.,Create Return. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Return.,Get Return. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Returns.,Get Returns. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Unhandled Returns.,Get Unhandled Returns. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Mark a return as received.,Mark a return as received. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get settings.,Get settings. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Create Shipment.,Create Shipment. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Create shipment for channel provided shipping labels,Create shipment for channel provided shipping labels in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get carriers for channel provided shipping labels,Get carriers for channel provided shipping labels in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Shipments,Get Shipments in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Download shipping label.,Download shipping label. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Update Shipment.,Update Shipment. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get the stock locations (or virtual warehouses).,Get the stock locations (or virtual warehouses). in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Create Webhook.,Create Webhook. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Delete Webhook.,Delete Webhook. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Get Webhooks.,Get Webhooks. in Channel engine  merchant  API,{}
+ChannelEngine,https://www.workato.com/integrations/channelengine,action,Update Webhook.,Update Webhook. in Channel engine  merchant  API,{}
+Chargebee,https://www.workato.com/integrations/chargebee,trigger,New event,New event   in Chargebee,"{""badge"": ""Real-time""}"
+Chargebee,https://www.workato.com/integrations/chargebee,action,Assign payment role,Assign payment role in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Cancel a subscription,Cancel a subscription in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Close a pending invoice,Close a Pending invoice in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Create record,Create record in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Custom action,Custom action in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Delink customer,Delink customer in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Download invoice as PDF,Download Invoice as PDF in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Get record details by ID,Get record in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Link customer,Link customer in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Search records,Search records in Chargebee,{}
+Chargebee,https://www.workato.com/integrations/chargebee,action,Update record,Update record in Chargebee,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Cancel customer subscription,Cancel a Subscription in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Create customer,Create Customer in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Create invoice,Create Invoice with line items in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Create plan,Create Plan in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Create transaction,Create Transaction in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Get MRR,Get MRR in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Get customer,Get Customer in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Get customer churn count,Get number of customer churns in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Get customer count,Get number of customers in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Get invoices by customer,Get Invoices by customer in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Get subscription by customer,Get Subscription by customer in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Search plan,Search Plan in ChartMogul,{}
+Chart Mogul,https://www.workato.com/integrations/chart-mogul,action,Update customer,Update Customer in ChartMogul,{}
+Checkr,https://www.workato.com/integrations/checkr,trigger,New/updated record,New/updated record  in Checkr,"{""badge"": ""Real-time""}"
+Checkr,https://www.workato.com/integrations/checkr,action,Cancel invitation,Cancel Invitation in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Create record,Create record in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Custom action,Custom action in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Delete record,Delete record in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Download document,Download Document in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Get record,Get record in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Search records,Search records in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Update record,Update record in Checkr,{}
+Checkr,https://www.workato.com/integrations/checkr,action,Upload document,Upload Document in Checkr,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,trigger,New user,New user in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,Assign user to Queue,Assign user to a Queue in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,Delete user,Delete user from Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,Get user,Get user via ID in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,List queues,List queues in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,List users,List users in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,List users in Queue,List users in Queue in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,Search users,Search users in Chili Piper,{}
+Chili Piper,https://www.workato.com/integrations/chili-piper,action,Unassign user from Queue,Unassign user from Queue in Chili Piper,{}
+CICD,https://www.workato.com/integrations/cicd,action,Build and download package,Build and download package from Workato DEV,{}
+CICD,https://www.workato.com/integrations/cicd,action,Build package (Asynchronous),Build package from Workato Environment,{}
+CICD,https://www.workato.com/integrations/cicd,action,Create folder,Create folder in Workato,{}
+CICD,https://www.workato.com/integrations/cicd,action,Deploy package,Deploy package to Workato ,{}
+CICD,https://www.workato.com/integrations/cicd,action,Deploy package (Asynchronous),Deploy package to Workato  asynchronously,{}
+CICD,https://www.workato.com/integrations/cicd,action,Download package,Download package from Workato DEV,{}
+CICD,https://www.workato.com/integrations/cicd,action,Get build package,Get a build package from Workato Environment,{}
+CICD,https://www.workato.com/integrations/cicd,action,Get a deployment package,Get a deployment package from Workato environment,{}
+CICD,https://www.workato.com/integrations/cicd,action,Get Environment by Name,Get Environment by Name in Workato  developer  AP is,{}
+CICD,https://www.workato.com/integrations/cicd,action,Get Environments,Get Environments in Workato  developer  AP is,{}
+CICD,https://www.workato.com/integrations/cicd,action,List folders,List folders in Workato,{}
+CICD,https://www.workato.com/integrations/cicd,action,List all recipes,List recipes in a Workato environment,{}
+CICD,https://www.workato.com/integrations/cicd,action,Manage Recipes,Manage recipes in Workato environment,{}
+CICD,https://www.workato.com/integrations/cicd,action,Upsert Account Properties,Upsert properties to Workato environment,{}
+Circa,https://www.workato.com/integrations/circa,trigger,New record,New record in Circa,{}
+Circa,https://www.workato.com/integrations/circa,trigger,New/updated record,New/updated record in Circa,{}
+Circa,https://www.workato.com/integrations/circa,action,Create record,Create record in Circa,{}
+Circa,https://www.workato.com/integrations/circa,action,Delete record,Delete record in Circa,{}
+Circa,https://www.workato.com/integrations/circa,action,Get record by ID,Get record by ID in Circa,{}
+Circa,https://www.workato.com/integrations/circa,action,Search records,Search records  in Circa,{}
+Circa,https://www.workato.com/integrations/circa,action,Update record,Update record in Circa,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Create group,Create group in Cisco AMP,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Custom action,         Custom action in         Cisco AMP,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Delete computer,Delete computer in Cisco AMP,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Delete group,Delete group in Cisco AMP,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Get computers by user,Get computers by user name in Cisco AMP,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Isolate computer,Isolate computer from network in Cisco AMP,{}
+Cisco Amp,https://www.workato.com/integrations/cisco-amp,action,Search computers,Search computers in Cisco AMP,{}
+Cisco Meraki,https://www.workato.com/integrations/cisco-meraki,action,Create object,Create an object in Cisco Meraki (Dashboard),{}
+Cisco Meraki,https://www.workato.com/integrations/cisco-meraki,action,Custom action, Custom action in Cisco Meraki (Dashboard),{}
+Cisco Meraki,https://www.workato.com/integrations/cisco-meraki,action,Delete object,Delete an object in Cisco Meraki (Dashboard),{}
+Cisco Meraki,https://www.workato.com/integrations/cisco-meraki,action,Get object,Get an object details in Cisco Meraki (Dashboard),{}
+Cisco Meraki,https://www.workato.com/integrations/cisco-meraki,action,Search object,Search for  an object in Cisco Meraki (Dashboard),{}
+Cisco Meraki,https://www.workato.com/integrations/cisco-meraki,action,Update object,Update an object in Cisco Meraki (Dashboard),{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Check modules health,Check modules health in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Custom action, Custom action in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Deliberate on observables,Deliberate on observables in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Deliberate on sighting,Deliberate on a sighting in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Deliberate on sighting reference,Deliberate on a sighting reference in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Get observable references,Get observable references in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Observe observables,Observe observables in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Observe sighting,Observe a sighting in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Observe sighting reference,Observe a sighting reference in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Refer sighting,Refer a sighting in Cisco Threat Response,{}
+Cisco Threat Response,https://www.workato.com/integrations/cisco-threat-response,action,Refer sighting reference,Refer a sighting reference in Cisco Threat Response,{}
+Cisco Umbrella,https://www.workato.com/integrations/cisco-umbrella,action,Create object,Create an object in Cisco Umbrella (Management),{}
+Cisco Umbrella,https://www.workato.com/integrations/cisco-umbrella,action,Custom action, Custom action in Cisco Umbrella (Management),{}
+Cisco Umbrella,https://www.workato.com/integrations/cisco-umbrella,action,Delete object,Delete an object in Cisco Umbrella (Management),{}
+Cisco Umbrella,https://www.workato.com/integrations/cisco-umbrella,action,Get object,Get an object details in Cisco Umbrella (Management),{}
+Cisco Umbrella,https://www.workato.com/integrations/cisco-umbrella,action,Search object,Search for  an object in Cisco Umbrella (Management),{}
+Cisco Umbrella,https://www.workato.com/integrations/cisco-umbrella,action,Update object,Update an object in Cisco Umbrella (Management),{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,trigger,New event,New event in Cisco Webex Meetings,"{""badge"": ""Real-time""}"
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,trigger,New recording,New or updated recording in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Create record,Create record in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Custom action,Custom action in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Delete record,Delete record in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Download recording,Download recoding in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Get record details,Get record in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Search records,Search records in Cisco Webex Meetings,{}
+Cisco Webex Meetings,https://www.workato.com/integrations/cisco-webex-meetings,action,Update record,Update records in Cisco Webex Meetings,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,trigger,New document event,New document event in Citrix RightSignature,"{""badge"": ""Real-time""}"
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Check sending request status,Check sending request status in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Create a sending request for a document,Create a sending request in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Custom action,Custom action in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Get document details,Get document details in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Get template details,Get template details in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Search documents,Search documents in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Search templates,Search templates in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Send document from template,Send document from template in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Send a one-off document,Send a one-off document to signers in Citrix RightSignature,{}
+Citrix Right Signature,https://www.workato.com/integrations/citrix-right-signature,action,Send reminder,Send reminder to pending signers Citrix RightSignature,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,trigger,New event,New  event in Citrix ShareFile,"{""badge"": ""Real-time""}"
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,trigger,New item,New Item in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Create record,Create record in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Custom action,Custom action in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Delete record,Delete record in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Download item content,Download item content in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Download multiple items,Download multiple items in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Get record details by ID,Get record in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Run report,Run Report in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Search records,Search records in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Update record,Update record in Citrix ShareFile,{}
+Citrix Sharefile,https://www.workato.com/integrations/citrix-sharefile,action,Upload item,Upload item in Citrix ShareFile,{}
+Clari,https://www.workato.com/integrations/clari,action,Stop or cancel an in-progress job,Stop or cancel an in-progress job in Clari,{}
+Clari,https://www.workato.com/integrations/clari,action,Create a new Forecast Export,Create a new Forecast Export in Clari,{}
+Clari,https://www.workato.com/integrations/clari,action,Custom action,Custom action in Clari,{}
+Clari,https://www.workato.com/integrations/clari,action,View all jobs initiated by the connection user,View all jobs initiated by the connection user in Clari,{}
+Clari,https://www.workato.com/integrations/clari,action,View the status of a given export using its Job ID,View the status of a given export using its Job ID in Clari,{}
+Clari,https://www.workato.com/integrations/clari,action,Retrieve and save Forecast Export content,Retrieve and save Forecast Export content in Clari,{}
+Clari,https://www.workato.com/integrations/clari,action,View limit information for your organization,View limit information for your organization in Clari,{}
+Clarizen Go,https://www.workato.com/integrations/clarizen-go,trigger,New event,Monitor task event in Clarizen Go,"{""badge"": ""Real-time""}"
+Clarizen Go,https://www.workato.com/integrations/clarizen-go,action,Create task,Create task in Clarizen Go,{}
+Clarizen Go,https://www.workato.com/integrations/clarizen-go,action,Custom action,Custom action in ClarizenGo,{}
+Clarizen Go,https://www.workato.com/integrations/clarizen-go,action,Search records,Search records in Clarizen Go,{}
+Clarizen Go,https://www.workato.com/integrations/clarizen-go,action,Update task,Update task in Clarizen Go,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,trigger,New record,New record in Clarizen,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,trigger,New/updated record,New/updated record in Clarizen,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,action,Create record,Create record in Clarizen,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,action,Custom action,Custom action in Clarizen,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,action,Get record details,Get details of specific  record  by  Entity ID  in Clarizen,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,action,Search records,Search  records  in Clarizen,{}
+Clarizen One,https://www.workato.com/integrations/clarizen-one,action,Update record,Update  record  by  Entity ID  in Clarizen,{}

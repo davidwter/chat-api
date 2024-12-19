@@ -37,3 +37,9 @@ class ConnectorMention < ApplicationRecord
             },
             allow_nil: true
 end
+
+# app/models/connector_action.rb
+class Connector < ApplicationRecord
+  has_many :connector_actions, dependent: :destroy
+  has_many :connector_triggers, dependent: :destroy
+end
