@@ -36,6 +36,10 @@ module Api
               is_user: false
             )
 
+            # Detect and save connector mentions for both messages
+            user_mentions = ConnectorDetectionService.detect_and_save_mentions(message.id, message.content)
+            ai_mentions = ConnectorDetectionService.detect_and_save_mentions(response.id, response.content)
+
             render json: {
               message: message_json(message),
               response: message_json(response)
@@ -73,7 +77,7 @@ module Api
         params.require(:message).permit(:content, :message_type)
       end
 
-      def message_json(message)
+      def message_json(message, detected_mentions = [])
         {
           id: message.id,
           content: message.content,
@@ -81,7 +85,12 @@ module Api
           timestamp: message.created_at.to_i * 1000,
           status: message.status,
           type: message.message_type,
-          conversationId: message.conversation_id
+          conversationId: message.conversation_id,
+          connectors: detected_mentions.map { |m| {
+            name: m[:connector].name,
+            categories: m[:connector].categories.pluck(:name),
+            confidenceScore: m[:confidence_score]
+          }}
         }
       end
     end

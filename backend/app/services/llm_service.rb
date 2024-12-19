@@ -6,11 +6,31 @@ class LlmService
   def self.generate_response(prompt, retries = 3)
     ensure_model_loaded
 
+    # Get all connectors with their categories
+    connectors_context = Connector.includes(:categories).map do |connector|
+      categories = connector.categories.map(&:name).join(", ")
+      "#{connector.name} (#{categories})"
+    end.join("\n")
+
+    system_context = <<~PROMPT
+      You are an integration assistant. Here are the available connectors:
+      #{connectors_context}
+
+      Guidelines:
+      1. When users describe integration needs, identify and mention relevant connectors
+      2. DO NOT discuss specific connector capabilities
+      3. Only mention connectors from the list provided
+      4. If you mention a connector, always use its exact name as provided above
+      5. Format connector names in bold using markdown: **ConnectorName**
+
+      Example response: "This integration would involve **QuickBooks** and **Fieldwire**."
+    PROMPT
+
     begin
       response = post("/api/generate",
                       body: {
                         model: "mistral",
-                        prompt: prompt,
+                        prompt: "#{system_context}\n\nUser: #{prompt}",
                         stream: false,
                         options: {
                           num_ctx: 2048,           # Reduce context size for faster responses

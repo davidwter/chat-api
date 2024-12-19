@@ -3728,5 +3728,3856 @@
       }
     ],
     "actions": []
+  },
+  {
+    "name": "Amazon Sage Maker",
+    "url": "https://www.workato.com/integrations/amazon-sage-maker",
+    "triggers": [
+      {
+        "name": "New AutoML job completed\n           New AutoML Job in Amazon SageMaker",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create AutoML job\n           Create AutoML Job in Amazon SageMaker",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Describe AutoML job\n           Describe AutoML Job in Amazon SageMaker",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get prediction\n           Get Prediction in Amazon SageMaker",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search AutoML jobs\n           Search AutoML jobs in Amazon SageMaker",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Amazon Seller Central",
+    "url": "https://www.workato.com/integrations/amazon-seller-central",
+    "triggers": [
+      {
+        "name": "New/updated orders\n           New/updated orders  in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Amazon Seller Central (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Cancel feed\n           Cancel feed in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create feed\n           Create feed in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download feed document\n           Download feed document in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get feed details\n           Get feed details in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get feed document\n           Get feed document in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get order details\n           Get order details in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get order address\n           Get order address in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get order buyer information\n           Get order buyer information in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get order items\n           Get order items in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get order items buyer information\n           Get order items buyer information in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search feeds\n           Search feeds in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search feeds by next token\n           Search feeds by next token in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search orders\n           Search orders in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search orders by next token\n           Search orders by next token in Amazon Seller Central",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 15",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Amazon SES",
+    "url": "https://www.workato.com/integrations/amazon-ses",
+    "triggers": [
+      {
+        "name": "Send email\n           Send email in Amazon SES",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Send email with attachment\n           Send email with attachment in Amazon SES",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Amazon S3",
+    "url": "https://www.workato.com/integrations/amazon-s3",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon CloudFront",
+    "url": "https://www.workato.com/integrations/amazon-cloudfront",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon EC2",
+    "url": "https://www.workato.com/integrations/amazon-ec2",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon Polly",
+    "url": "https://www.workato.com/integrations/amazon-polly",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon RDS",
+    "url": "https://www.workato.com/integrations/amazon-rds",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Ambassador",
+    "url": "https://www.workato.com/integrations/ambassador",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AMcards",
+    "url": "https://www.workato.com/integrations/amcards",
+    "triggers": [
+      {
+        "name": "Create card\n           Create card in AMcards",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Amplitude",
+    "url": "https://www.workato.com/integrations/amplitude",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Anaplan",
+    "url": "https://www.workato.com/integrations/anaplan",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Anaplan (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download dump file\n           Download dump file from Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download file\n           Download file from Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run deletion\n        Batch   Run deletion in Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run data export\n        Batch   Run data export in Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run data import\n        Batch   Run data import in Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run process\n        Batch   Run process in Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file\n           Upload file to Anaplan",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AngelList",
+    "url": "https://www.workato.com/integrations/angellist",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AnonyFlow",
+    "url": "https://www.workato.com/integrations/anonyflow",
+    "triggers": [
+      {
+        "name": "Protect your data packet\n           Anonymize your  sensitive data packet in AnonyFlow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Protect your values\n           Anonymize your  sensitive data in AnonyFlow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unprotect your data packet\n           Deanonymize your  protected data packet in AnonyFlow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unprotect your values\n           Deanonymize your  sensitive protected data in AnonyFlow",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Ansible",
+    "url": "https://www.workato.com/integrations/ansible",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Anthology Blackboard",
+    "url": "https://www.workato.com/integrations/anthology-blackboard",
+    "triggers": [
+      {
+        "name": "Delete Announcement\n           Delete Announcement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Calendar Item\n           Delete Calendar Item in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Category\n           Delete Category in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Membership\n           Delete Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Course\n           Delete Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Question\n           Delete Question in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove Child Course\n           Remove Child Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Content\n           Delete Content in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Rule\n           Delete Rule in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Adaptive Release Rule Criterion\n           Delete Adaptive Release Rule Criterion in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Group Predicate\n           Delete Group Predicate in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete ACL User Predicate\n           Delete ACL User Predicate in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete File Attachment\n           Delete File Attachment in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Content Group\n           Delete Content Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Message\n           Delete Message in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Attachment\n           Delete Attachment in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Grade Column\n           Delete Grade Column in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Grade Notation\n           Delete Grade Notation in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Grading Period\n           Delete Grading Period in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Grade Schema\n           Delete Grade Schema in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Group\n           Delete Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Group Membership\n           Delete Group Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete All Meetings In Course\n           Delete All Meetings In Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Course Meeting\n           Delete Course Meeting in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete All Records In Meeting\n           Delete All Records In Meeting in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Attendance Record\n           Delete Attendance Record in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete All Attendance Records By Course And User Id\n           Delete All Attendance Records By Course And User Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete All Attendance By User Id\n           Delete All Attendance By User Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Data Source\n           Delete Data Source in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Node\n           Delete Node in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Node Admin\n           Delete Node Admin in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Node Course Association\n           Delete Node Course Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Node User Association\n           Delete Node User Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Domain Config\n           Delete Domain Config in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Placement\n           Delete Placement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Pronoun\n           Delete Pronoun in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Term\n           Delete Term in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete User\n           Delete User in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Observer\n           Delete Observer in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Group Set\n           Delete Group Set in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Announcements\n           Get Announcements in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Announcement\n           Get Announcement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Attempt Receipt\n           Get Attempt Receipt in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Calendars\n           Get Calendars in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Calendar Items\n           Get Calendar Items in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Calendar Item\n           Get Calendar Item in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Categories\n           Get Categories in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Category\n           Get Category in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Memberships\n           Get Memberships in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Child Categories\n           Get Child Categories in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Resources\n           Get Resources in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Content Collection Resource\n           Get Content Collection Resource in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Resource Children\n           Get Resource Children in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Roles\n           Get Course Roles in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Role\n           Get Course Role in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Courses\n           Get Courses in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course\n           Get Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Goal Alignments\n           Get Course Goal Alignments in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Questions\n           Get Questions in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Question By Id\n           Get Question By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Children\n           Get Course Children in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Child\n           Get Child in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Contents\n           Get Contents in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Content\n           Get Content in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rules\n           Get Rules in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rule\n           Get Rule in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Criteria\n           Get Criteria in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Adaptive Release Rule Criterion\n           Get Adaptive Release Rule Criterion in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Adaptive Release ACL Group Predicates\n           Get Adaptive Release ACL Group Predicates in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Adaptive Release ACL User Predicates\n           Get Adaptive Release ACL User Predicates in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get File Attachments\n           Get File Attachments in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get File Attachment\n           Get File Attachment in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download\n           Download in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Content Children\n           Get Content Children in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Content Groups\n           Get Content Groups in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Content Group\n           Get Content Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Review Status\n           Get Review Status in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Cross List Set\n           Get Cross List Set in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Discussions\n           Get Discussions in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Discussion\n           Get Discussion in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Discussion Groups\n           Get Discussion Groups in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Discussion Messages\n           Get Discussion Messages in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Message Replies\n           Get Message Replies in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Attempt File Meta Data List\n           Get Attempt File Meta Data List in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Attempt File Meta Data\n           Get Attempt File Meta Data in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Gradebook Categories\n           Get Gradebook Categories in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Gradebook Category\n           Get Gradebook Category in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grade Columns\n           Get Grade Columns in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grade Column\n           Get Grade Column in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Column Attempts\n           Get Column Attempts in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Column Attempt\n           Get Column Attempt in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubric Evaluations\n           Get Rubric Evaluations in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Gradebook Logs By Gradebook Column Id\n           Get Course Gradebook Logs By Gradebook Column Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubric Associations By Column Id\n           Get Rubric Associations By Column Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Column Grades\n           Get Column Grades in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Column Grade\n           Get Column Grade in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grade Notations\n           Get Grade Notations in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grade Notation\n           Get Grade Notation in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Gradebook Logs\n           Get Course Gradebook Logs in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grading Periods\n           Get Grading Periods in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grading Period\n           Get Grading Period in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grade Schemas\n           Get Grade Schemas in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Grade Schema\n           Get Grade Schema in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get User Grades\n           Get User Grades in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Groups\n           Get Groups in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Group\n           Get Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Group Memberships\n           Get Group Memberships in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Group Membership\n           Get Group Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Meetings\n           Get Course Meetings in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Meeting\n           Get Course Meeting in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Attendance Records By Meeting Id\n           Get Attendance Records By Meeting Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Attendance Record\n           Get Attendance Record in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Generate Attendance Data Download Url\n           Generate Attendance Data Download Url in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Attendance Records By User Id\n           Get Attendance Records By User Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Messages\n           Get Messages in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Message Participants\n           Get Message Participants in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Folders\n           Get Folders in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Nodes For Course\n           Get Nodes For Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Review Status By Course Id\n           Get Review Status By Course Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Top Level Course Resources\n           Get Top Level Course Resources in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Resource\n           Get Course Resource in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Resource Children\n           Get Course Resource Children in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubrics\n           Get Rubrics in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubric By Id\n           Get Rubric By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubric Associations\n           Get Rubric Associations in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubric Association By Id\n           Get Rubric Association By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Rubric Evaluation By Id\n           Get Rubric Evaluation By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Task\n           Get Task in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Toc Items\n           Get Toc Items in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Course Memberships\n           Get Course Memberships in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Membership\n           Get Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Data Sources\n           Get Data Sources in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Data Source\n           Get Data Source in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goals\n           Get Goals in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goal By Id\n           Get Goal By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goal Alignments\n           Get Goal Alignments in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Children Goals\n           Get Children Goals in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goal Sets\n           Get Goal Sets in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goal Set By Id\n           Get Goal Set By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goal Set Category By Id\n           Get Goal Set Category By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Goals From Set And Category\n           Get Goals From Set And Category in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Types\n           Get Types in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Institution Roles\n           Get Institution Roles in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Institution Role\n           Get Institution Role in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Nodes\n           Get Nodes in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Node\n           Get Node in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Node Admins\n           Get Node Admins in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Node Admin\n           Get Node Admin in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Node Children\n           Get Node Children in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Node Course Associations\n           Get Node Course Associations in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Tools\n           Get Tools in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Node User Associations\n           Get Node User Associations in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Login As Sessions\n           Get Login As Sessions in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get SIS Logs By Data Set Uid\n           Get SIS Logs By Data Set Uid in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Domain Configs\n           Get Domain Configs in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Domain Config\n           Get Domain Config in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Placements\n           Get Placements in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Placement\n           Get Placement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Authorization Code\n           Authorization Code in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Token Info\n           Get Token Info in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Proctoring Services\n           Get Proctoring Services in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Proctoring Service\n           Get Proctoring Service in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Pronouns\n           Get Pronouns in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Active Sessions\n           Get Active Sessions in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get System Roles\n           Get System Roles in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get System Role\n           Get System Role in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Info\n           Get Info in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Policies\n           Get Policies in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get System Task\n           Get System Task in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Version\n           Get Version in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Terms\n           Get Terms in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Term\n           Get Term in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Settings\n           Get Settings in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Users\n           Get Users in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get User\n           Get User in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get User Avatar\n           Get User Avatar in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get User Memberships\n           Get User Memberships in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Nodes For User\n           Get Nodes For User in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Observees\n           Get Observees in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Observers\n           Get Observers in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get User Pronunciation Audio\n           Get User Pronunciation Audio in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Current Active User By Id\n           Get Current Active User By Id in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Column Grade Last Changed\n           Get Column Grade Last Changed in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Group Sets\n           Get Group Sets in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Group Set\n           Get Group Set in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Group Set Children\n           Get Group Set Children in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Announcement\n           Update Announcement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Calendar Item\n           Update Calendar Item in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Category\n           Update Category in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Course\n           Update Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Question\n           Update Question in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Content\n           Update Content in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Rule\n           Update Rule in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Adaptive Release Rule Criterion\n           Update Adaptive Release Rule Criterion in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Review Status\n           Update Review Status in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Discussion\n           Update Discussion in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Message\n           Update Message in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Grade Column\n           Update Grade Column in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Column Grade\n           Update Column Grade in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Grade Notation\n           Update Grade Notation in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Grading Period\n           Update Grading Period in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Grade Schema\n           Update Grade Schema in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Group\n           Update Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Course Meeting\n           Update Course Meeting in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Attendance Record\n           Update Attendance Record in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Toc Item\n           Update Toc Item in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Membership\n           Update Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Data Source\n           Update Data Source in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Node\n           Update Node in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Node Course Association\n           Update Node Course Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Patch Tool\n           Patch Tool in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Domain Config\n           Update Domain Config in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Placement\n           Update Placement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Pronoun\n           Update Pronoun in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Term\n           Update Term in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update User\n           Update User in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Column Attempt\n           Update Column Attempt in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Group Set\n           Update Group Set in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Announcement\n           Create Announcement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Calendar Item\n           Create Calendar Item in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Category\n           Create Category in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Course\n           Create Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Question\n           Create Question in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Content\n           Create Content in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Rule\n           Create Rule in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Adaptive Release Rule Criteria\n           Create Adaptive Release Rule Criteria in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create File Attachment\n           Create File Attachment in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Child\n           Create Child in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Assignment\n           Create Assignment in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Copy Course\n           Copy Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Discussion\n           Create Discussion in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Message\n           Create Message in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Message Reply\n           Create Message Reply in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Attach File\n           Attach File in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Grade Column\n           Create Grade Column in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Grade Notation\n           Create Grade Notation in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Grading Period\n           Create Grading Period in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Grade Schema\n           Create Grade Schema in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Group\n           Create Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Course Meeting\n           Create Course Meeting in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Attendance Record\n           Create Attendance Record in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Attendance Records\n           Update Attendance Records in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Data Source\n           Create Data Source in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Node\n           Create Node in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Child Node\n           Create Child Node in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Domain Config\n           Create Domain Config in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Placement\n           Create Placement in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Pronoun\n           Create Pronoun in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Term\n           Create Term in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload\n           Upload in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create User\n           Create User in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Column Attempt\n           Create Column Attempt in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Group Set\n           Create Group Set in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Group Set Child\n           Create Group Set Child in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Membership\n           Create Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add Child Course\n           Add Child Course in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Set Group Predicate List\n           Set Group Predicate List in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Group Predicate\n           Create Group Predicate in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Set Adaptive Release ACL Users Predicates List\n           Set Adaptive Release ACL Users Predicates List in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Adaptive Release ACL User Predicate\n           Create Adaptive Release ACL User Predicate in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Content Group\n           Create Content Group in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Discussion Group Association\n           Create Discussion Group Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Group Membership\n           Create Group Membership in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Set Node Admin Association\n           Set Node Admin Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Node Course Association\n           Create Node Course Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Node User Association\n           Create Node User Association in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Observer\n           Create Observer in Anthology  blackboard",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 267",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Anvyl",
+    "url": "https://www.workato.com/integrations/anvyl",
+    "triggers": [
+      {
+        "name": "New or updated records\n          Real-time New or updated records in Anvyl",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bulk Import Records\n           Bulk Import Records in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Complete a Task\n           Complete a Task in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Confirm Milestone\n           Confirm Milestone in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get (Split) Order Collections\n           Get (Split) Order Collections in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Order Milestones\n           Get Order Milestones in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Order Schedule\n           Get Order Schedule in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Record By ID\n           Get Record By ID in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Import Parts and Suppliers\n           Import Parts and Suppliers in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Import Record\n           Import Record in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Issue Purchase Order\n           Issue Purchase Order in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Query Records\n           Query Records in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Reopen a Task\n           Reopen a Task in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Order Milestone Timeline\n           Update Order Milestone Timeline in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Anvyl",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 14",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "AnyMeeting",
+    "url": "https://www.workato.com/integrations/anymeeting",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Apex (LMS)",
+    "url": "https://www.workato.com/integrations/apex-(lms)",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Api Void",
+    "url": "https://www.workato.com/integrations/api-void",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in APIVoid",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Check domain reputation\n           Check Domain reputation in APIVoid",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Google Dialogflow",
+    "url": "https://www.workato.com/integrations/google-dialogflow",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Apollo.io",
+    "url": "https://www.workato.com/integrations/apollo.io",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Apollo.io (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add contacts to sequence\n           Add contacts to sequence in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Enrich records in bulk\n         Bulk  Enrich records in bulk in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get record in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n           List records in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Enrich organization\n           Enrich 0rganization in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Enrich people\n           Enrich people in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove contacts from sequence\n           Remove contacts from sequence in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Apollo.io",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 11",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "App Store Connect",
+    "url": "https://www.workato.com/integrations/app-store-connect",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in  (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in App Store Connect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in App Store Connect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get record details by ID in App Store Connect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in App Store Connect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in App Store Connect",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Appcues",
+    "url": "https://www.workato.com/integrations/appcues",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AppDirect",
+    "url": "https://www.workato.com/integrations/appdirect",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time New event in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record (Batch)\n           New/updated record in OpenAPI (Batch)",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create record\n           Create record in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action via AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Execute operation\n           Execute operation in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get record details by ID in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in AppDirect",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in AppDirect",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "AppDynamics",
+    "url": "https://www.workato.com/integrations/appdynamics",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Applaud",
+    "url": "https://www.workato.com/integrations/applaud",
+    "triggers": [
+      {
+        "name": "Deleted instance\n          Real-time Deleted object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New instance\n          Real-time New object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New instances in batch\n           New object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/Updated instance\n          Real-time New/Updated object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated instances in batch\n           New/updated object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validation rule\n          Real-time New object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Updated instance\n          Real-time Updated object in Applaud",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create an instance\n           Create  instance in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create instances in batches\n           Create  in batches in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete an instance\n           Delete  instance in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete instances in batches\n           Delete  instances in batches in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "File download\n           Download a File in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search a model\n           Search object in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Send a chat message\n           Send a chat message to applaud chatbot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Set validation result\n           Set validation result",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Start a conversation\n           Start a new conversation",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update an instance\n           Update  instance in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update instances in batches\n           Update  in batches in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "File upload\n           Upload a File in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert an instance\n           Upsert  instance in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert instances in batches\n           Upsert  in batches in Applaud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 14",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Appointlet",
+    "url": "https://www.workato.com/integrations/appointlet",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Apptopia",
+    "url": "https://www.workato.com/integrations/apptopia",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Apptus",
+    "url": "https://www.workato.com/integrations/apptus",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AppViewX",
+    "url": "https://www.workato.com/integrations/appviewx",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in AppViewX",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Authentication\n           Authentication For AppViewX",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Apromore",
+    "url": "https://www.workato.com/integrations/apromore",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Apromore",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download event log file\n           Download event log file in Apromore",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload event log file\n           Upload event log file in Apromore",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Apttus",
+    "url": "https://www.workato.com/integrations/apttus",
+    "triggers": [
+      {
+        "name": "Object created\n           Object created in Apttus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Daily object review\n           Daily Object review in Apttus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Object created/updated\n           Object created/updated in Apttus",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Apttus (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create object\n           Create object in Apttus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get related objects\n        Batch             Get related object\n          list in Apttus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search objects\n        Batch   Search for objects in Apttus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update object\n           Update object in Apttus",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Apttus Intelligent Cloud",
+    "url": "https://www.workato.com/integrations/apttus-intelligent-cloud",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Arcanum",
+    "url": "https://www.workato.com/integrations/arcanum",
+    "triggers": [
+      {
+        "name": "Upload invoice file\n           Arcanum AI Extract data from invoice",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Archive Manager (Email capyure and archive)",
+    "url": "https://www.workato.com/integrations/archive-manager-(email-capyure-and-archive)",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Aria",
+    "url": "https://www.workato.com/integrations/aria",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Asana",
+    "url": "https://www.workato.com/integrations/asana",
+    "triggers": [
+      {
+        "name": "New  event\n          Real-time New  event in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New or updated tasks trigger\n           New or updated task in Asana",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Asana (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add task to section\n           Add task to section in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create subtask\n           Create subtask in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create tag\n           Create tag in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create task\n           Create task in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get people details by ID\n           Get people details by ID in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get project detail by ID\n           Get project details by ID in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get project sections\n        Batch   Get sections in project in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get task details by ID\n           Get task details by ID in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List all tasks with tag\n        Batch   List tasks with tag in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List people\n        Batch   List people in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List project tasks\n        Batch   List tasks in project in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List workspaces\n        Batch   List workspaces in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search projects\n        Batch   Search projects in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search tags\n        Batch   Search tags in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search tasks\n        Batch   Search tasks in workspace in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update task\n           Update task in Asana",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 17",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "AscentERP",
+    "url": "https://www.workato.com/integrations/ascenterp",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Ashby",
+    "url": "https://www.workato.com/integrations/ashby",
+    "triggers": [
+      {
+        "name": "Application changed stage\n          Real-time Application state changed in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Application submitted\n          Real-time Application submitted in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Candidate hired\n          Real-time Candidate hired in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/Updated interview schedule\n          Real-time New/Updated interview schedule in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/Updated offer\n          Real-time An offer in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Offer deleted\n          Real-time Deleted offer in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Published/Unpublished job posting\n          Real-time A job posting in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Survey submitted\n          Real-time Survey submitted in Ashby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Ahsby (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Change application stage\n           Change application stage in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create application\n           Consider candidate for a job in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New candidate\n           Create new candidate in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New candidate note\n           Create new candidate note in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search candidates\n           Search candidates in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search job\n           Search job in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search user\n           Search user in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Transfer application\n           Transfer application in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update candidate\n           Update candidate in Ahsby",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 10",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "AskNicely",
+    "url": "https://www.workato.com/integrations/asknicely",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Aspera on Cloud",
+    "url": "https://www.workato.com/integrations/aspera-on-cloud",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in  (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in Aspera",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get record  in Aspera",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records  in Aspera",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Send a Package\n           Send a Package in Aspera",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Aspera",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Astra",
+    "url": "https://www.workato.com/integrations/astra",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Astra (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create documents in batch\n        Batch   Create documents in Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create document\n           Create document in Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete document\n           Delete  document   in Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get document by ID\n           Get  document   in Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search documents\n           Search documents  in Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update document\n           Update document in Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update a path in a document\n           Update path in a documentsin Astra",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Astrix",
+    "url": "https://www.workato.com/integrations/astrix",
+    "triggers": [
+      {
+        "name": "New record\n           New record in Astrix",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in Astrix",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Search records\n           Search for records in Astrix",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Auth0",
+    "url": "https://www.workato.com/integrations/auth0",
+    "triggers": [
+      {
+        "name": "Create a User\n           Create a User in Auth 0",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List Users\n           List Users in Auth 0",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Authorize.Net",
+    "url": "https://www.workato.com/integrations/authorize.net",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Autocad LT",
+    "url": "https://www.workato.com/integrations/autocad-lt",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Autodesk Construction Cloud (Public Beta)",
+    "url": "https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta)",
+    "triggers": [
+      {
+        "name": "New event in a project\n          Real-time New event in a project in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New or updated object in a project\n           New or updated object in a project in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create object in a project\n           Create object in a project in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download object in a project\n           Download object in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get object in a project\n           Get object in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search for objects in a project\n           Search for object in a project in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update object in a project\n           Update object in a project in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload object to a project\n           Upload object to a project in Autodesk Construction Cloud",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Autodesk Platform Services (Forge)",
+    "url": "https://www.workato.com/integrations/autodesk-platform-services-(forge)",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Automation Anywhere",
+    "url": "https://www.workato.com/integrations/automation-anywhere",
+    "triggers": [
+      {
+        "name": "List Users\n           List Users in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Automation Anywhere A360 (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Workitem \u2013 Add\n           Insert Workitem in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Workitem \u2013 Delete\n           Delete Workitem in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Bot \u2013 Deploy with Input and callback\n           Deploy Bot in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "In progress / Historical Activity.\n           Get Activity List in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Queue \u2013 Get\n           Search Queues in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Workitem \u2013 Get\n           Search Workitems in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Audit Logs\n           Get Audit Logs in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Bot \u2013 List\n           List Bots in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Credential \u2013 Search by ID\n           Search Credential By Id in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Device\n           Search Devices in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Bot \u2013 Schedule\n           Schedule Bot in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Credentials \u2013 Search by Name\n           Search Credentials in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Workitem \u2013 Update\n           Update Workitem in Automation Anywhere A360",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 15",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Autopilot",
+    "url": "https://www.workato.com/integrations/autopilot",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AutoQuotes",
+    "url": "https://www.workato.com/integrations/autoquotes",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Awardco",
+    "url": "https://www.workato.com/integrations/awardco",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Awardco (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Activate user\n           Activate User in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Archive user\n           Archive User in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Recognize multiple users via queued recognitions\n         Bulk  Recognize Multiple Users via Queued Recognitions in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Recognize multiple users\n         Bulk  Recognize Multiple Users in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create user\n           Create User in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get report\n           Get  Report  in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get report as CSV\n           Get  Report as CSV  in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user file\n           Get User File in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Import users\n         Bulk  Import User File to Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Recognize user\n           Recognize User in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Reset password\n           Reset User's Password in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get social feed\n           Get Social Feed in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user balance\n           Get User's Point Balance in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Check user exists\n           Check User Exists in Awardco",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 15",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWeber",
+    "url": "https://www.workato.com/integrations/aweber",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AWS API Gateway",
+    "url": "https://www.workato.com/integrations/aws-api-gateway",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in AWS API Gateway",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWS Athena",
+    "url": "https://www.workato.com/integrations/aws-athena",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in AWS Athena",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Execute SQL query\n           Executes the provided SQL Query in Athena",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get query execution status\n           Returns the status of the SQL Query run in Athena",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get query results (batch)\n           Returns the result of the SQL Query run in Athena",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWS Bedrock",
+    "url": "https://www.workato.com/integrations/aws-bedrock",
+    "triggers": [
+      {
+        "name": "Analyse text\n           Analyse text to answer user-provided questions using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Categorise text\n           Classify text based on user-defined categories using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Converse with models\n           Converse with a model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Draft email\n           Generate draft email using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Generate or modify images\n           Generate an image using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Generate text embedding\n           Generates text embedding using model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Parse text\n           Parse text to find specific information using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Send message to models\n           Sends a message to model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Summarize text\n           Summarize text using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Translate text\n           Translate text into a different language using  model in AWS Bedrock",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 10",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWS GuardDuty",
+    "url": "https://www.workato.com/integrations/aws-guardduty",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in AWS GuardDuty",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get record by ID in AWS GuardDuty",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in AWS GuardDuty",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWS Key Management Service",
+    "url": "https://www.workato.com/integrations/aws-key-management-service",
+    "triggers": [
+      {
+        "name": "Create a key\n           Creates a new key in the AWS account and Region",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Decrypt ciphertext\n           Decrypts ciphertext using KMS key",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Describe key\n           Describe key information",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Encrypt text\n           Encrypts a text using KMS key",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List keys\n           Gets a list of all KMS keys in the caller's AWS account and Region.",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "ReEncrypt ciphertext\n           ReEncrypt ciphertext using KMS key",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Sign a message\n           Sign a message using KMS key",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Verify message signature\n           Verify a message's digital signature",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWS Secrets Manager",
+    "url": "https://www.workato.com/integrations/aws-secrets-manager",
+    "triggers": [
+      {
+        "name": "Create secret\n           Creates a new secret in secrets manager",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get a random password\n           Fetches a randomly generated password",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get secret value\n           Fetches the value of a secret",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List secret versions\n           Lists the versions of a secret",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List secrets\n           List secrets stored within Secrets Manager",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AWS Security Hub",
+    "url": "https://www.workato.com/integrations/aws-security-hub",
+    "triggers": [
+      {
+        "name": "New finding\n           New finding in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated finding\n           New or updated finding in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create insight\n           Create insight in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get findings\n           Get findings in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get insight results\n           Get insight results in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get members\n           Get members in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Batch import findings\n           Imports a list of findings into AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Batch update findings\n           Update findings in batch in AWS Security Hub",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Amazon Cognito",
+    "url": "https://www.workato.com/integrations/amazon-cognito",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "AWS Lambda",
+    "url": "https://www.workato.com/integrations/aws-lambda",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon SNS",
+    "url": "https://www.workato.com/integrations/amazon-sns",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon SQS",
+    "url": "https://www.workato.com/integrations/amazon-sqs",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Axosoft",
+    "url": "https://www.workato.com/integrations/axosoft",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Azure Active Directory",
+    "url": "https://www.workato.com/integrations/azure-active-directory",
+    "triggers": [
+      {
+        "name": "New deleted user\n           New deleted User in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New group\n           New group in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated group\n           New or updated group in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated user\n           New or updated User in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New user\n           New User in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Microsoft Entra ID (Azure Active Directory) (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add member to group\n           Add member to group in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add or remove user license\n           Add or remove User license(s) in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create group\n           Create group in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create user\n           Create user in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete group\n           Delete group in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete user\n           Delete user in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get group details by ID\n           Get group by ID in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search group members\n           Search group members in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search transitive group members\n           Search transitive group members in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user details by ID\n           Get user by ID in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user license\n           Get User license by ID Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search users\n           Search users in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove member from group\n           Remove member from group in Microsoft Entra ID (Azure Active Directory)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Revoke sign-in session\n           Revoke user sign-in session in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update group\n           Update group in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update user\n           Update user in Microsoft Entra ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 17",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Azure DevOps",
+    "url": "https://www.workato.com/integrations/azure-devops",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time New event in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create record\n           Create record in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get record in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload work item attachment\n           Upload work item attachment in Azure DevOps",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Azure Form Recognizer",
+    "url": "https://www.workato.com/integrations/azure-form-recognizer",
+    "triggers": [
+      {
+        "name": "Analyze document\n           Analyze document in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Execute operation\n           Execute operation in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get record details by ID in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Azure Form Recognizer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Azure Sentinel",
+    "url": "https://www.workato.com/integrations/azure-sentinel",
+    "triggers": [
+      {
+        "name": "New record\n           New record in Azure Sentinel",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in Azure Sentinel",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in  (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search for records in Azure Sentinel",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Azure Service Bus",
+    "url": "https://www.workato.com/integrations/azure-service-bus",
+    "triggers": [
+      {
+        "name": "New message\n           New Message in Azure Service Bus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New messages\n        Batch   New messages in Azure Service Bus",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Azure Service Bus (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete message\n           Delete message in Azure Service Bus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Peek-lock message\n           Peek-lock message from Azure Service Bus queue or subscription",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Receive and delete message\n           Receive and delete message from queue or subscription in Azure Service Bus",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Send message\n           Send message to Azure Service Bus queue or topic",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Send multiple messages\n           Send message in batch to Azure Service Bus queue or topic",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Azure Blob Storage",
+    "url": "https://www.workato.com/integrations/azure-blob-storage",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Azure Key Vault",
+    "url": "https://www.workato.com/integrations/azure-key-vault",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Azure Monitor",
+    "url": "https://www.workato.com/integrations/azure-monitor",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Azure OpenAI",
+    "url": "https://www.workato.com/integrations/azure-openai",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Azure Virtual Machines",
+    "url": "https://www.workato.com/integrations/azure-virtual-machines",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Backlog",
+    "url": "https://www.workato.com/integrations/backlog",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time New event in Backlog",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Backlog (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get issue count\n           Get issue count in Backlog",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in Backlog",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Backlog",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get record in Backlog",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Backlog",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Backlog",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Bakuraku (\u30d0\u30af\u30e9\u30af)",
+    "url": "https://www.workato.com/integrations/bakuraku-(\u30d0\u30af\u30e9\u30af)",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Bakuraku (\u30d0\u30af\u30e9\u30af) (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "\u7533\u8acb\u8a73\u7d30\u306e\u53d6\u5f97\n           \u30d0\u30af\u30e9\u30af\u7533\u8acb\u30fb\u7d4c\u8cbb\u7cbe\u7b97\u3067\u7533\u8acb\u3055\u308c\u305f\u7533\u8acb\u306e\u8a73\u7d30\u60c5\u5831\u3092\u53d6\u5f97\u3067\u304d\u307e\u3059\u3002",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "\u7533\u8acb\u4e00\u89a7\u306e\u53d6\u5f97\n           \u30d0\u30af\u30e9\u30af\u7533\u8acb\u30fb\u7d4c\u8cbb\u7cbe\u7b97\u3067\u7533\u8acb\u3055\u308c\u305f\u4e00\u89a7\u60c5\u5831\u3092\u53d6\u5f97\u3067\u304d\u307e\u3059\u3002",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "BambooHR",
+    "url": "https://www.workato.com/integrations/bamboohr",
+    "triggers": [
+      {
+        "name": "New employee\n           New employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New employee\n          Real-time New employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Schedule custom employee report\n        Batch   Scheduled report in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated employee\n           New/updated employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated employee\n          Real-time New/updated employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in BambooHR (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create employee\n           Create employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create/update time off request\n           Create/update a time off request on BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create table record of employee\n           Create table record of employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete table record\n           Delete table record of employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get company employee report by ID\n           Get company report by ID in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get employee details by ID\n           Get employee details in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get table records of employee\n        Batch   Get table records of employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List employees in directory\n        Batch   List employees in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List time off requests\n        Batch   List time off request on BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create custom employee report\n        Batch   Create a custom report on employees in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update employee\n           Update employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update table record of employee\n           Update table record of employee in BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update time off request status\n           Update time off request on BambooHR",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 14",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Barista",
+    "url": "https://www.workato.com/integrations/barista",
+    "triggers": [
+      {
+        "name": "Onboard Employee\n           Create Employee in        'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Post KB\n           Create KB in        'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Employee\n           Delete Employee in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Generate Integration Token\n           Generate Integration Token in '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get All Employees\n           GET All Employees from Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get All KBs\n           GET All KBs from Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Conversation from Channel\n           GET Conversation from Channel",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Employee by Email\n           Search Employee in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Employee by ID\n           Search Employee in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Report9 by ESP Filters\n           GET Report9 Data in '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Task\n           Get Task from '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Task by Channel ID\n           Get Task from '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Parse CSV Data\n           Parse CSV Data in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Parse CSV Status Check\n           Parse CSV Status Check in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Patch KB\n           Patch KB in        'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Post Data To Channel\n           Post Data to Barista channel",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Post Sync IDs\n           Post Sync IDs in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search Employees\n           Search Employees in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Terminate Employee\n           Terminate Employee in Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Channel Live Agent Session Mode\n           Performs a PATCH to a Channel Object to set sys_custom_fields.start_live_agent_suppor=True/False",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Employee\n           Update Employee in '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Reference Number on Task\n           Update Reference Number in '       'Barista Task",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Report9 Data\n           Update Report9 Data in '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Task\n           Update Task in '       'Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Task Owner\n           Change Owner on Tasks",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Task Status\n           Change Status on Tasks",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Task Live Agent Session Mode\n           Performs a PATCH to a Task Object to set sys_custom_fields.start_live_agent_suppor=True/False",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload CSV file to barista\n           Upload CSV File to Barista",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 28",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Basecamp 2",
+    "url": "https://www.workato.com/integrations/basecamp-2",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Beaconstac",
+    "url": "https://www.workato.com/integrations/beaconstac",
+    "triggers": [
+      {
+        "name": "New form response\n          Real-time Triggers an event whenever form gets submitted.",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "QR code created\n          Real-time Triggers an event whenever QR gets created in you beaconstac account.",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "QR code scanned\n          Real-time Triggers an event whenever QR code scanned in your beaconstac account",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Downlaod QR\n           Downlaod QR code from beaconstac",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file\n           Upload File to Beaconstac",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Dynamic QR Code\n           Create Dynamic QR Code in Beaconstac",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Static QR code\n           Create Static QR code in Beaconstac",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Dynamic QR Code\n           Update Dynamic QR Code in Beaconstac",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Benchling",
+    "url": "https://www.workato.com/integrations/benchling",
+    "triggers": [
+      {
+        "name": "Create record\n           Create record in Benchling",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Benchling",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Benchling",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Execute operation\n           Execute operation in Benchling",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get record details by ID in Benchling",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Benchling",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Benchling",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Bentley",
+    "url": "https://www.workato.com/integrations/bentley",
+    "triggers": [],
+    "actions": []
   }
 ]

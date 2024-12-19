@@ -1315,3 +1315,1300 @@ Amazon Lex,https://www.workato.com/integrations/amazon-lex,trigger,"Upsert Inten
 Amazon Lex,https://www.workato.com/integrations/amazon-lex,trigger,"Upsert Slot type
            Creates a custom Slot type   or replaces an existing one in Amazon Lex",,{}
 Amazon Lex,https://www.workato.com/integrations/amazon-lex,trigger,Show all 10,,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,trigger,"New AutoML job completed
+           New AutoML Job in Amazon SageMaker",,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,"Create AutoML job
+           Create AutoML Job in Amazon SageMaker",,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,"Describe AutoML job
+           Describe AutoML Job in Amazon SageMaker",,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,"Get prediction
+           Get Prediction in Amazon SageMaker",,{}
+Amazon Sage Maker,https://www.workato.com/integrations/amazon-sage-maker,action,"Search AutoML jobs
+           Search AutoML jobs in Amazon SageMaker",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,trigger,"New/updated orders
+           New/updated orders  in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Custom action
+           Custom action in Amazon Seller Central (Custom)",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Cancel feed
+           Cancel feed in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Create feed
+           Create feed in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Download feed document
+           Download feed document in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get feed details
+           Get feed details in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get feed document
+           Get feed document in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get order details
+           Get order details in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get order address
+           Get order address in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get order buyer information
+           Get order buyer information in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get order items
+           Get order items in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Get order items buyer information
+           Get order items buyer information in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Search feeds
+           Search feeds in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Search feeds by next token
+           Search feeds by next token in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Search orders
+           Search orders in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,"Search orders by next token
+           Search orders by next token in Amazon Seller Central",,{}
+Amazon Seller Central,https://www.workato.com/integrations/amazon-seller-central,action,Show all 15,,{}
+Amazon SES,https://www.workato.com/integrations/amazon-ses,trigger,"Send email
+           Send email in Amazon SES",,{}
+Amazon SES,https://www.workato.com/integrations/amazon-ses,trigger,"Send email with attachment
+           Send email with attachment in Amazon SES",,{}
+AMcards,https://www.workato.com/integrations/amcards,trigger,"Create card
+           Create card in AMcards",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Custom action
+           Custom action in Anaplan (Custom)",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Download dump file
+           Download dump file from Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Download file
+           Download file from Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Run deletion
+        Batch   Run deletion in Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Run data export
+        Batch   Run data export in Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Run data import
+        Batch   Run data import in Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Run process
+        Batch   Run process in Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,"Upload file
+           Upload file to Anaplan",,{}
+Anaplan,https://www.workato.com/integrations/anaplan,trigger,Show all 8,,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,trigger,"Protect your data packet
+           Anonymize your  sensitive data packet in AnonyFlow",,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,trigger,"Protect your values
+           Anonymize your  sensitive data in AnonyFlow",,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,trigger,"Unprotect your data packet
+           Deanonymize your  protected data packet in AnonyFlow",,{}
+AnonyFlow,https://www.workato.com/integrations/anonyflow,trigger,"Unprotect your values
+           Deanonymize your  sensitive protected data in AnonyFlow",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Announcement
+           Delete Announcement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Calendar Item
+           Delete Calendar Item in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Category
+           Delete Category in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Membership
+           Delete Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Course
+           Delete Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Question
+           Delete Question in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Remove Child Course
+           Remove Child Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Content
+           Delete Content in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Rule
+           Delete Rule in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Adaptive Release Rule Criterion
+           Delete Adaptive Release Rule Criterion in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Group Predicate
+           Delete Group Predicate in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete ACL User Predicate
+           Delete ACL User Predicate in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete File Attachment
+           Delete File Attachment in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Content Group
+           Delete Content Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Message
+           Delete Message in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Attachment
+           Delete Attachment in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Grade Column
+           Delete Grade Column in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Grade Notation
+           Delete Grade Notation in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Grading Period
+           Delete Grading Period in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Grade Schema
+           Delete Grade Schema in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Group
+           Delete Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Group Membership
+           Delete Group Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete All Meetings In Course
+           Delete All Meetings In Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Course Meeting
+           Delete Course Meeting in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete All Records In Meeting
+           Delete All Records In Meeting in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Attendance Record
+           Delete Attendance Record in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete All Attendance Records By Course And User Id
+           Delete All Attendance Records By Course And User Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete All Attendance By User Id
+           Delete All Attendance By User Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Data Source
+           Delete Data Source in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Node
+           Delete Node in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Node Admin
+           Delete Node Admin in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Node Course Association
+           Delete Node Course Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Node User Association
+           Delete Node User Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Domain Config
+           Delete Domain Config in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Placement
+           Delete Placement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Pronoun
+           Delete Pronoun in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Term
+           Delete Term in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete User
+           Delete User in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Observer
+           Delete Observer in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Delete Group Set
+           Delete Group Set in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Announcements
+           Get Announcements in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Announcement
+           Get Announcement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Attempt Receipt
+           Get Attempt Receipt in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Calendars
+           Get Calendars in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Calendar Items
+           Get Calendar Items in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Calendar Item
+           Get Calendar Item in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Categories
+           Get Categories in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Category
+           Get Category in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Memberships
+           Get Memberships in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Child Categories
+           Get Child Categories in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Resources
+           Get Resources in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Content Collection Resource
+           Get Content Collection Resource in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Resource Children
+           Get Resource Children in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Roles
+           Get Course Roles in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Role
+           Get Course Role in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Courses
+           Get Courses in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course
+           Get Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Goal Alignments
+           Get Course Goal Alignments in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Questions
+           Get Questions in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Question By Id
+           Get Question By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Children
+           Get Course Children in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Child
+           Get Child in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Contents
+           Get Contents in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Content
+           Get Content in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rules
+           Get Rules in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rule
+           Get Rule in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Criteria
+           Get Criteria in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Adaptive Release Rule Criterion
+           Get Adaptive Release Rule Criterion in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Adaptive Release ACL Group Predicates
+           Get Adaptive Release ACL Group Predicates in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Adaptive Release ACL User Predicates
+           Get Adaptive Release ACL User Predicates in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get File Attachments
+           Get File Attachments in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get File Attachment
+           Get File Attachment in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Download
+           Download in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Content Children
+           Get Content Children in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Content Groups
+           Get Content Groups in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Content Group
+           Get Content Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Review Status
+           Get Review Status in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Cross List Set
+           Get Cross List Set in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Discussions
+           Get Discussions in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Discussion
+           Get Discussion in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Discussion Groups
+           Get Discussion Groups in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Discussion Messages
+           Get Discussion Messages in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Message Replies
+           Get Message Replies in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Attempt File Meta Data List
+           Get Attempt File Meta Data List in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Attempt File Meta Data
+           Get Attempt File Meta Data in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Gradebook Categories
+           Get Gradebook Categories in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Gradebook Category
+           Get Gradebook Category in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grade Columns
+           Get Grade Columns in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grade Column
+           Get Grade Column in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Column Attempts
+           Get Column Attempts in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Column Attempt
+           Get Column Attempt in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubric Evaluations
+           Get Rubric Evaluations in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Gradebook Logs By Gradebook Column Id
+           Get Course Gradebook Logs By Gradebook Column Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubric Associations By Column Id
+           Get Rubric Associations By Column Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Column Grades
+           Get Column Grades in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Column Grade
+           Get Column Grade in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grade Notations
+           Get Grade Notations in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grade Notation
+           Get Grade Notation in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Gradebook Logs
+           Get Course Gradebook Logs in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grading Periods
+           Get Grading Periods in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grading Period
+           Get Grading Period in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grade Schemas
+           Get Grade Schemas in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Grade Schema
+           Get Grade Schema in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get User Grades
+           Get User Grades in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Groups
+           Get Groups in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Group
+           Get Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Group Memberships
+           Get Group Memberships in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Group Membership
+           Get Group Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Meetings
+           Get Course Meetings in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Meeting
+           Get Course Meeting in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Attendance Records By Meeting Id
+           Get Attendance Records By Meeting Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Attendance Record
+           Get Attendance Record in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Generate Attendance Data Download Url
+           Generate Attendance Data Download Url in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Attendance Records By User Id
+           Get Attendance Records By User Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Messages
+           Get Messages in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Message Participants
+           Get Message Participants in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Folders
+           Get Folders in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Nodes For Course
+           Get Nodes For Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Review Status By Course Id
+           Get Review Status By Course Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Top Level Course Resources
+           Get Top Level Course Resources in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Resource
+           Get Course Resource in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Resource Children
+           Get Course Resource Children in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubrics
+           Get Rubrics in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubric By Id
+           Get Rubric By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubric Associations
+           Get Rubric Associations in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubric Association By Id
+           Get Rubric Association By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Rubric Evaluation By Id
+           Get Rubric Evaluation By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Task
+           Get Task in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Toc Items
+           Get Toc Items in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Course Memberships
+           Get Course Memberships in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Membership
+           Get Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Data Sources
+           Get Data Sources in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Data Source
+           Get Data Source in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goals
+           Get Goals in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goal By Id
+           Get Goal By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goal Alignments
+           Get Goal Alignments in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Children Goals
+           Get Children Goals in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goal Sets
+           Get Goal Sets in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goal Set By Id
+           Get Goal Set By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goal Set Category By Id
+           Get Goal Set Category By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Goals From Set And Category
+           Get Goals From Set And Category in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Types
+           Get Types in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Institution Roles
+           Get Institution Roles in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Institution Role
+           Get Institution Role in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Nodes
+           Get Nodes in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Node
+           Get Node in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Node Admins
+           Get Node Admins in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Node Admin
+           Get Node Admin in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Node Children
+           Get Node Children in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Node Course Associations
+           Get Node Course Associations in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Tools
+           Get Tools in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Node User Associations
+           Get Node User Associations in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Login As Sessions
+           Get Login As Sessions in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get SIS Logs By Data Set Uid
+           Get SIS Logs By Data Set Uid in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Domain Configs
+           Get Domain Configs in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Domain Config
+           Get Domain Config in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Placements
+           Get Placements in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Placement
+           Get Placement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Authorization Code
+           Authorization Code in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Token Info
+           Get Token Info in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Proctoring Services
+           Get Proctoring Services in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Proctoring Service
+           Get Proctoring Service in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Pronouns
+           Get Pronouns in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Active Sessions
+           Get Active Sessions in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get System Roles
+           Get System Roles in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get System Role
+           Get System Role in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Info
+           Get Info in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Policies
+           Get Policies in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get System Task
+           Get System Task in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Version
+           Get Version in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Terms
+           Get Terms in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Term
+           Get Term in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Settings
+           Get Settings in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Users
+           Get Users in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get User
+           Get User in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get User Avatar
+           Get User Avatar in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get User Memberships
+           Get User Memberships in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Nodes For User
+           Get Nodes For User in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Observees
+           Get Observees in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Observers
+           Get Observers in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get User Pronunciation Audio
+           Get User Pronunciation Audio in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Current Active User By Id
+           Get Current Active User By Id in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Column Grade Last Changed
+           Get Column Grade Last Changed in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Group Sets
+           Get Group Sets in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Group Set
+           Get Group Set in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Get Group Set Children
+           Get Group Set Children in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Announcement
+           Update Announcement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Calendar Item
+           Update Calendar Item in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Category
+           Update Category in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Course
+           Update Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Question
+           Update Question in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Content
+           Update Content in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Rule
+           Update Rule in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Adaptive Release Rule Criterion
+           Update Adaptive Release Rule Criterion in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Review Status
+           Update Review Status in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Discussion
+           Update Discussion in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Message
+           Update Message in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Grade Column
+           Update Grade Column in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Column Grade
+           Update Column Grade in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Grade Notation
+           Update Grade Notation in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Grading Period
+           Update Grading Period in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Grade Schema
+           Update Grade Schema in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Group
+           Update Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Course Meeting
+           Update Course Meeting in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Attendance Record
+           Update Attendance Record in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Toc Item
+           Update Toc Item in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Membership
+           Update Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Data Source
+           Update Data Source in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Node
+           Update Node in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Node Course Association
+           Update Node Course Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Patch Tool
+           Patch Tool in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Domain Config
+           Update Domain Config in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Placement
+           Update Placement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Pronoun
+           Update Pronoun in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Term
+           Update Term in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update User
+           Update User in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Column Attempt
+           Update Column Attempt in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Group Set
+           Update Group Set in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Announcement
+           Create Announcement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Calendar Item
+           Create Calendar Item in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Category
+           Create Category in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Course
+           Create Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Question
+           Create Question in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Content
+           Create Content in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Rule
+           Create Rule in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Adaptive Release Rule Criteria
+           Create Adaptive Release Rule Criteria in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create File Attachment
+           Create File Attachment in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Child
+           Create Child in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Assignment
+           Create Assignment in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Copy Course
+           Copy Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Discussion
+           Create Discussion in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Message
+           Create Message in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Message Reply
+           Create Message Reply in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Attach File
+           Attach File in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Grade Column
+           Create Grade Column in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Grade Notation
+           Create Grade Notation in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Grading Period
+           Create Grading Period in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Grade Schema
+           Create Grade Schema in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Group
+           Create Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Course Meeting
+           Create Course Meeting in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Attendance Record
+           Create Attendance Record in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Update Attendance Records
+           Update Attendance Records in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Data Source
+           Create Data Source in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Node
+           Create Node in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Child Node
+           Create Child Node in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Domain Config
+           Create Domain Config in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Placement
+           Create Placement in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Pronoun
+           Create Pronoun in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Term
+           Create Term in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Upload
+           Upload in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create User
+           Create User in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Column Attempt
+           Create Column Attempt in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Group Set
+           Create Group Set in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Group Set Child
+           Create Group Set Child in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Membership
+           Create Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Add Child Course
+           Add Child Course in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Set Group Predicate List
+           Set Group Predicate List in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Group Predicate
+           Create Group Predicate in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Set Adaptive Release ACL Users Predicates List
+           Set Adaptive Release ACL Users Predicates List in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Adaptive Release ACL User Predicate
+           Create Adaptive Release ACL User Predicate in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Content Group
+           Create Content Group in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Discussion Group Association
+           Create Discussion Group Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Group Membership
+           Create Group Membership in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Set Node Admin Association
+           Set Node Admin Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Node Course Association
+           Create Node Course Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Node User Association
+           Create Node User Association in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,"Create Observer
+           Create Observer in Anthology  blackboard",,{}
+Anthology Blackboard,https://www.workato.com/integrations/anthology-blackboard,trigger,Show all 267,,{}
+Anvyl,https://www.workato.com/integrations/anvyl,trigger,"New or updated records
+          Real-time New or updated records in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Bulk Import Records
+           Bulk Import Records in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Complete a Task
+           Complete a Task in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Confirm Milestone
+           Confirm Milestone in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Get (Split) Order Collections
+           Get (Split) Order Collections in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Get Order Milestones
+           Get Order Milestones in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Get Order Schedule
+           Get Order Schedule in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Get Record By ID
+           Get Record By ID in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Import Parts and Suppliers
+           Import Parts and Suppliers in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Import Record
+           Import Record in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Issue Purchase Order
+           Issue Purchase Order in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Query Records
+           Query Records in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Reopen a Task
+           Reopen a Task in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Update Order Milestone Timeline
+           Update Order Milestone Timeline in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,"Update record
+           Update record in Anvyl",,{}
+Anvyl,https://www.workato.com/integrations/anvyl,action,Show all 14,,{}
+Api Void,https://www.workato.com/integrations/api-void,trigger,"Custom action
+           Custom action in APIVoid",,{}
+Api Void,https://www.workato.com/integrations/api-void,trigger,"Check domain reputation
+           Check Domain reputation in APIVoid",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Custom action
+           Custom action in Apollo.io (Custom)",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Add contacts to sequence
+           Add contacts to sequence in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Create record
+           Create record in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Enrich records in bulk
+         Bulk  Enrich records in bulk in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Get record
+           Get record in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"List records
+           List records in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Enrich organization
+           Enrich 0rganization in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Enrich people
+           Enrich people in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Remove contacts from sequence
+           Remove contacts from sequence in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Search records
+           Search records in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,"Update record
+           Update record in Apollo.io",,{}
+Apollo.io,https://www.workato.com/integrations/apollo.io,trigger,Show all 11,,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,trigger,"Custom action
+           Custom action in  (Custom)",,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,trigger,"Create record
+           Create record in App Store Connect",,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,trigger,"Delete record
+           Delete record in App Store Connect",,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,trigger,"Get record details by ID
+           Get record details by ID in App Store Connect",,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,trigger,"Search records
+           Search records in App Store Connect",,{}
+App Store Connect,https://www.workato.com/integrations/app-store-connect,trigger,"Update record
+           Update record in App Store Connect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,trigger,"New event
+          Real-time New event in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,trigger,"New/updated record
+           New/updated record in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,trigger,"New/updated record (Batch)
+           New/updated record in OpenAPI (Batch)",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Create record
+           Create record in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Custom action
+           Custom action via AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Delete record
+           Delete record in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Execute operation
+           Execute operation in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Get record details by ID
+           Get record details by ID in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Search records
+           Search records in AppDirect",,{}
+AppDirect,https://www.workato.com/integrations/appdirect,action,"Update record
+           Update record in AppDirect",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"Deleted instance
+          Real-time Deleted object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"New instance
+          Real-time New object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"New instances in batch
+           New object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"New/Updated instance
+          Real-time New/Updated object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"New/updated instances in batch
+           New/updated object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"Validation rule
+          Real-time New object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,trigger,"Updated instance
+          Real-time Updated object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Create an instance
+           Create  instance in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Create instances in batches
+           Create  in batches in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Delete an instance
+           Delete  instance in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Delete instances in batches
+           Delete  instances in batches in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"File download
+           Download a File in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Search a model
+           Search object in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Send a chat message
+           Send a chat message to applaud chatbot",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Set validation result
+           Set validation result",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Start a conversation
+           Start a new conversation",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Update an instance
+           Update  instance in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Update instances in batches
+           Update  in batches in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"File upload
+           Upload a File in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Upsert an instance
+           Upsert  instance in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,"Upsert instances in batches
+           Upsert  in batches in Applaud",,{}
+Applaud,https://www.workato.com/integrations/applaud,action,Show all 14,,{}
+AppViewX,https://www.workato.com/integrations/appviewx,trigger,"Custom action
+           Custom action in AppViewX",,{}
+AppViewX,https://www.workato.com/integrations/appviewx,trigger,"Authentication
+           Authentication For AppViewX",,{}
+Apromore,https://www.workato.com/integrations/apromore,trigger,"Custom action
+           Custom action in Apromore",,{}
+Apromore,https://www.workato.com/integrations/apromore,trigger,"Download event log file
+           Download event log file in Apromore",,{}
+Apromore,https://www.workato.com/integrations/apromore,trigger,"Upload event log file
+           Upload event log file in Apromore",,{}
+Apttus,https://www.workato.com/integrations/apttus,trigger,"Object created
+           Object created in Apttus",,{}
+Apttus,https://www.workato.com/integrations/apttus,trigger,"Daily object review
+           Daily Object review in Apttus",,{}
+Apttus,https://www.workato.com/integrations/apttus,trigger,"Object created/updated
+           Object created/updated in Apttus",,{}
+Apttus,https://www.workato.com/integrations/apttus,action,"Custom action
+           Custom action in Apttus (Custom)",,{}
+Apttus,https://www.workato.com/integrations/apttus,action,"Create object
+           Create object in Apttus",,{}
+Apttus,https://www.workato.com/integrations/apttus,action,"Get related objects
+        Batch             Get related object
+          list in Apttus",,{}
+Apttus,https://www.workato.com/integrations/apttus,action,"Search objects
+        Batch   Search for objects in Apttus",,{}
+Apttus,https://www.workato.com/integrations/apttus,action,"Update object
+           Update object in Apttus",,{}
+Arcanum,https://www.workato.com/integrations/arcanum,trigger,"Upload invoice file
+           Arcanum AI Extract data from invoice",,{}
+Asana,https://www.workato.com/integrations/asana,trigger,"New  event
+          Real-time New  event in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,trigger,"New or updated tasks trigger
+           New or updated task in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Custom action
+           Custom action in Asana (Custom)",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Add task to section
+           Add task to section in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Create subtask
+           Create subtask in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Create tag
+           Create tag in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Create task
+           Create task in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Get people details by ID
+           Get people details by ID in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Get project detail by ID
+           Get project details by ID in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Get project sections
+        Batch   Get sections in project in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Get task details by ID
+           Get task details by ID in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"List all tasks with tag
+        Batch   List tasks with tag in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"List people
+        Batch   List people in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"List project tasks
+        Batch   List tasks in project in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"List workspaces
+        Batch   List workspaces in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Search projects
+        Batch   Search projects in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Search tags
+        Batch   Search tags in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Search tasks
+        Batch   Search tasks in workspace in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,"Update task
+           Update task in Asana",,{}
+Asana,https://www.workato.com/integrations/asana,action,Show all 17,,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"Application changed stage
+          Real-time Application state changed in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"Application submitted
+          Real-time Application submitted in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"Candidate hired
+          Real-time Candidate hired in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"New/Updated interview schedule
+          Real-time New/Updated interview schedule in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"New/Updated offer
+          Real-time An offer in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"Offer deleted
+          Real-time Deleted offer in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"Published/Unpublished job posting
+          Real-time A job posting in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,"Survey submitted
+          Real-time Survey submitted in Ashby",,{}
+Ashby,https://www.workato.com/integrations/ashby,trigger,Show all 8,,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Custom action
+           Custom action in Ahsby (Custom)",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Change application stage
+           Change application stage in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Create application
+           Consider candidate for a job in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"New candidate
+           Create new candidate in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"New candidate note
+           Create new candidate note in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Search candidates
+           Search candidates in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Search job
+           Search job in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Search user
+           Search user in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Transfer application
+           Transfer application in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,"Update candidate
+           Update candidate in Ahsby",,{}
+Ashby,https://www.workato.com/integrations/ashby,action,Show all 10,,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,trigger,"Custom action
+           Custom action in  (Custom)",,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,trigger,"Create record
+           Create record in Aspera",,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,trigger,"Get record details by ID
+           Get record  in Aspera",,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,trigger,"Search records
+           Search records  in Aspera",,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,trigger,"Send a Package
+           Send a Package in Aspera",,{}
+Aspera on Cloud,https://www.workato.com/integrations/aspera-on-cloud,trigger,"Update record
+           Update record in Aspera",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Custom action
+           Custom action in Astra (Custom)",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Create documents in batch
+        Batch   Create documents in Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Create document
+           Create document in Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Delete document
+           Delete  document   in Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Get document by ID
+           Get  document   in Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Search documents
+           Search documents  in Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Update document
+           Update document in Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,"Update a path in a document
+           Update path in a documentsin Astra",,{}
+Astra,https://www.workato.com/integrations/astra,trigger,Show all 8,,{}
+Astrix,https://www.workato.com/integrations/astrix,trigger,"New record
+           New record in Astrix",,{}
+Astrix,https://www.workato.com/integrations/astrix,trigger,"New/updated record
+           New/updated record in Astrix",,{}
+Astrix,https://www.workato.com/integrations/astrix,action,"Search records
+           Search for records in Astrix",,{}
+Auth0,https://www.workato.com/integrations/auth0,trigger,"Create a User
+           Create a User in Auth 0",,{}
+Auth0,https://www.workato.com/integrations/auth0,trigger,"List Users
+           List Users in Auth 0",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),trigger,"New event in a project
+          Real-time New event in a project in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),trigger,"New or updated object in a project
+           New or updated object in a project in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Create object in a project
+           Create object in a project in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Custom action
+           Custom action in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Download object in a project
+           Download object in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Get object in a project
+           Get object in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Search for objects in a project
+           Search for object in a project in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Update object in a project
+           Update object in a project in Autodesk Construction Cloud",,{}
+Autodesk Construction Cloud (Public Beta),https://www.workato.com/integrations/autodesk-construction-cloud-(public-beta),action,"Upload object to a project
+           Upload object to a project in Autodesk Construction Cloud",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"List Users
+           List Users in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Custom action
+           Custom action in Automation Anywhere A360 (Custom)",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Workitem – Add
+           Insert Workitem in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Workitem – Delete
+           Delete Workitem in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Bot – Deploy with Input and callback
+           Deploy Bot in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"In progress / Historical Activity.
+           Get Activity List in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Queue – Get
+           Search Queues in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Workitem – Get
+           Search Workitems in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Audit Logs
+           Get Audit Logs in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Bot – List
+           List Bots in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Credential – Search by ID
+           Search Credential By Id in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Get Device
+           Search Devices in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Bot – Schedule
+           Schedule Bot in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Credentials – Search by Name
+           Search Credentials in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,"Workitem – Update
+           Update Workitem in Automation Anywhere A360",,{}
+Automation Anywhere,https://www.workato.com/integrations/automation-anywhere,trigger,Show all 15,,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Custom action
+           Custom action in Awardco (Custom)",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Activate user
+           Activate User in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Archive user
+           Archive User in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Recognize multiple users via queued recognitions
+         Bulk  Recognize Multiple Users via Queued Recognitions in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Recognize multiple users
+         Bulk  Recognize Multiple Users in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Create user
+           Create User in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Get report
+           Get  Report  in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Get report as CSV
+           Get  Report as CSV  in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Get user file
+           Get User File in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Import users
+         Bulk  Import User File to Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Recognize user
+           Recognize User in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Reset password
+           Reset User's Password in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Get social feed
+           Get Social Feed in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Get user balance
+           Get User's Point Balance in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,"Check user exists
+           Check User Exists in Awardco",,{}
+Awardco,https://www.workato.com/integrations/awardco,trigger,Show all 15,,{}
+AWS API Gateway,https://www.workato.com/integrations/aws-api-gateway,trigger,"Custom action
+           Custom action in AWS API Gateway",,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,trigger,"Custom action
+           Custom action in AWS Athena",,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,trigger,"Execute SQL query
+           Executes the provided SQL Query in Athena",,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,trigger,"Get query execution status
+           Returns the status of the SQL Query run in Athena",,{}
+AWS Athena,https://www.workato.com/integrations/aws-athena,trigger,"Get query results (batch)
+           Returns the result of the SQL Query run in Athena",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Analyse text
+           Analyse text to answer user-provided questions using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Categorise text
+           Classify text based on user-defined categories using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Converse with models
+           Converse with a model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Draft email
+           Generate draft email using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Generate or modify images
+           Generate an image using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Generate text embedding
+           Generates text embedding using model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Parse text
+           Parse text to find specific information using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Send message to models
+           Sends a message to model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Summarize text
+           Summarize text using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,"Translate text
+           Translate text into a different language using  model in AWS Bedrock",,{}
+AWS Bedrock,https://www.workato.com/integrations/aws-bedrock,trigger,Show all 10,,{}
+AWS GuardDuty,https://www.workato.com/integrations/aws-guardduty,trigger,"Custom action
+           Custom action in AWS GuardDuty",,{}
+AWS GuardDuty,https://www.workato.com/integrations/aws-guardduty,trigger,"Get record details by ID
+           Get record by ID in AWS GuardDuty",,{}
+AWS GuardDuty,https://www.workato.com/integrations/aws-guardduty,trigger,"Search records
+           Search records in AWS GuardDuty",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"Create a key
+           Creates a new key in the AWS account and Region",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"Decrypt ciphertext
+           Decrypts ciphertext using KMS key",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"Describe key
+           Describe key information",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"Encrypt text
+           Encrypts a text using KMS key",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"List keys
+           Gets a list of all KMS keys in the caller's AWS account and Region.",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"ReEncrypt ciphertext
+           ReEncrypt ciphertext using KMS key",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"Sign a message
+           Sign a message using KMS key",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,"Verify message signature
+           Verify a message's digital signature",,{}
+AWS Key Management Service,https://www.workato.com/integrations/aws-key-management-service,trigger,Show all 8,,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,trigger,"Create secret
+           Creates a new secret in secrets manager",,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,trigger,"Get a random password
+           Fetches a randomly generated password",,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,trigger,"Get secret value
+           Fetches the value of a secret",,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,trigger,"List secret versions
+           Lists the versions of a secret",,{}
+AWS Secrets Manager,https://www.workato.com/integrations/aws-secrets-manager,trigger,"List secrets
+           List secrets stored within Secrets Manager",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,trigger,"New finding
+           New finding in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,trigger,"New/updated finding
+           New or updated finding in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Create insight
+           Create insight in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Custom action
+           Custom action in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Get findings
+           Get findings in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Get insight results
+           Get insight results in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Get members
+           Get members in AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Batch import findings
+           Imports a list of findings into AWS Security Hub",,{}
+AWS Security Hub,https://www.workato.com/integrations/aws-security-hub,action,"Batch update findings
+           Update findings in batch in AWS Security Hub",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,"New deleted user
+           New deleted User in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,"New group
+           New group in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,"New/updated group
+           New or updated group in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,"New/updated user
+           New or updated User in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,trigger,"New user
+           New User in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Custom action
+           Custom action in Microsoft Entra ID (Azure Active Directory) (Custom)",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Add member to group
+           Add member to group in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Add or remove user license
+           Add or remove User license(s) in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Create group
+           Create group in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Create user
+           Create user in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Delete group
+           Delete group in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Delete user
+           Delete user in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Get group details by ID
+           Get group by ID in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Search group members
+           Search group members in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Search transitive group members
+           Search transitive group members in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Get user details by ID
+           Get user by ID in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Get user license
+           Get User license by ID Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Search users
+           Search users in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Remove member from group
+           Remove member from group in Microsoft Entra ID (Azure Active Directory)",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Revoke sign-in session
+           Revoke user sign-in session in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Update group
+           Update group in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,"Update user
+           Update user in Microsoft Entra ID",,{}
+Azure Active Directory,https://www.workato.com/integrations/azure-active-directory,action,Show all 17,,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,trigger,"New event
+          Real-time New event in Azure DevOps",,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,"Create record
+           Create record in Azure DevOps",,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,"Custom action
+           Custom action in Azure DevOps",,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,"Get record
+           Get record in Azure DevOps",,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,"Search records
+           Search records in Azure DevOps",,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,"Update record
+           Update record in Azure DevOps",,{}
+Azure DevOps,https://www.workato.com/integrations/azure-devops,action,"Upload work item attachment
+           Upload work item attachment in Azure DevOps",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Analyze document
+           Analyze document in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Create record
+           Create record in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Custom action
+           Custom action in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Delete record
+           Delete record in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Execute operation
+           Execute operation in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Get record details by ID
+           Get record details by ID in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Search records
+           Search records in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,"Update record
+           Update record in Azure Form Recognizer",,{}
+Azure Form Recognizer,https://www.workato.com/integrations/azure-form-recognizer,trigger,Show all 8,,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,trigger,"New record
+           New record in Azure Sentinel",,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,trigger,"New/updated record
+           New/updated record in Azure Sentinel",,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,action,"Custom action
+           Custom action in  (Custom)",,{}
+Azure Sentinel,https://www.workato.com/integrations/azure-sentinel,action,"Search records
+           Search for records in Azure Sentinel",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,trigger,"New message
+           New Message in Azure Service Bus",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,trigger,"New messages
+        Batch   New messages in Azure Service Bus",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,"Custom action
+           Custom action in Azure Service Bus (Custom)",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,"Delete message
+           Delete message in Azure Service Bus",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,"Peek-lock message
+           Peek-lock message from Azure Service Bus queue or subscription",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,"Receive and delete message
+           Receive and delete message from queue or subscription in Azure Service Bus",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,"Send message
+           Send message to Azure Service Bus queue or topic",,{}
+Azure Service Bus,https://www.workato.com/integrations/azure-service-bus,action,"Send multiple messages
+           Send message in batch to Azure Service Bus queue or topic",,{}
+Backlog,https://www.workato.com/integrations/backlog,trigger,"New event
+          Real-time New event in Backlog",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Custom action
+           Custom action in Backlog (Custom)",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Get issue count
+           Get issue count in Backlog",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Create record
+           Create record in Backlog",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Delete record
+           Delete record in Backlog",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Get record
+           Get record in Backlog",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Search records
+           Search records in Backlog",,{}
+Backlog,https://www.workato.com/integrations/backlog,action,"Update record
+           Update record in Backlog",,{}
+Bakuraku (バクラク),https://www.workato.com/integrations/bakuraku-(バクラク),trigger,"Custom action
+           Custom action in Bakuraku (バクラク) (Custom)",,{}
+Bakuraku (バクラク),https://www.workato.com/integrations/bakuraku-(バクラク),trigger,"申請詳細の取得
+           バクラク申請・経費精算で申請された申請の詳細情報を取得できます。",,{}
+Bakuraku (バクラク),https://www.workato.com/integrations/bakuraku-(バクラク),trigger,"申請一覧の取得
+           バクラク申請・経費精算で申請された一覧情報を取得できます。",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,"New employee
+           New employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,"New employee
+          Real-time New employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,"Schedule custom employee report
+        Batch   Scheduled report in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,"New/updated employee
+           New/updated employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,trigger,"New/updated employee
+          Real-time New/updated employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Custom action
+           Custom action in BambooHR (Custom)",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Create employee
+           Create employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Create/update time off request
+           Create/update a time off request on BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Create table record of employee
+           Create table record of employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Delete table record
+           Delete table record of employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Get company employee report by ID
+           Get company report by ID in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Get employee details by ID
+           Get employee details in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Get table records of employee
+        Batch   Get table records of employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"List employees in directory
+        Batch   List employees in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"List time off requests
+        Batch   List time off request on BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Create custom employee report
+        Batch   Create a custom report on employees in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Update employee
+           Update employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Update table record of employee
+           Update table record of employee in BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,"Update time off request status
+           Update time off request on BambooHR",,{}
+BambooHR,https://www.workato.com/integrations/bamboohr,action,Show all 14,,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Onboard Employee
+           Create Employee in        'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Post KB
+           Create KB in        'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Delete Employee
+           Delete Employee in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Generate Integration Token
+           Generate Integration Token in '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get All Employees
+           GET All Employees from Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get All KBs
+           GET All KBs from Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get Conversation from Channel
+           GET Conversation from Channel",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get Employee by Email
+           Search Employee in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get Employee by ID
+           Search Employee in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get Report9 by ESP Filters
+           GET Report9 Data in '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get Task
+           Get Task from '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Get Task by Channel ID
+           Get Task from '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Parse CSV Data
+           Parse CSV Data in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Parse CSV Status Check
+           Parse CSV Status Check in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Patch KB
+           Patch KB in        'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Post Data To Channel
+           Post Data to Barista channel",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Post Sync IDs
+           Post Sync IDs in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Search Employees
+           Search Employees in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Terminate Employee
+           Terminate Employee in Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Channel Live Agent Session Mode
+           Performs a PATCH to a Channel Object to set sys_custom_fields.start_live_agent_suppor=True/False",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Employee
+           Update Employee in '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Reference Number on Task
+           Update Reference Number in '       'Barista Task",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Report9 Data
+           Update Report9 Data in '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Task
+           Update Task in '       'Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Task Owner
+           Change Owner on Tasks",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Task Status
+           Change Status on Tasks",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Update Task Live Agent Session Mode
+           Performs a PATCH to a Task Object to set sys_custom_fields.start_live_agent_suppor=True/False",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,"Upload CSV file to barista
+           Upload CSV File to Barista",,{}
+Barista,https://www.workato.com/integrations/barista,trigger,Show all 28,,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,trigger,"New form response
+          Real-time Triggers an event whenever form gets submitted.",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,trigger,"QR code created
+          Real-time Triggers an event whenever QR gets created in you beaconstac account.",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,trigger,"QR code scanned
+          Real-time Triggers an event whenever QR code scanned in your beaconstac account",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,"Downlaod QR
+           Downlaod QR code from beaconstac",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,"Upload file
+           Upload File to Beaconstac",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,"Create Dynamic QR Code
+           Create Dynamic QR Code in Beaconstac",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,"Create Static QR code
+           Create Static QR code in Beaconstac",,{}
+Beaconstac,https://www.workato.com/integrations/beaconstac,action,"Update Dynamic QR Code
+           Update Dynamic QR Code in Beaconstac",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Create record
+           Create record in Benchling",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Custom action
+           Custom action in Benchling",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Delete record
+           Delete record in Benchling",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Execute operation
+           Execute operation in Benchling",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Get record details by ID
+           Get record details by ID in Benchling",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Search records
+           Search records in Benchling",,{}
+Benchling,https://www.workato.com/integrations/benchling,trigger,"Update record
+           Update record in Benchling",,{}

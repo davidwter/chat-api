@@ -48,11 +48,26 @@ class WorkatoScraper:
         os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     def _load_state(self) -> Dict[str, bool]:
-        """Load the previous state if it exists."""
+        """Load the previous state if it exists and validate against actual data."""
+        state = {}
         if os.path.exists(STATE_FILE):
             with open(STATE_FILE, 'r') as f:
-                return json.load(f)
-        return {}
+                state = json.load(f)
+            
+            # Validate state against latest CSV/JSON
+            latest_json = Path(OUTPUT_DIR) / "workato_connectors_latest.json"
+            if latest_json.exists():
+                with open(latest_json, 'r') as f:
+                    actual_data = json.load(f)
+                    # Get list of actually processed connectors
+                    processed_connectors = {item['name']: True for item in actual_data}
+                    
+                    # Clean up state to match actual data
+                    state = {k: v for k, v in state.items() if k in processed_connectors}
+                    
+                    console.print(f"[yellow]Resuming from last successful connector: {list(processed_connectors.keys())[-1]}[/yellow]")
+            
+        return state
 
     def _save_state(self):
         """Save the current progress."""
