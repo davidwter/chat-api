@@ -6,6 +6,11 @@ export interface Message {
     status: 'sending' | 'sent' | 'failed';
     type: 'text' | 'system' | 'error';
     conversationId: string;
+    connectors?: Array<{
+        name: string;
+        categories?: string[];
+        confidenceScore?: number;
+    }>;
 }
 
 export interface Conversation {

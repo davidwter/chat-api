@@ -1,3 +1,4 @@
+# app/controllers/api/v1/messages_controller.rb
 module Api
   module V1
     class MessagesController < ApplicationController
@@ -8,9 +9,20 @@ module Api
                      Message.all
                    end
 
-        render json: {
-          messages: messages.order(created_at: :asc).map { |m| message_json(m) }
-        }
+        rendered_messages = messages.order(created_at: :asc).map do |message|
+          # Get connector mentions for each message
+          mentions = ConnectorMention.includes(:connector)
+                                     .where(message_id: message.id)
+                                     .map do |mention|
+            {
+              connector: mention.connector,
+              confidence_score: mention.confidence_score
+            }
+          end
+          message_json(message, mentions)
+        end
+
+        render json: { messages: rendered_messages }
       end
 
       def create
@@ -27,7 +39,9 @@ module Api
           is_user: true
         )
 
-        # Generate AI response using LlmService with timeout handling
+        # Detect connectors in user message
+        user_mentions = ConnectorDetectionService.detect_and_save_mentions(message.id, message.content)
+
         begin
           Timeout.timeout(180) do  # 3 minutes total timeout
             ai_response = LlmService.generate_response(message.content)
@@ -36,28 +50,22 @@ module Api
               is_user: false
             )
 
-            # Detect and save connector mentions for both messages
-            user_mentions = ConnectorDetectionService.detect_and_save_mentions(message.id, message.content)
+            # Detect connectors in AI response
             ai_mentions = ConnectorDetectionService.detect_and_save_mentions(response.id, response.content)
 
+            # Debug logging
+            Rails.logger.debug "User message: #{message.content}"
+            Rails.logger.debug "User mentions: #{user_mentions.inspect}"
+            Rails.logger.debug "AI response: #{response.content}"
+            Rails.logger.debug "AI mentions: #{ai_mentions.inspect}"
+
             render json: {
-              message: message_json(message),
-              response: message_json(response)
+              message: message_json(message, user_mentions),
+              response: message_json(response, ai_mentions)
             }, status: :created
           end
-        rescue Timeout::Error
-          response = conversation.messages.create!(
-            content: "I apologize, but I'm taking longer than expected to respond. Please try again.",
-            is_user: false,
-            message_type: 'error'
-          )
-
-          render json: {
-            message: message_json(message),
-            response: message_json(response)
-          }, status: :created
-        rescue StandardError => e
-          Rails.logger.error("LLM Error: #{e.message}")
+        rescue => e
+          Rails.logger.error("Error in message creation: #{e.message}")
           response = conversation.messages.create!(
             content: "I encountered an error while processing your message. Please try again.",
             is_user: false,
