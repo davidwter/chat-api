@@ -2,8 +2,6 @@ import React from 'react';
 import { Check, AlertCircle, Link } from 'lucide-react';
 
 const Message = ({ content, isUser, timestamp, status, type, connectors = [] }) => {
-    console.log('Message props:', { content, isUser, connectors }); // Debug log
-
     const getMessageStyle = () => {
         if (isUser) {
             return 'bg-blue-600 text-white';
@@ -20,23 +18,43 @@ const Message = ({ content, isUser, timestamp, status, type, connectors = [] }) 
 
     const formatContent = (text) => {
         if (!text) return '';
-        console.log('Formatting text:', text); // Debug log
 
-        // Replace markdown with HTML
-        const parts = text.split(/(\*\*[^*]+\*\*)/g);
-        return parts.map((part, index) => {
-            if (part.startsWith('**') && part.endsWith('**')) {
-                const connectorName = part.slice(2, -2);
-                return (
-                    <strong
-                        key={index}
-                        className={isUser ? 'text-white' : 'text-blue-600'}
-                    >
-                        {connectorName}
-                    </strong>
-                );
-            }
-            return <span key={index}>{part}</span>;
+        // Replace literal '\n' with actual newlines
+        const normalizedText = text.replace(/\\n/g, '\n');
+
+        // Split by actual newlines
+        const lines = normalizedText.split(/\n/);
+
+        return lines.map((line, lineIndex) => {
+            // Process markdown in each line
+            const parts = line.split(/(\*\*[^*]+\*\*)/g);
+            const processedParts = parts.map((part, partIndex) => {
+                if (part.startsWith('**') && part.endsWith('**')) {
+                    const connectorName = part.slice(2, -2);
+                    return (
+                        <strong
+                            key={`${lineIndex}-part-${partIndex}`}
+                            className={isUser ? 'text-white' : 'text-blue-600'}
+                        >
+                            {connectorName}
+                        </strong>
+                    );
+                }
+
+                // Handle empty lines
+                if (part.trim() === '') {
+                    return <span key={`${lineIndex}-part-${partIndex}`}>&nbsp;</span>;
+                }
+
+                return <span key={`${lineIndex}-part-${partIndex}`}>{part}</span>;
+            });
+
+            // Return each line with explicit breaks
+            return (
+                <div key={`line-${lineIndex}`} className="min-h-[1.5em] leading-normal">
+                    {processedParts.length === 0 ? <>&nbsp;</> : processedParts}
+                </div>
+            );
         });
     };
 
@@ -54,7 +72,7 @@ const Message = ({ content, isUser, timestamp, status, type, connectors = [] }) 
                 <div className={`px-4 py-2.5 rounded-2xl shadow-sm ${getMessageStyle()} 
                     ${isUser ? 'rounded-br-md' : 'rounded-bl-md'}`}
                 >
-                    <div className="whitespace-pre-wrap break-words text-[15px] leading-relaxed">
+                    <div className="break-words text-[15px]">
                         {formatContent(content)}
                     </div>
 
