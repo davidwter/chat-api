@@ -1,0 +1,3732 @@
+[
+  {
+    "name": "Salesforce",
+    "url": "https://www.workato.com/integrations/salesforce",
+    "triggers": [
+      {
+        "name": "Monitor changes in a record\n          Real-time Monitor changes in a record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n           New record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n          Real-time New record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New Outbound message\n          Real-time New Outbound message in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New platform event\n          Real-time New  event in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New PushTopic event\n          Real-time New PushTopic event in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export new records\n           Export new records in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export new/updated records\n           Export new/updated records in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Scheduled record search using SOQL query WHERE clause\n        Batch   Scheduled  record search using SOQL query WHERE clause in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Scheduled records search using SOQL query\n        Batch   Scheduled records search using SOQL query in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New records\n        Batch           New  records \n        in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated records\n        Batch           New/updated  records \n        in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Threshold met for new records created\n        Batch           Threshold met for new records\n        created in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Deleted record\n           Record deleted in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n          Real-time New/updated record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 16",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Salesforce (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Approve record in approval process\n           Approve a record in approval process in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records in batches\n        Batch   Create records in batches in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update records in batches\n        Batch   Update records in batches in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Publish platform event\n           Publish platform event in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download attachment\n           Download attachment from Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download file\n           Download file from Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get details of specific record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get related list by parent record ID\n        Batch   Get list of related records in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get report by ID\n           Get report details in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get object schema\n           Get object schema in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records in bulk from CSV file\n           Create records in bulk in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records in bulk from CSV file (API 1.0)\n           Create records in bulk in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Reject record in approval process\n           Reject a record in approval process in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Retry bulk job for failed records from CSV file\n           Retry objects bulk job in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n        Batch   Search for records in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records using SOQL query WHERE clause\n        Batch   Search records using SOQL query WHERE clause in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records in bulk using SOQL query (API 1.0)\n           Search records in bulk using SOQL query (API 1.0) in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records in bulk using SOQL query (API 2.0)\n           Search records in bulk using SOQL query (API 2.0) in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records using SOQL query\n        Batch   Search for records using SOQL query in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Submit record for approval\n           Submit a record for approval in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update records in bulk from CSV file\n           Update records in bulk in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update records in bulk from CSV file (API 1.0)\n           Update records in bulk in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file\n           Upload file to Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert records in bulk from CSV file\n           Upsert records in bulk in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert records in bulk from CSV file (API 1.0)\n           Upsert records in bulk in Salesforce from CSV file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert records in batches\n        Batch   Upsert records in batches in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert record\n           Upsert record in Salesforce",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 31",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "url": "https://www.workato.com/integrations/slack",
+    "triggers": [
+      {
+        "name": "Button click\n          Real-time New button click in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New event\n          Real-time New event in Slack",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Slack (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Archive conversation\n           Archive conversation in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create conversation (channels and groups)\n           Create conversation in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user info\n           Get user info by email or user ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Invite users to conversation\n           Invite users to conversation in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Respond to button click\n           Respond to button click in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Post message\n           Post message in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Set conversation purpose\n           Set conversation purpose in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Set conversation topic\n           Set conversation topic in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unarchive conversation\n           Unarchive conversation in Slack",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 10",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Marketo",
+    "url": "https://www.workato.com/integrations/marketo",
+    "triggers": [
+      {
+        "name": "Export new leads in Marketo\n                     Export new  leads  in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export new/updated leads in Marketo\n                     Export new/updated  leads  in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Monitor leads added to list\n        Batch   Monitor leads added to list in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New lead activity\n        Batch   New lead activity in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New lead in list\n           New lead in list in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New Marketo Self Service Flow Step\n          Real-time New Marketo Self Service Flow Step in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated lead\n        Batch   New/updated lead in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated lead\n           New/updated lead in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Marketo (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Activate smart campaign\n           Activate smart campaign in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add custom activity\n        Batch   Add custom activity in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add leads to lead list\n        Batch   Add leads to lead list in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Bulk export objects to file\n           Export objects in bulk in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Bulk import objects from file\n           Bulk import objects to Marketo from file",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Change lead program status\n        Batch   Change lead program status in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Clone object\n           Clone object in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create object\n           Create object in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get objects\n           Get objects in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove leads from lead list\n           Remove leads from lead list in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Return data to Marketo Self Service Flow Step\n           Return data to Marketo Self Service Flow Step in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Schedule campaign or smart campaign\n           Schedule campaign or smart campaign in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search objects\n        Batch   Search object in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Submit form\n           Submit form in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Trigger campaign or smart campaign for specific leads\n           Trigger campaign or smart campaign in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update object\n           Update object in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert custom objects\n        Batch   Upsert custom objects in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create/update/upsert leads\n        Batch   Create/update/upsert leads in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert object\n                   Upsert object in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert tokens\n           Upsert tokens in Marketo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 21",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "NetSuite SOAP",
+    "url": "https://www.workato.com/integrations/netsuite-soap",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Box",
+    "url": "https://www.workato.com/integrations/box",
+    "triggers": [
+      {
+        "name": "New CSV file in folder\n        Batch   New CSV file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New event in folder\n          Real-time New event in folder",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated file in folder\n           New/updated file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New line in CSV file\n           New line in CSV file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated CSV file in folder\n        Batch   New/updated CSV file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated file metadata in folder\n           New/updated file metadata in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated folder in folder\n           New/updated folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated sign event in folder\n           New/updated sign event in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Box (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add comment to file\n           Add comment to file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Cancel sign request\n           Cancel sign request in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Copy file or folder\n           Copy file or folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create collaboration\n           Create collaboration in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create file shared link\n           Create shared link for file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create folder\n           Create folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create folder shared link\n           Create shared link for folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create file metadata\n           Create metadata in a file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create sign request\n           Create sign request in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete file or folder\n           Delete file or folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete file metadata\n           Delete metadata in a file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download file\n           Download contents from a file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file download URL\n           Get file download URL in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List folder items\n        Batch   List files and folders in a specific folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file comments\n        Batch   Get file comments in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file metadata\n           Get metadata in a file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get sign request\n           Get sign request in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List sign requests\n        Batch   List sign requests in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Rename/move file or folder\n           Rename/move file or folder in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Rename other user\u2019s file or folder\n           Rename other user's file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Resend sign request\n           Resend sign request in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search files or folders\n        Batch   Search files or folders in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update CSV file in box\n           Update CSV file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update file metadata\n           Update metadata in a file in Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file using file contents\n           Upload file using file contents to Box",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file using file URL\n           Upload file from public URL to folder",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 27",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Workday",
+    "url": "https://www.workato.com/integrations/workday",
+    "triggers": [
+      {
+        "name": "New/updated business object\n           New/updated business object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated business object\n        Batch   New/updated business object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Scheduled report fetch\n        Batch   Scheduled report in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Scheduled report fetch using WQL\n        Batch   Scheduled report in Workday using WQL",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Get business object details\n        Batch   Get business object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search business object\n        Batch   Search business object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update business object\n           Update business object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Call operation\n           Call operation in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get custom objects\n           Get custom object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get report\n           Get report from Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get report using WQL\n        Batch   Get report from Workday using WQL",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List custom object definitions\n        Batch   List custom object definitions in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create/update custom object\n           Create/update custom object in Workday",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 9",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "ServiceNow",
+    "url": "https://www.workato.com/integrations/servicenow",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in ServiceNow (Custom) (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add relation to configuration item\n           Add relation to configuration item in ServiceNow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create configuration item\n           Create configuration item in ServiceNow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete configuration item relation\n           Delete configuration item relation in ServiceNow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get configuration item\n           Get configuration item in ServiceNow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search configuration items\n           Search configuration items in ServiceNow",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update configuration item\n           Update configuration item in ServiceNow",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Snowflake",
+    "url": "https://www.workato.com/integrations/snowflake",
+    "triggers": [
+      {
+        "name": "New row\n           New row in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New rows\n        Batch   New batch of rows in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Scheduled query\n        Batch   Scheduled query using custom SQL in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated row\n           New/updated row in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated rows\n        Batch   New/updated batch of rows in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bulk load data to table from stage\n         Bulk  Bulk load data to table from stage in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete rows\n        Batch   Delete rows in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export query result\n           Export query result as a CSV file in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Insert row\n           Insert row in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Merge rows\n           Merge rows from source table to target table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Replicate schema\n           Replicate table schema in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run custom SQL\n        Batch   Run custom SQL in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run long query using custom SQL\n           Run long query using custom SQL in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Select rows\n        Batch   Select rows in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Select rows using custom SQL\n        Batch   Select rows using custom SQL in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Replicate rows\n        Batch   Replicate batch of rows to table in  Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update rows\n           Update rows in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file to internal stage\n           Upload file to internal stage in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert rows\n        Batch   Upsert batch of rows in a table in Snowflake",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 14",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "HubSpot",
+    "url": "https://www.workato.com/integrations/hubspot",
+    "triggers": [
+      {
+        "name": "New contact in contact list\n           New contact added to a contact list in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New form submission\n           New form submission in Hubspot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n           New record in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New records\n        Batch   New records in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated records\n        Batch   New/updated records in HubSpot",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in HubSpot (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add contact to list\n           Add contact to list in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add contact to workflow\n           Contact added to workflow in Hubspot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Associate records\n           Associate records in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Associate records\n        Batch   Associate records in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Import CRM Data\n           Bulk import in Hubspot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create engagement\n           Create engagement in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create a record in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records\n        Batch   Create records in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete associations\n        Batch   Delete associations in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete contact\n           Delete contact in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export object data\n           Export contents as a file from Hubspot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get associations\n        Batch   Get associations in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get contacts associated with a company\n        Batch   Get all contacts in a Company in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get contacts in contact list\n        Batch   Get all contacts in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get owner details\n           Get owner details from HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get owner details by ID\n           Get owner details by ID from HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get record in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List associations\n        Batch   List associations in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove contact from contact list \n        Batch   Contact removed all contacts in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search pipeline stages\n        Batch   Search pipeline stages in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search record\n        Batch   Search record in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update a record in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update records\n        Batch   Update records in HubSpot",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 24",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Zendesk",
+    "url": "https://www.workato.com/integrations/zendesk",
+    "triggers": [
+      {
+        "name": "New organization\n           New organization in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New ticket\n           New ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New ticket\n          Real-time New ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated records\n        Batch   Trigger processes batches of new or updated records",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New user\n           New user in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated organization\n           New/updated organization in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated ticket\n           New/updated ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated ticket\n          Real-time New/updated ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated user\n           New/updated user in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 9",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Zendesk (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create organization membership\n           Create organization membership in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Bulk update tickets\n           Bulk update tickets in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create/update records\n        Batch           Upsert records in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Solve ticket\n           Solve ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create custom object record\n           Create custom object record in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create organization\n           Create organization in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create relationship record\n           Create relationship record in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create ticket\n           Create ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload attachment\n           Upload attachment to Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create user\n           Create user in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete custom object record by ID\n           Delete custom object record in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete relationship record by ID\n           Delete relationship record in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete ticket\n           Delete ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get custom object record by ID\n           Get custom object record in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get organization details by ID\n           Get organization details in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get organizations by external IDs\n        Batch   Get organizations in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get relationship record(s)\n        Batch   Get relationship record(s) in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get ticket details by ID\n           Get ticket details in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get comments for ticket\n        Batch   Get comments for a ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get list of tickets by external IDs\n        Batch   Get list of tickets by external IDs in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user details by ID\n           Get user details in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get list of custom object records by external IDs\n        Batch   Get custom object records in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List user identities\n        Batch   Get user identity details in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get group by name\n           Get group by name group in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search organization member\n        Batch   Search for a organization member in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search organizations\n        Batch   Search for organizations in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search tickets\n        Batch   Search for tickets in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search users\n        Batch   Search for users in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update custom object record\n           Update custom object record in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update organization\n           Update organization in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update ticket\n           Update ticket in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update user\n           Update user in Zendesk",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 33",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Jira",
+    "url": "https://www.workato.com/integrations/jira",
+    "triggers": [
+      {
+        "name": "Deleted object\n          Real-time Deleted object in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export new issues in Jira\n                   Export new  issues  in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export new/updated issues in Jira\n                   Export new/updated  issues  in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New event\n          Real-time New  event in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New issue\n           New issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New issue\n        Batch   New issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated comment\n          Real-time New/updated comment in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Updated issue\n           Updated issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Updated issue\n        Batch   Updated issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated issue\n          Real-time New/updated issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated worklog\n          Real-time New/updated worklog in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 11",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Jira (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Assign user to issue\n           Assign user to issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create comment\n           Create comment for issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create issue\n           Create issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create user\n           Create user in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user details\n           Get user in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download attachment\n           Download attachment from issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get changelog of an issue\n           Get changelog of an issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get issue\n           Get issue details from Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get issue comments\n        Batch   Get list of issue comments for issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get issue schema\n           Get issue schema for Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search assignable users\n        Batch   Search assignable users for issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search issues\n        Batch   Search issues in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search issues by JQL\n        Batch   Search issues by JQL in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update comment\n           Update comment for issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update issue\n           Update issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update issue status\n           Update status of issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload attachment\n           Upload attachment to issue in Jira",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 18",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Zoom",
+    "url": "https://www.workato.com/integrations/zoom",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time Webinar/Meeting/Cloud recording event in Zoom",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Zoom (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add group members\n        Batch   Add group member in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add registrant\n           Add registrants to meeting/webinar/cloud recording in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create group\n           Create group in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create user\n           Create user in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete object\n           Delete webinar/meeting/cloud recording/group in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete users\n           Delete user in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download cloud recording\n           Download cloud recording in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get object by ID\n           Get webinar/meeting/cloud recording/group in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get registrants\n        Batch   Get registrants for meeting/webinar/cloud recording in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user\n           Get user in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get webinar attendees\n        Batch   Get attendees from webinar in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Retrieve webinar results\n        Batch   Get results of Q&A/poll from webinar in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List object\n        Batch   List objects in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Schedule meeting or webinar\n           Schedule meeting/webinar in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search object\n        Batch   Search webinars/meetings/cloud recordings in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search users\n        Batch   Search users in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update object\n           Update webinars/meetings/cloud recordings/groups in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update registrant status\n           Approve/Cancel/Deny registrants for webinars/meetings/cloud recordings in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update user\n           Update user in Zoom",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 20",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "0codekit",
+    "url": "https://www.workato.com/integrations/0codekit",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in  (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Entity Detection\n           Detects Entities",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Language Detection\n           Detects Language",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Mood Detection\n           Detects Mood",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Picture Object Recognition\n           Recognizes Object in Picture",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Picture Text Recognition\n           Recognizes Text in Picture",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Translate Text\n           Translates Text",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Calculate BMI\n           Calculates BMI",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Calculate Geo Distance\n           Get Distance Between two adresses",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run Javascript Code\n           Run Javascript Code",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Run Python Code\n           Run Python Code",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert CSV to JSON\n           Converts CSV to JSON",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert Currency\n           Converts Currency",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert IP to Geo\n           Converts IP to Geo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert ISO to Nation\n           Converts ISO to Nation",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert Nation to ISO\n           Converts Nation to ISO",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Crypto Decrypt\n           Crypto Decrypt",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Crypto Encrypt\n           Crypto Encrypt",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Crypto Hash\n           Crypto Hash",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Current Month\n           Current Month",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Current Week\n           Current Week",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Current Week from Date\n           Current Week from Date",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Current Week from Unix Timestamp\n           Current Week from Unix Timestamp",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Current Week only with Week Number\n           Current Week only with Week Number",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Current Week with Week Number and Year\n           Current Week with Week Number and Year",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Holidays in Specific Country and Year\n           Holidays in Specific Country and Year",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Is Given Date is Weekend, with Format\n           Is Given Date is Weekend, with Format",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Is Given Date is Weekend\n           Is Given Date is Weekend",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Specific Month and Year\n           Specific Month and Year",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert Between Timezones with Date\n           Convert Between Timezones with Date",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Convert Between Timezones with Unix Timestamp\n           Convert Between Timezones with Unix Timestamp",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get a Random City\n           Get a Random City",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Random Name\n           Get Random Name",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Random Name with Gender\n           Get Random Name with Gender",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get a Number\n           Get Random Name",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Decode a QRCode\n           Decode a QRCode",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Generate a QRCode\n           Generate a QRCode",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Shortened Url\n           Create Shortened Url",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create Custom Shortened Url\n           Create Custom Shortened Url",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete Shortened Url\n           Delete Shortened Url",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get a Shortened Url\n           Get a Shortened Url",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List Shortened Urls\n           List Shortened Urls",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update Shortened Url\n           Update Shortened Url",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Image Exif\n           Image Exif",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Lookup VAT Rates\n           Looksup VAT Rates",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Advanced Switch with URL\n           Advanced Switch with URL",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Detect Gender\n           Detect Gender",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create a Scheduler\n           Create a Scheduler",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete a Scheduler\n           Delete a Scheduler",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List Schedulers\n           List Schedulers",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Split Name\n           Split Name",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "URL Expander\n           URL Expander",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "UTM Build\n           UTM Build",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "UTM Parse\n           UTM Parse",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Gets PDF page count\n           Get the page count from a PDF file either via url or buffer",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Creates a PDF from HTML\n           Creates a PDF file from HTML",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Merges multiple PDFs\n           Merge multiple PDF files into a single PDF",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Splits a PDF\n           Split a PDF file into custom defined sections",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Creates a PDF file from URL\n           Creates a PDF file from URL",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add a Global Variable\n           Add a Global Variable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete a Global Variable\n           Delete a Global Variable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get a Global Variable\n           Get a Global Variable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List Global Variables\n           List Global Variables",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add a Perm File\n           Add a Perm File",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete a Perm File\n           Delete a Perm File",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get a Perm File\n           Get a Perm File",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List Perm Files\n           List Perm Files",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add a Temporary File and Recieve a URL\n           Add a Temporary File and Recieve a URL",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Text Contains\n           Text Contains",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validate a bic\n           Checks if bic is valid",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validates an email and correct it\n           Validates an email address matching it with standards and eventually corrects it",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validate an IBAN\n           Checks if IBAN is valid",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validate vat with Countrycode and plain ID\n           Validates vat with Countrycode and plain ID",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Checks validity of a VAT ID\n           Checks if VAT number and ID is valid",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Verify a Domain\n           Checks if domain is valid",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Word Merge\n           Word Merge",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 76",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "10,000ft",
+    "url": "https://www.workato.com/integrations/10,000ft",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time Triggers when record is created or updated in 10000 ft",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create record\n           Create record in 10000 ft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in 10000 ft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details\n           Get details of specific record in 10000 ft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in 10000 ft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record by ID in 10000 ft",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "3 D Repo",
+    "url": "https://www.workato.com/integrations/3-d-repo",
+    "triggers": [
+      {
+        "name": "Create model container\n           Create model container",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List models in a project\n           Get list of models",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload model revision\n           Upload model revision",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Abbyy Flexicapture",
+    "url": "https://www.workato.com/integrations/abbyy-flexicapture",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Abbyy Flexicapture (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download a file\n           Download a file from Abbyy Flexicapture",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Process a file\n           Process a file in Abbyy Flexicapture",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Reprocess a file\n           Reprocess a file in Abbyy Flexicapture",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Abbyy Vantage",
+    "url": "https://www.workato.com/integrations/abbyy-vantage",
+    "triggers": [
+      {
+        "name": "Get results\n           Get the results in ABBYY Vantage",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get skills\n           Get skills in ABBYY Vantage",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get transaction status\n           Get transaction status in ABBYY Vantage",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload document\n           Upload document in ABBYY Vantage",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AbuseIPDB",
+    "url": "https://www.workato.com/integrations/abuseipdb",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in AbuseIPDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get IP address details\n           Get IP address details in AbuseIPDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get network details\n           Get network details in AbuseIPDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Report IP address\n           Report an IP address in AbuseIPDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search blacklisted IP addresses\n           Search blacklisted IP addresses in AbuseIPDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload CSV file of IP addresses\n           Upload CSV file of IP addresses to report in AbuseIPDB",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Aconex",
+    "url": "https://www.workato.com/integrations/aconex",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Action Network",
+    "url": "https://www.workato.com/integrations/action-network",
+    "triggers": [
+      {
+        "name": "New/updated form\n           New or updated form in Action Network",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated petition\n           New or updated petition in Action Network",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated signature\n           New or updated signature in Action Network",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated submission\n           New or updated submission in Action Network",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Active Directory",
+    "url": "https://www.workato.com/integrations/active-directory",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "RegOnline\u00ae by Lanyon",
+    "url": "https://www.workato.com/integrations/regonline\u00ae-by-lanyon",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Active Campaign",
+    "url": "https://www.workato.com/integrations/active-campaign",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Acumatica ERP",
+    "url": "https://www.workato.com/integrations/acumatica-erp",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time New event in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create record\n           Create record in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records in batches\n        Batch   Create record in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details\n           Get record by ID in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search for records in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update records in batches\n        Batch   Update record in Acumatica ERP",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Adaptive Insights",
+    "url": "https://www.workato.com/integrations/adaptive-insights",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Adaptive Insights (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom report\n           Custom report values in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Erase actuals\n           Erase actuals in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Erase data\n           Erase data in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export configurable model data\n           Export configurable model data in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export data\n           Export data in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export modeled sheet\n           Export modeled sheet in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Export object\n           Export object in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Import object\n           Import object in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Recalculate sheet\n           Recalculate sheet in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert object\n           Upsert object in Adaptive Insights",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 11",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Adaptive Shield",
+    "url": "https://www.workato.com/integrations/adaptive-shield",
+    "triggers": [
+      {
+        "name": "New event\n          Real-time New event in Adaptive Shield",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n           New record in Adaptive Shield",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in  (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n           List records in Adaptive Shield",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search for records in Adaptive Shield",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Address Validator",
+    "url": "https://www.workato.com/integrations/address-validator",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Address Validator (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Auto complete address\n           Auto-Complete address in Address Validator",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validate address in bulk\n         Bulk  Validate address in bulk in Address Validtor",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get address by ID\n           Get address details by ID in Address Validator",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validate address\n           Validate the address in Address Validator",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Adeona PIM",
+    "url": "https://www.workato.com/integrations/adeona-pim",
+    "triggers": [
+      {
+        "name": "New deleted product\n           New deleted product in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n           New record in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n        Batch   New record in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n           New/updated record in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated record\n        Batch   New/updated record in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Adeona PIM (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records using Scroll API\n           Search  records using Scroll API in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records in batch\n        Batch   Create  record  (batch) in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete records in batch\n        Batch   Delete  record  (batch) in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update records in batch\n        Batch   Update  record  (batch) in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create  record  in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download file by ID\n           Download file by ID in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Finish a job\n           Finish a job in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get  record  in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search  records  in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Start a job\n           Start a job in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update  record  in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file contents\n           Upload file contents in Adeona PIM",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 13",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Adobe Admin",
+    "url": "https://www.workato.com/integrations/adobe-admin",
+    "triggers": [
+      {
+        "name": "New group or product profile\n           New group or product profile in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New user\n           New user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Adobe Admin (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add product profiles to a group\n           Add product profiles to a group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Assign groups to a user\n           Assign groups to a user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Assign users to a group\n           Assign users to a group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Assign users to a product\n           Assign users to a product in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create enterprise user\n           Create enterprise user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create federated user\n           Create federated user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create group\n           Create group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete group\n           Delete group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get product info\n           Get product info in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user\n           Get user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Invite user\n           Invite user to organization in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List groups and product profiles\n           List groups and product profiles in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List users\n           List users in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List users within group\n           List users within group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove product profiles from a Group\n           Remove product profiles from a group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove user from organization\n           Remove user from organization in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unassign groups from a user\n           Unassign groups from a user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unassign users from a group\n           Unassign users from a group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unassign users from a product\n           Unassign users from a product in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update group\n           Update group in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update user\n           Update user in Adobe Admin",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 22",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Adobe Sign",
+    "url": "https://www.workato.com/integrations/adobe-sign",
+    "triggers": [
+      {
+        "name": "New/updated document\n           New/updated document  in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create record\n           Create record in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get record in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload document\n           Upload document in Adobe Sign",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Adobe Campaign",
+    "url": "https://www.workato.com/integrations/adobe-campaign",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Adobe Experience Manager",
+    "url": "https://www.workato.com/integrations/adobe-experience-manager",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Adobe Analytics",
+    "url": "https://www.workato.com/integrations/adobe-analytics",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Adp Wisely",
+    "url": "https://www.workato.com/integrations/adp-wisely",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in ADP Wisely",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List organization locations\n           List Organization locations in ADP Wisely",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search funding accounts\n           Search Funding accounts in ADP Wisely",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Submit Wisely Pay by ADP card enrollment.\n           Submit Wisely Pay by ADP card enrollment in ADP Wisely",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Validate paycard account\n           Validate Pay card account in ADP Wisely",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Adp Workforce Now",
+    "url": "https://www.workato.com/integrations/adp-workforce-now",
+    "triggers": [
+      {
+        "name": "New event notification\n           New event notification in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in ADP Workforce Now (Custom) (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Change status of job applicant external screening\n           Modify Status of a Job Applicant in ADP Workforce Now\n      (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details\n           Get details of specific record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Initiate job applicant external screening\n           Initiate External screening of a Job Applicant in ADP Workforce Now\n      (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n           List records in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Modify entries in a Pay Data batch\n           Modify Entries in a Pay Data batch in ADP Workforce Now\n      (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Onboard employee\n           Onboard Employee in\n                  ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search for records in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Stop deduction instruction\n           Stop Deduction instruction in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Terminate employee\n           Terminate Employee in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert record\n           Upsert record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 14",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "ADP Workforce Now",
+    "url": "https://www.workato.com/integrations/adp-workforce-now",
+    "triggers": [
+      {
+        "name": "New event notification\n           New event notification in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in ADP Workforce Now (Custom) (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Change status of job applicant external screening\n           Modify Status of a Job Applicant in ADP Workforce Now\n      (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details\n           Get details of specific record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Initiate job applicant external screening\n           Initiate External screening of a Job Applicant in ADP Workforce Now\n      (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n           List records in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Modify entries in a Pay Data batch\n           Modify Entries in a Pay Data batch in ADP Workforce Now\n      (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Onboard employee\n           Onboard Employee in\n                  ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search for records in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Stop deduction instruction\n           Stop Deduction instruction in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Terminate employee\n           Terminate Employee in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert record\n           Upsert record in ADP Workforce Now (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 14",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Adroll",
+    "url": "https://www.workato.com/integrations/adroll",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Adyen",
+    "url": "https://www.workato.com/integrations/adyen",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in  (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Change user status\n           Change user status         in Adyen",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create user\n           Create user in Adyen",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user details\n           Get user details in Adyen",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search users\n           Search users in Adyen",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update user\n           Update user in Adyen",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "AfterShip",
+    "url": "https://www.workato.com/integrations/aftership",
+    "triggers": [
+      {
+        "name": "Create tracking\n           Create a tracking in Aftership",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Aftership",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search tracking\n           Search tracking in Aftership",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Agiloft",
+    "url": "https://www.workato.com/integrations/agiloft",
+    "triggers": [
+      {
+        "name": "New/updated table event (Webhook)\n          Real-time New/updated record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete table event (Webhook)\n          Real-time Deleted record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated records\n           New/updated record in Agiloft",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Create record\n           Create record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Custom action\n           Custom action in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get attachment\n           Get attachment from record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get metadata\n           Get metadata in Agiloft  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove attachment\n           Remove attachment from record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n           Search records in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload attachment\n           Upload attachment into record in Agiloft",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 9",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Aimtec ClouEDI",
+    "url": "https://www.workato.com/integrations/aimtec-clouedi",
+    "triggers": [
+      {
+        "name": "New document\n          Real-time New document in Aimtec ClouEDI",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Send document\n           Send document to Aimtec ClouEDI",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "AirREGI",
+    "url": "https://www.workato.com/integrations/airregi",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Airbrake",
+    "url": "https://www.workato.com/integrations/airbrake",
+    "triggers": [
+      {
+        "name": "Get project\n           Get project details in Airbrake",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Aircall",
+    "url": "https://www.workato.com/integrations/aircall",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Aircall (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Add a User in a Team\n           Add a User in a Team in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create a Tag\n           Create a Tag in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create a Team\n           Create a Team in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create a User\n           Create a User in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete a Tag\n           Delete a Tag in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete a Team\n           Delete a Team in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete a User\n           Delete a User in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Remove a User from a Team\n           Remove a User from a Team in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Retrieve Company information\n           Retrieve Company information in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Find User\n           Find User in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List all Tags\n           List all Tags in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List all Teams\n           List all Teams in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List all Users\n           List all Users in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Retrieve a Tag.\n           Retrieve a Tag. in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Retrieve details of a specific Team.\n           Retrieve details of a specific Team. in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Retrieve a User Detail with ID\n           Retrieve a User Detail with ID in Aircall",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 17",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Airship",
+    "url": "https://www.workato.com/integrations/airship",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Airtable",
+    "url": "https://www.workato.com/integrations/airtable",
+    "triggers": [
+      {
+        "name": "New/updated record\n           New or updated record in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New record\n           New record in Airtable",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Airtable (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create record\n           Create record in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete record\n           Delete record in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete records\n        Batch   Delete multiple records in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get record in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n        Batch   List records in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search records\n        Batch   Search records in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update record\n           Update record in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert record\n           Upsert record in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert records\n        Batch   Upsert multiple records in Airtable",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 10",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Akamai EAA",
+    "url": "https://www.workato.com/integrations/akamai-eaa",
+    "triggers": [
+      {
+        "name": "Custom action\n           Custom action in Akamai EAA (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Block users from accessing an IDP\n           Block users from accessing an IDP in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create records\n         Bulk  Create record in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete records\n         Bulk  Delete record in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record details by ID\n           Get details of specific record in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user upload status\n           Get user upload status in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n           List records in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Unblock users from accessing an IDP\n           Unblock users from accessing an IDP in Akamai EAA",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Akeneo",
+    "url": "https://www.workato.com/integrations/akeneo",
+    "triggers": [
+      {
+        "name": "New/updated Product\n           New/updated products in Akeneo",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "New/updated Product\n        Batch   New/updated products in Akeneo",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Akeneo (Custom)",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List records\n           Get records in Akeneo",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Alexa Top Sites",
+    "url": "https://www.workato.com/integrations/alexa-top-sites",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Alfresco Content Services",
+    "url": "https://www.workato.com/integrations/alfresco-content-services",
+    "triggers": [
+      {
+        "name": "Copy file / folder\n           Copy file / folder in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create folder\n           Create folder in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create file / folder comment\n           Create file / folder comment in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create file / folder shared links\n           Create file / folder shared links in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create file / folder tags\n           Create file / folder tags in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create zip file\n           Create zip file in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete file / folder\n           Delete file / folder in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete file / folder comment\n           Delete file / folder comment in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete file / folder shared links\n           Delete file / folder shared links in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete file / folder tag\n           Delete file / folder tag in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Download file\n           Download file in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file rendition\n           Get file rendition in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file renditions\n           Get file renditions in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file version\n           Get file version in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file versions\n           Get file versions in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get group\n           Get group in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get group members\n           Get group members in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get groups\n           Get groups in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder\n           Get file / folder in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get site / folder children\n           Get site / folder children in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder comments\n           Get file / folder comments in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder properties\n           Get file / folder properties in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder rating\n           Get file / folder rating in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder Alfresco Share URI\n           Get file / folder Alfresco Share URI in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder shared link\n           Get file / folder shared link in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder shared links\n           Get file / folder shared links in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get file / folder tags\n           Get file / folder tags in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get repository tag\n           Get repository tag in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get repository tags\n           Get repository tags in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get site\n           Get site in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get site groups\n           Get site groups in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get site members\n           Get site members in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get sites\n           Get sites in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user\n           Get user in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get user groups\n           Get user groups in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get users\n           Get users in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get zip file\n           Get zip file in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Move file / folder\n           Move file / folder in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Rename file / folder\n           Rename file / folder in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Search\n           Search in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update file\n           Update file in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update file / folder comment\n           Update file / folder comment in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update file / folder properties\n           Update file / folder properties in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upload file\n           Upload file in Alfresco  connector",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 44",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Algolia",
+    "url": "https://www.workato.com/integrations/algolia",
+    "triggers": [],
+    "actions": []
+  },
+  {
+    "name": "Amazon CloudWatch",
+    "url": "https://www.workato.com/integrations/amazon-cloudwatch",
+    "triggers": [
+      {
+        "name": "Put metric\n           Put metric in Amazon  cloud watch",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Amazon Dynamo DB",
+    "url": "https://www.workato.com/integrations/amazon-dynamo-db",
+    "triggers": [
+      {
+        "name": "Add item\n           Add item in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Create table\n           Create table in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete item\n           Delete item in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Delete table\n           Delete table in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Describe table\n           Describe table in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get item\n           Get item from Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Scan table\n           Scan table in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Update item\n           Update item in Amazon DynamoDB",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 8",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  },
+  {
+    "name": "Amazon Kinesis",
+    "url": "https://www.workato.com/integrations/amazon-kinesis",
+    "triggers": [
+      {
+        "name": "New/updated record\n        Batch   New/updated record in batch in Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": [
+      {
+        "name": "Custom action\n           Custom action in Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get record\n           Get records from Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get shard iterator\n           Get shard iterator from Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List shards\n           List shards from Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "List streams\n           List streams from Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Put record\n           Put record in Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Put records\n           Put records in Amazon Kinesis",
+        "description": "",
+        "attributes": {}
+      }
+    ]
+  },
+  {
+    "name": "Amazon Lex",
+    "url": "https://www.workato.com/integrations/amazon-lex",
+    "triggers": [
+      {
+        "name": "Get Bot\n           Retrieve Bot   information from Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Bot Aliases\n           Retrieve Bot Aliases  information from Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Intent\n           Retrieve Intent   information from Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Slot type\n           Retrieve Slot type   information from Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Get Version\n           Retrieve object versions in Amazon lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Post text\n           Send User input to Amazon Lex at runtime",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert Bot\n           Creates a Bot   or replaces an existing one in Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert Bot Alias\n           Creates a Bot Alias  or replaces an existing one in Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert Intent\n           Creates an Intent   or replaces an existing one in Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Upsert Slot type\n           Creates a custom Slot type   or replaces an existing one in Amazon Lex",
+        "description": "",
+        "attributes": {}
+      },
+      {
+        "name": "Show all 10",
+        "description": "",
+        "attributes": {}
+      }
+    ],
+    "actions": []
+  }
+]
