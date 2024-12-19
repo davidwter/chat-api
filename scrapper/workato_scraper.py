@@ -34,7 +34,7 @@ console = Console()
 
 class WorkatoScraper:
     def __init__(self):
-        self.processed_connectors: Dict[str, bool] = self._load_state()
+        self.processed_connectors: Dict[str, bool] = {}
         self.data: List[Dict] = []
         self.stats = {
             "total_connectors": 0,
@@ -46,27 +46,38 @@ class WorkatoScraper:
             "actions_found": 0,
         }
         os.makedirs(OUTPUT_DIR, exist_ok=True)
+        
+        # Initialize by loading existing data and state
+        self._load_existing_data()
+        self.processed_connectors = self._load_state()
+
+    def _load_existing_data(self):
+        """Load existing data from latest files if they exist."""
+        latest_json = Path(OUTPUT_DIR) / "workato_connectors_latest.json"
+        if latest_json.exists():
+            try:
+                with open(latest_json, 'r') as f:
+                    self.data = json.load(f)
+                console.print(f"[green]Loaded {len(self.data)} existing connectors from {latest_json}[/green]")
+                if self.data:
+                    last_connector = self.data[-1]["name"]
+                    console.print(f"[yellow]Will resume after: {last_connector}[/yellow]")
+            except Exception as e:
+                console.print(f"[red]Error loading existing data: {str(e)}[/red]")
 
     def _load_state(self) -> Dict[str, bool]:
-        """Load the previous state if it exists and validate against actual data."""
+        """Load the previous state if it exists."""
         state = {}
         if os.path.exists(STATE_FILE):
-            with open(STATE_FILE, 'r') as f:
-                state = json.load(f)
-            
-            # Validate state against latest CSV/JSON
-            latest_json = Path(OUTPUT_DIR) / "workato_connectors_latest.json"
-            if latest_json.exists():
-                with open(latest_json, 'r') as f:
-                    actual_data = json.load(f)
-                    # Get list of actually processed connectors
-                    processed_connectors = {item['name']: True for item in actual_data}
-                    
-                    # Clean up state to match actual data
-                    state = {k: v for k, v in state.items() if k in processed_connectors}
-                    
-                    console.print(f"[yellow]Resuming from last successful connector: {list(processed_connectors.keys())[-1]}[/yellow]")
-            
+            try:
+                with open(STATE_FILE, 'r') as f:
+                    state = json.load(f)
+                # Update processed count from existing state
+                self.stats["processed"] = len([v for v in state.values() if v])
+                self.stats["successful"] = len(self.data)
+                console.print(f"[green]Loaded state for {len(state)} connectors[/green]")
+            except Exception as e:
+                console.print(f"[red]Error loading state: {str(e)}[/red]")
         return state
 
     def _save_state(self):
@@ -100,47 +111,57 @@ class WorkatoScraper:
 
         # Save CSV (flattened structure)
         csv_path = Path(OUTPUT_DIR) / f"workato_connectors_{timestamp}.csv"
-        csv_data = []
         
-        # Prepare flattened data for CSV
-        for connector in self.data:
-            base_info = {
-                'connector_name': connector['name'],
-                'connector_url': connector['url']
-            }
-            
-            # Add triggers
-            for trigger in connector.get('triggers', []):
-                row = base_info.copy()
-                row.update({
-                    'type': 'trigger',
-                    'name': trigger['name'],
-                    'description': trigger.get('description', ''),
-                    'attributes': json.dumps(trigger.get('attributes', {}))
-                })
-                csv_data.append(row)
-            
-            # Add actions
-            for action in connector.get('actions', []):
-                row = base_info.copy()
-                row.update({
-                    'type': 'action',
-                    'name': action['name'],
-                    'description': action.get('description', ''),
-                    'attributes': json.dumps(action.get('attributes', {}))
-                })
-                csv_data.append(row)
+        try:
+            csv_data = []
+            # Prepare flattened data for CSV
+            for connector in self.data:
+                # Add triggers
+                if connector.get('triggers'):
+                    for trigger in connector['triggers']:
+                        row = {
+                            'connector_name': connector['name'],
+                            'connector_url': connector['url'],
+                            'type': 'trigger',
+                            'name': trigger['name'],
+                            'description': trigger.get('description', ''),
+                            'attributes': json.dumps(trigger.get('attributes', {}))
+                        }
+                        csv_data.append(row)
+                
+                # Add actions
+                if connector.get('actions'):
+                    for action in connector['actions']:
+                        row = {
+                            'connector_name': connector['name'],
+                            'connector_url': connector['url'],
+                            'type': 'action',
+                            'name': action['name'],
+                            'description': action.get('description', ''),
+                            'attributes': json.dumps(action.get('attributes', {}))
+                        }
+                        csv_data.append(row)
 
-        # Write CSV file
-        if csv_data:
-            with open(csv_path, 'w', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=csv_data[0].keys())
-                writer.writeheader()
-                writer.writerows(csv_data)
+            if csv_data:
+                # Write CSV file
+                fieldnames = ['connector_name', 'connector_url', 'type', 'name', 'description', 'attributes']
+                with open(csv_path, 'w', newline='') as f:
+                    writer = csv.DictWriter(f, fieldnames=fieldnames)
+                    writer.writeheader()
+                    writer.writerows(csv_data)
 
-        console.print(Panel(f"✓ Data saved successfully!\n\nJSON: {json_path}\nCSV: {csv_path}",
-                          title="Export Complete",
-                          border_style="green"))
+                if final:
+                    console.print(Panel(
+                        f"✓ Data saved successfully!\n\nJSON: {json_path}\nCSV: {csv_path}",
+                        title="Export Complete",
+                        border_style="green"
+                    ))
+            else:
+                console.print("[yellow]Warning: No data to write to CSV[/yellow]")
+                
+        except Exception as e:
+            console.print(f"[red]Error saving CSV: {str(e)}[/red]")
+
 
     async def _get_connector_details(self, page: Page, url: str, name: str) -> Optional[Dict]:
         """Extract triggers and actions from a connector page."""
@@ -149,39 +170,83 @@ class WorkatoScraper:
             await page.goto(url)
             await page.wait_for_load_state('networkidle')
 
-            # Get triggers
+            # Find trigger and action sections
             triggers = []
-            trigger_elements = await page.query_selector_all(
-                "#__layout article.apps-page__section_recipe section:nth-child(1) ul > li"
-            )
-            if trigger_elements:
-                console.print(f"  Found [green]{len(trigger_elements)}[/green] triggers")
-            
-            for elem in trigger_elements:
-                name = await elem.text_content()
-                triggers.append({
-                    'name': name.strip(),
-                    'description': await self._get_element_text(elem, '.description'),
-                    'attributes': await self._get_element_attributes(elem)
-                })
-                self.stats["triggers_found"] += 1
-
-            # Get actions
             actions = []
-            action_elements = await page.query_selector_all(
-                "#__layout article.apps-page__section_recipe section:nth-child(2) ul > li"
-            )
-            if action_elements:
-                console.print(f"  Found [green]{len(action_elements)}[/green] actions")
             
-            for elem in action_elements:
-                name = await elem.text_content()
-                actions.append({
-                    'name': name.strip(),
-                    'description': await self._get_element_text(elem, '.description'),
-                    'attributes': await self._get_element_attributes(elem)
-                })
-                self.stats["actions_found"] += 1
+            # Get triggers (first column with triggers title)
+            try:
+                trigger_section = await page.query_selector('section.apps-page__builder-column .apps-page__builder-triggers:has(.apps-page__builder-title_triggers)')
+                if trigger_section:
+                    trigger_items = await trigger_section.query_selector_all(".apps-page__builder-item:not(.apps-page__builder-item_show-more)")
+                    if trigger_items:
+                        console.print(f"  Found [green]{len(trigger_items)}[/green] triggers")
+                        for elem in trigger_items:
+                            try:
+                                # Get the main text (title) from the legend
+                                legend = await elem.query_selector(".apps-page__builder-legend")
+                                if legend:
+                                    name = (await legend.evaluate('el => el.childNodes[0].textContent.trim()')).strip()
+                                    
+                                    # Get the info text
+                                    info = await elem.query_selector(".apps-page__builder-info")
+                                    description = await info.text_content() if info else ""
+                                    
+                                    # Check for badges
+                                    badges = await elem.query_selector(".operation-badge")
+                                    badge_text = await badges.text_content() if badges else ""
+                                    
+                                    triggers.append({
+                                        'name': name,
+                                        'description': description,
+                                        'attributes': {
+                                            'badge': badge_text
+                                        } if badge_text else {}
+                                    })
+                                    self.stats["triggers_found"] += 1
+                            except Exception as e:
+                                console.print(f"[yellow]Warning: Could not process trigger: {str(e)}[/yellow]")
+                else:
+                    console.print("[yellow]No trigger section found[/yellow]")
+            except Exception as e:
+                console.print(f"[red]Error processing triggers section: {str(e)}[/red]")
+            
+            # Get actions (second column)
+            try:
+                action_section = await page.query_selector('section.apps-page__builder-column:nth-child(2) .apps-page__builder-triggers')
+                if action_section:
+                    action_items = await action_section.query_selector_all(".apps-page__builder-item:not(.apps-page__builder-item_show-more)")
+                    if action_items:
+                        console.print(f"  Found [green]{len(action_items)}[/green] actions")
+                        for elem in action_items:
+                            try:
+                                # Get the main text (title) from the legend
+                                legend = await elem.query_selector(".apps-page__builder-legend")
+                                if legend:
+                                    name = (await legend.evaluate('el => el.childNodes[0].textContent.trim()')).strip()
+                                    
+                                    # Get the info text
+                                    info = await elem.query_selector(".apps-page__builder-info")
+                                    description = await info.text_content() if info else ""
+                                    
+                                    # Check for badges
+                                    badges = await elem.query_selector(".operation-badge")
+                                    badge_text = await badges.text_content() if badges else ""
+                                    
+                                    actions.append({
+                                        'name': name,
+                                        'description': description,
+                                        'attributes': {
+                                            'badge': badge_text
+                                        } if badge_text else {}
+                                    })
+                                    self.stats["actions_found"] += 1
+                            except Exception as e:
+                                console.print(f"[yellow]Warning: Could not process action: {str(e)}[/yellow]")
+                else:
+                    console.print("[yellow]No action section found[/yellow]")
+            except Exception as e:
+                console.print(f"[red]Error processing actions section: {str(e)}[/red]")
 
             return {
                 'triggers': triggers,
@@ -259,13 +324,14 @@ class WorkatoScraper:
                     
                     # Process each connector
                     for name in connector_names:
-                        self.stats["processed"] += 1
-                        
-                        if name in self.processed_connectors:
+                        # Skip if already in our data
+                        if any(item["name"] == name for item in self.data):
                             self.stats["skipped"] += 1
                             progress.advance(task_id)
                             continue
-                            
+                        
+                        self.stats["processed"] += 1
+                        
                         # Construct connector URL
                         url = f"{BASE_URL}/{name.lower().replace(' ', '-')}"
                         
@@ -291,7 +357,7 @@ class WorkatoScraper:
                         # Rate limiting
                         await asyncio.sleep(RATE_LIMIT_DELAY)
                         progress.advance(task_id)
-                        
+                    
                     # Save final results with timestamp
                     self._save_data(final=True)
                     
