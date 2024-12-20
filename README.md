@@ -1,4 +1,3 @@
-You're absolutely right! If we're using Docker for everything, we only need Docker as a prerequisite. Let me revise the setup instructions:
 
 # AI Integration Assistant
 
