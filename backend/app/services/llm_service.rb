@@ -8,6 +8,30 @@ class LlmService
   RETRY_DELAY = 1  # seconds
 
   class << self
+
+    def generate_recipe(prompt, source_caps, target_caps, requirements, feasibility)
+      # Create recipe generation context
+      system_context = create_recipe_context(source_caps, target_caps, requirements, feasibility)
+
+      # Call LLM with recipe-specific parameters
+      response = call_llm(
+        system_context,
+        prompt,
+        timeout: 120,
+        llm_options: {
+          temperature: 0.4,  # Lower temperature for more focused outputs
+          top_k: 30,
+          top_p: 0.9,
+          num_predict: 1000,  # Longer response for detailed recipe
+          stop: ["User:", "\n\n\n"],
+          num_ctx: 4096,  # Larger context for complex recipes
+          num_thread: 8
+        }
+      )
+
+      format_recipe_response(response)
+    end
+
     def generate_response(prompt, detected_mentions, retries: RETRY_COUNT)
       with_timing do
         # Extract connector names from detected mentions
@@ -79,6 +103,97 @@ class LlmService
 
 
     private
+
+    def create_recipe_context(source_caps, target_caps, requirements, feasibility)
+      # Format capabilities for better prompting
+      source_triggers = format_capabilities(source_caps[:triggers], "trigger")
+      target_actions = format_capabilities(target_caps[:actions], "action")
+
+      # Include feasibility analysis in context
+      feasibility_context = format_feasibility_context(feasibility)
+
+      <<~PROMPT
+        You are a Workato recipe design expert. Create a detailed recipe using these components:
+
+        SOURCE CONNECTOR: #{source_caps[:name]}
+        Available Triggers:
+        #{source_triggers}
+
+        TARGET CONNECTOR: #{target_caps[:name]}
+        Available Actions:
+        #{target_actions}
+
+        #{feasibility_context}
+
+        Required capabilities:
+        Source: #{requirements.dig(:source, :triggers)&.join(', ')}
+        Target: #{requirements.dig(:target, :actions)&.join(', ')}
+
+        Format your response as follows:
+
+        # Recipe Overview
+        [Brief description of what this recipe does and its business value]
+
+        # Trigger Configuration
+        [Specify the exact trigger to use and its configuration details]
+
+        # Data Mapping
+        [List key data mappings between source and target]
+
+        # Main Steps
+        1. [First step with specific action]
+        2. [Second step]
+        [Continue with all necessary steps]
+
+        # Error Handling
+        [Specify error handling approach]
+        
+        # Testing Guidelines
+        [Basic testing steps]
+
+        Guidelines:
+        - Use only the listed triggers and actions
+        - Include specific field mappings
+        - Reference exact trigger/action names
+        - Include error handling for common scenarios
+        - Keep steps clear and actionable
+        - Focus on Workato's native capabilities
+      PROMPT
+    end
+
+    def format_capabilities(capabilities, type)
+      capabilities.map do |cap|
+        badge = cap[:feature_attributes]["badge"] ? " (#{cap[:feature_attributes]["badge"]})" : ""
+        "- #{cap[:name]}#{badge}: #{cap[:description]}"
+      end.join("\n")
+    end
+
+    def format_feasibility_context(feasibility)
+      return "" unless feasibility
+
+      <<~CONTEXT
+        Integration Feasibility:
+        - Score: #{feasibility[:feasibility][:score]}/100
+        - Status: #{feasibility[:feasibility][:is_feasible] ? 'Feasible' : 'May need adjustments'}
+        #{format_constraints(feasibility[:feasibility][:constraints])}
+      CONTEXT
+    end
+
+    def format_constraints(constraints)
+      return "" unless constraints&.any?
+
+      "Constraints:\n" + constraints.map { |c| "- #{c[:details].join(', ')}" }.join("\n")
+    end
+
+    def format_recipe_response(response)
+      return "" unless response
+
+      # Clean up the raw text
+      response.gsub(/\n{3,}/, "\n\n")
+              .gsub(/\s{2,}/, ' ')
+              .gsub(/(?<=[.!?])\s+(?=[A-Z])/, "\n")
+              .strip
+    end
 
     def with_timing
       start_time = Time.now
@@ -293,8 +408,10 @@ class LlmService
       formatted.strip
     end
 
-    def call_llm(system_context, prompt, short_response: false, timeout: 90)
-      options = if short_response
+    def call_llm(system_context, prompt, short_response: false, timeout: 90, llm_options: nil)
+      options = if llm_options
+                  llm_options
+                elsif short_response
                   {
                     temperature: 0.3,
                     top_k: 10,
@@ -316,8 +433,10 @@ class LlmService
                   }
                 end
 
+
       full_prompt = "#{system_context}\n\nUser: #{prompt}"
       Rails.logger.info("Making LLM request with timeout: #{timeout}s")
+      Rails.logger.info("Full prompt: #{full_prompt}")
 
       response = post("/api/generate",
                       body: {

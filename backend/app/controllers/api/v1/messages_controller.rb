@@ -33,29 +33,62 @@ module Api
 
         begin
           Timeout.timeout(180) do  # 3 minutes total timeout
-            # Generate AI response with capability analysis
-            ai_response = generate_ai_response(message.content, user_mentions)
+            # Generate response based on number of connectors detected
+            response_content = if user_mentions.length == 2
+                                 # Generate recipe when exactly two connectors are detected
+                                 recipe_response = RecipeGenerationService.generate_recipe(
+                                   message.content,
+                                   user_mentions
+                                 )
 
-            # Create response message with enhanced content
-            response = create_ai_response(conversation, ai_response)
+                                 if recipe_response[:error]
+                                   recipe_response[:error]
+                                 else
+                                   format_recipe_response(recipe_response)
+                                 end
+                               else
+                                 # Use standard response for non-recipe queries
+                                 generate_standard_response(message.content, user_mentions)
+                               end
+
+            # Create response message
+            response = create_ai_response(conversation, response_content)
 
             # Analyze AI response for connector mentions
-            ai_mentions = analyze_and_save_mentions(response)
-
-            # Debug logging
-            log_interaction(message, response, user_mentions, ai_mentions)
+            #ai_mentions = analyze_and_save_mentions(response)
 
             render json: {
               message: message_json(message, user_mentions),
-              response: message_json(response, ai_mentions)
+              response: message_json(response, [])
             }, status: :created
           end
-        rescue StandardError => e
+        rescue => e
           handle_error(e, conversation)
         end
       end
 
+
       private
+
+      def format_recipe_response(recipe_response)
+        # Format the recipe response with markdown and connector highlighting
+        <<~RESPONSE
+          I've analyzed the integration between **#{recipe_response[:source_connector]}** and **#{recipe_response[:target_connector]}** and generated a recipe:
+
+          Feasibility Score: #{recipe_response[:feasibility][:feasibility][:score]}/100
+
+          #{recipe_response[:recipe]}
+        RESPONSE
+      end
+
+      def generate_standard_response(content, mentions)
+        if mentions.any?
+          LlmService.generate_response(content, mentions)
+        else
+          "I can help you create integrations between different apps. Please mention the specific connectors you'd like to integrate."
+        end
+      end
+
 
       def create_user_message(conversation)
         conversation.messages.create!(
